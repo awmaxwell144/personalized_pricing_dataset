@@ -1,7 +1,37 @@
 # personalized_pricing_dataset
 
 ## Dataset Generation
+After you have done the setup:
 
+Run 
+```
+python3 scrape.py "<URL>" "<industry>" "<company>"
+```
+If you get an error saying something like "python3 not found," try it with `python` instead of `python3`
+
+Scrape.py does:
+- Downloads a webpage, PDF, or text URL and saves it into:
+  ```
+  dataset/<industry>/<company>/<page-name>/
+  ```
+- Automatically chooses a page folder name from the webpage title or URL path, or you can provide one:
+  ```
+  python3 scrape.py "<URL>" "<industry>" "<company>" "<page-name>"
+  ```
+- Saves the source as `raw.html`, `raw.pdf`, and/or `raw.txt`, depending on the URL type.
+- Extracts readable text into `raw.txt` when possible.
+- Writes `metadata.json` with basic information about the source.
+- Avoids overwriting existing folders by creating a numbered folder if needed.
+- Commits and pushes the new dataset item to GitHub automatically.
+
+Optional flags:
+```
+python3 scrape.py "<URL>" "<industry>" "<company>" --no-git
+python3 scrape.py "<URL>" "<industry>" "<company>" --no-pdf
+```
+
+- `--no-git` saves the files but skips the automatic Git commit and push.
+- `--no-pdf` skips converting an HTML webpage into a PDF.
 
 ## Setup
 
@@ -89,4 +119,3 @@ Run the following:
 pip3 install -r utilities/requirements.txt
 python -m playwright install chromium
 ```
-
