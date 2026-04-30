@@ -1,4 +1,4 @@
-# personalized_pricing_dataset
+# Personalized Pricing Dataset
 
 ## Dataset Generation
 After you have done the setup:
