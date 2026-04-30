@@ -349,7 +349,7 @@ def git_commit_and_push(folder: Path, url: str):
         print("      Running: git add")
         subprocess.run(["git", "add", str(folder)], check=True)
 
-        commit_message = f"Add source page: {folder.name}"
+        commit_message = f"Add source page: {url}"
 
         print("      Running: git commit")
         commit = subprocess.run(
