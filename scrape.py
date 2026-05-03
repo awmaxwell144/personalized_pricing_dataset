@@ -37,6 +37,17 @@ from bs4 import BeautifulSoup
 DATASET_DIR = Path("dataset")
 
 
+def git_pull_latest():
+    """Pull the latest changes before doing any scraping work."""
+    print("[0/8] Pulling latest changes from GitHub...")
+
+    try:
+        subprocess.run(["git", "pull"], check=True)
+        print("      Repository is up to date.")
+    except Exception as e:
+        raise RuntimeError(f"Git pull failed: {e}") from e
+
+
 def clean_name(name: str) -> str:
     """Convert a user-provided name into a safe folder name."""
     name = name.strip().lower()
@@ -516,4 +527,5 @@ def main():
 
 
 if __name__ == "__main__":
+    git_pull_latest()
     main()
