@@ -1,0 +1,236 @@
+How Delta Airlines and other companies use dynamic pricing to determine how much you pay - Harvard Law School | Harvard Law School
+Skip to content
+Harvard Law School shield
+Harvard Law School Shield
+Harvard Law Today
+Explore Harvard Law News
+Explore Harvard Law News
+Harvard Law Today News
+Harvard Law Bulletin Latest Issue
+Archive: Harvard Law Today News
+Archive: Harvard Law Bulletin
+Contact Us
+Open menu
+Main Menu
+Close menu
+Search
+Admissions & Aid
+J.D. Admissions
+J.D. Student Financial Services
+Graduate Admissions & Aid
+Resources
+Why HLS
+Apply to the J.D. Program
+Apply to the Graduate Program
+The Need-Based Aid Philosophy
+Academics
+Academics Overview
+Areas of Interest
+Degree Programs
+Curriculum
+Writing at HLS
+International Legal Studies & Opportunities
+Winter Term
+Fellowships and Prizes
+Resources
+Academic Calendar
+Course Catalog
+Handbook of Academic Policies
+Syllabi, Exam and Course Evaluation Archive
+HELIOS
+Office of the Registrar
+Office of Academic Affairs
+Clinics and Experiential Learning
+Clinical Programs
+Experiential Learning
+Pro Bono Program and SPOs
+Clinical Registration Center
+Policies and FAQs
+Clinical Travel Funding
+Resources
+I'm Looking for Legal Support
+Advising
+Student Stories
+Faculty & Research
+Faculty Directory
+Faculty Bibliography
+Research Programs
+Resources
+For Faculty
+Media Relations
+Student Life
+Student Life
+Student Organizations
+Student Journals
+Health & Wellness (The Well)
+Academic Advising & Mentorship
+Student Support
+Inclusion & Belonging
+Living in Cambridge
+HLS Housing
+Resources
+Community Rights and Responsibilities
+Accessibility Services
+Student Services Offices
+Administrative Updates (AdUp)
+Amicus
+Career Planning
+Career Planning at HLS
+1L Career Advising
+Private Sector Career Services
+Public Interest Career Services
+Clerkships
+Law Teaching
+Bar Exam
+Resources
+Private Sector Jobs
+Public Sector Jobs
+For Employers: Career Resources
+Recent Employment Data
+Professional & Lifelong Learning
+Professional & Lifelong Learning
+Executive Education
+Program on Negotiation
+Online Courses and Casebooks
+Pre-law Programs
+Library
+HLS Library
+Research Services
+Use the Library
+Historical & Special Collections
+About the Library
+Faculty Services
+Resources
+HOLLIS Catalog
+Guides & Videos
+Legal Databases
+Library Staff Directory
+Alumni
+HLS Alumni
+Giving to HLS
+Reunions
+Harvard Law School Association
+Alumni Events
+Networking & Careers
+Alumni News & Profiles
+Contact the Alumni Center
+Resources
+How to Make Your Gift
+Update Your Contact Information
+Submit a Class Note
+Transcript Requests
+News
+Harvard Law Today News
+Harvard Law Bulletin: Current Issue
+Harvard Law Bulletin: Archive
+Media Relations
+Resources
+Sign Up for the Harvard Law Today Newsletter
+Sign Up for News@Law
+Events Calendar
+About HLS
+Department Directory & Campus Resources
+Staff Dashboard
+Make a Gift
+National & World Affairs
+Pause
+The algorithm thinks you’re rich. Prepare to pay more for that flight
+Airlines and other companies are increasingly using data to determine pricing, says a visiting scholar at Harvard’s Berkman Klein Center for Internet & Society
+Aug 15, 2025
+By
+Rachel Reed
+When the airline Delta appeared last month to tell shareholders that it would begin to use artificial intelligence to help determine domestic fares, the reaction from some lawmakers and the public was swift — and negative, leading the
+company to reassure
+consumers that it would not deploy AI to create personalized flight prices.
+But the company — like other American carriers — has long used generalized data to determine the cost of its flights, with prices fluctuating based on factors like demand, time of year, and the weather, says Noah Giansiracusa, a mathematician and visiting scholar at the Institute for Rebooting Social Media, part of the
+Berkman Klein Center for Internet & Society at Harvard
+.
+It’s not the only line of business to do so, he adds. Today, companies are increasingly harnessing personal data as well, gathering or buying information on users’ demographics, location, interests, and consumer preferences to sell us more stuff — for more money. Peek inside your grocery cart, your fast-food bag, or your favorite ride-hailing app, and there’s a good chance that your online and offline activity played a role in determining how much you paid, says Giansiracusa, whose new book, “
+Robin Hood Math: Take Control of the Algorithms That Run Your Life
+,” examines the ways in which public and private entities use algorithms to impact our daily lives.
+In an interview with Harvard Law Today, Giansiracusa explains how companies deploy what some call “surveillance pricing,” what we can do about it — and what could happen if we don’t.
+Harvard Law Today: Can you help us understand the role that algorithms play in determining the price we pay for goods and services?
+Noah Giansiracusa:
+This is an interesting question, because what even is an algorithm? They touch almost all commerce and retail, but that has been true for a long, long time. Let me give you an example of what I mean. I have a friend who runs a local sporting goods store. He has to figure out how many of different items to order for the new season coming up. To do that, he looks at how many he sold last year, and adds some percentage. Now that’s not fancy AI or machine learning, but it is an algorithm.
+More recently, we’ve been moving into this realm where we have a lot of sophisticated algorithms coming out of Silicon Valley. But it remains an interesting and difficult question, because algorithms are not one thing. Just to give some examples, airlines are using algorithms to see what the other airlines are charging, what weather is coming up, what demand there is for certain flights or routes. But that is very different than what is called “dynamic pricing” or “surveillance pricing,” which is using the customer’s personal, individual data as one of, if not the main, ingredient in the algorithm, to determine the pricing. People don’t care as much if a store does what my friend does, using past information to determine pricing. Things start to get uncomfortable when they use my personal data — such as my gender, my shopping history, my search history, what I’ve watched on Netflix, what I’ve watched on YouTube to charge me more.
+HLT: So, you’re saying that there are two different, but related, things going on — the use of generalized data to determine pricing, and the use of individual people’s data to create customized prices. Is any of this new, or are we just paying more attention now?
+Giansiracusa:
+The technology has existed for roughly two decades. What we sometimes refer to as “surveillance capitalism” started with big tech companies like Google and Meta collecting a huge amount of user information to target people with ads. Once you have that information, it’s not difficult to adapt that not just to ads, but to pricing.
+Until relatively recently, we hadn’t seen too much of that, though. A few companies tried it and people were not happy, and these efforts were abandoned not for legal or technical reasons, but because of consumer sentiment. But now it seems like we’re heading towards a critical mass, and this is becoming mainstream. There are a lot more companies that operate based on using user data.
+HLT: Where is all this data coming from, and how exactly is it being used?
+Giansiracusa:
+Companies collect data on lots and lots of things. For example, your online search activity, what videos you watch on YouTube and for how long, every social media platform when you post and like and reshare — all that that is data. If I’m sharing a lot of car videos, that may indicate that I’m interested in cars, and that might mean that I’m willing to pay more for a car than others. Retailers are looking for what’s called the “pain point.” That’s the maximum amount that you as an individual customer are willing to pay for a specific product. For many people, it gets to be quite uncomfortable when we think about companies using algorithms to find or at least predict our individual pain points based on our individual data.
+“Retailers are looking for what’s called the ‘pain point.’ That’s the maximum amount that you as an individual customer are willing to pay for a specific product.”
+Where else does this data come from? Even old fashioned pre-online sources of data like grocery store rewards cards give companies information about what you buy. And then there are the online sources. You might ask, “How does watching YouTube videos or TikTok videos help a retailer determine pricing information?” One of the things the algorithms can do is find something like a “digital twin.” They might say, “Person A, you watched a lot of these kinds of videos and searched for these kinds of web pages. And there’s this other Person B who has a very similar online data history as you, and they paid $20,000 for this car, so we could use that information to guess that you might have a similar pain point.”
+HLT: Are there any ways our data is used that might surprise people?
+Giansiracusa:
+In travel, a person’s location is sometimes used to determine the price they get. Someone in the U.S., for example, might be charged more for a specific flight than a customer in a less prosperous country. There is another example where an SAT tutoring company was charging higher prices on zip codes that
+had higher Asian populations
+. It all comes down to where we become uncomfortable with algorithms using our data. Is it ok to use my general location? My race? My gender? My online activity? It’s a continuum where it’s just been getting more and more aggressive and shows a lot of potential to be used even more aggressively.
+And then there are the concerns about using information about a user that isn’t exactly personal, but still involves them. Can an app use its knowledge of your phone battery’s life to determine how desperate you might be for a ride home, and therefore charge you more for it? It will be difficult to craft laws that can cover all of these concerns.
+What I find most shocking, though, is how data is used by companies other than the ones I choose to engage with. On some level, I understand that if I use Google to search for things, or watch videos on YouTube, which is owned by Google, and then I buy something from Google, they’re going to use that information. But there is a much broader data market. If I visit some random company that I’ve never visited before, they might already know all about me because they’ve bought my data from a big tech company. My data isn’t just being used by businesses I have chosen to engage with — it’s being traded on the market.
+HLT: Before standardized pricing, bargaining and negotiation were normal parts of the process of buying and selling. Is today’s environment really all that different?
+Giansiracusa:
+I think it is different. There is much more of what economists call “information inequality” today. In the old days, I could visit the market, they can look at me, size me up, and use broad indicators to determine the price I will pay for something. I could size them up too — do they seem trustworthy?  We don’t know anything about each other than whatever prejudices we have by looking at each other. But now imagine I go to that same market, and they look at me and they know every video I’ve watched on YouTube, everything I’ve searched in Google, and everything I have liked on Facebook, every conversation I’ve had with an AI chatbot. Does that feel like a fair situation? It’s that level of information inequality that’s a genuinely new thing.
+HLT: What does the legal landscape look like for these practices right now? How should people be thinking about regulation in this space?
+Giansiracusa:
+Currently, there isn’t federal legislation on this, and only a few states have introduced bills to curb these practices. I would say there are two ways to tackle regulation, from a data privacy perspective and through consumer protection. But it will be difficult to fully address all of the issues here. You can’t just ban the use of algorithms entirely — they’re everywhere. What would it mean to bar the use of “personal data” — does that include information like my phone’s battery life?
+And then, technology continues to change. Chatbots are becoming a huge thing, and as more people use AI agents to shop for them, how can the law protect individuals when it’s no longer the individual doing the shopping? It’s going to be hard to craft laws that can encompass all of this, but I think we need to try.
+“It’s going to be hard to craft laws that can encompass all of this, but I think we need to try.”
+HLT: Could there be downsides to trying to regulate the use of algorithms in this way?
+Giansiracusa:
+Well, you can imagine some ways in which we could use algorithms to identify those who might pay lower prices. We wouldn’t necessarily want to make all price adjustments based on personal data illegal. Imagine someone is lower income and they have trouble paying their medical bills. Perhaps we’d like to use algorithms to detect that and help them out. It would be a shame if the law prevented us from doing that.
+HLT: If the law is still developing in this area, what can individuals do to protect their information in the meantime?
+Giansiracusa:
+There are some small things you can do. You could use what is called a “burner” account for sites. For example, I have my main account on Amazon that knows a lot about me, but I could also have a second profile that I check before I buy something to see which one is cheaper. You can use a private or incognito browser tab to try to prevent sites from tracking your information. We’re used to comparison shopping where we shop at different stores to find the best price, right? Maybe now we need to get used to comparison shopping at the same store but using different accounts or browser tabs. Also, I’m critical of social media, but using it for bringing attention to situations where you were charged more than a friend or spouse or someone else for the same product can sometimes be a good, grassroots way of pushing back that companies respond to.
+HLT: Where are we going with all of this? What does the future look like from here?
+Ginasiracusa:
+Imagine you’ve spent weeks talking to your AI chat bot. You’ve told it the most personal things, stuff you have only told your spouse. And then you tell that same chatbot, Oh, can you go buy me a plane ticket? Imagine how easily that could go awry if this AI agent, which knows your most intimate details, is now bartering in the world of commerce, supposedly on your behalf. But you have no idea what prices it’s actually seeing. Did it comparison shop? Did it tell you the truth?
+I would say where we’re headed is that we’ll see this sort of surveillance pricing accelerate. The amount of data that we’re producing is growing, particularly as we share more and more information with chatbots. If we don’t get ahead of it, there may come a breaking point where people just give up and accept all this as just part of how the world works.
+This interview was edited for length and clarity.
+Want to stay up to date with Harvard Law Today? Sign up for our weekly newsletter.
+Sign up for the Harvard Law Today newsletter
+Modal Gallery
+Close modal gallery
+of
+Previous
+Next
+Gallery Block Modal Gallery
+Close modal gallery
+of
+Previous
+Next
+Harvard Law School home
+Harvard Law School
+provides unparalleled opportunities to study law with extraordinary colleagues in a rigorous, vibrant, and collaborative environment.
+Explore
+Harvard Law Today News
+Course Catalog
+Faculty Directory
+Law Library
+Alumni
+Work at HLS
+Resources
+Events Calendar
+Campus Map and Directions
+Department Directory
+Media Relations
+Make a Gift to HLS
+Emergency Information
+Consumer Information (ABA Required Disclosures)
+Non-Discrimination and Anti-Bullying Policies
+1585 Massachusetts Ave.
+Cambridge, MA 02138
+Harvard University
+Accessibility
+Digital Accessibility
+Trademark Notice
+Privacy and Copyright
+© 2026 The President and Fellows of Harvard College
+Follow
+Facebook
+Instagram
+Youtube
+Linkedin
+Threads
+© 2026 The President and Fellows of Harvard College
