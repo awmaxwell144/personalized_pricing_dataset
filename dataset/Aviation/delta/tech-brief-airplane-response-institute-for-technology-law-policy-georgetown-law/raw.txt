@@ -1,0 +1,274 @@
+Tech Brief: Airplane Response | Institute for Technology Law & Policy | Georgetown Law
+Close Alert
+Website Alert
+Read Alert Information
+Skip to Main Content
+Skip to Utility Navigation
+Skip to Primary Navigation
+Institute for Technology Law & Policy
+Menu
+Institute for Technology Law & Policy
+Academics
+Expand Navigation
+Tech Law Scholars JD Program
+Tech LLM Degree
+Master of Law and Technology
+Course Offerings
+Experiential Learning
+News and Events
+Programs and Initiatives
+Expand Navigation
+Georgetown AI and the Legal Profession
+Redesigning the Governance Stack
+Georgetown Justice Lab
+Tech Foundations for Government Staff
+AI Governance Series
+Research and Insights
+Expand Navigation
+Faculty Scholarship
+Georgetown Law Technology Review
+Insights
+People
+Expand Navigation
+Faculty
+Staff
+Tech Law Scholars
+Contact Us
+Search
+Academics
+Expand Navigation
+Tech Law Scholars JD Program
+Tech LLM Degree
+Master of Law and Technology
+Course Offerings
+Experiential Learning
+News and Events
+Programs and Initiatives
+Expand Navigation
+Georgetown AI and the Legal Profession
+Redesigning the Governance Stack
+Georgetown Justice Lab
+Tech Foundations for Government Staff
+AI Governance Series
+Research and Insights
+Expand Navigation
+Faculty Scholarship
+Georgetown Law Technology Review
+Insights
+People
+Expand Navigation
+Faculty
+Staff
+Tech Law Scholars
+Contact Us
+Search
+Georgetown Law
+Menu
+Home
+Research and Insights
+Insights
+Tech Brief: Airplane Response
+Tech Brief: Airplane Response
+An airline company says it doesn’t use personal data in individualized pricing. Let’s examine that.
+September 8, 2025
+***
+Last week, Delta
+told lawmakers
+:
+“There is no fare product Delta has ever used, is testing or plans to use that targets customers with individualized prices based on personal data. . . . [O]ur ticket pricing never takes into account personal data. . . . [C]ustomers are not required to sign in on delta.com or the app to shop and compare prices.”
+What’s going on?
+In December 2023, Delta President Glen Hauenstein
+told investors
+that the carrier’s AI price-setting technology is capable of setting fares based on a prediction of “the amount people are willing to pay for the premium products related to the base fares.” Delta said that “by the end of [2025] it wants to use AI to set 20% of all fares,” according to an
+NPR report
+.
+During an investor day last year, Hauenstein further described Delta’s algorithmic pricing capability:
+“We will have a price that’s available on that flight, on that time, to you, the individual.”
+Fetcherr is the AI pricing company that partners with Delta Airlines – along with other airlines including Azul, Royal Air Maroc, Virgin Atlantic, Viva Aerobus, and WestJet. “We’ve been training our engine, using all the data we can get our hands on,” Roy Cohen, Fetcherr’s CEO
+said
+.
+Fetcherr also described individualized pricing as using “
+factors like customer lifetime value, past purchase behaviors, and the real-time context of each booking inquiry,” which “all contribute to creating a truly personalized offer.” The
+blog post
+from last December that contained that disclosure has
+since been scrubbed
+.
+Senators sent a letter to Delta pressing for details, and Delta
+responded
+with a letter claiming that it doesn’t use “personal data” in setting individualized prices – but it also hasn’t said what data it
+does
+use or the extent to which pricing may differ across individual customers.
+So does Delta use personal data?
+It is not clear what Delta means by “personal data.” Companies often try to define this term narrowly – limited to obvious identifiers like names, email addresses, and phone numbers. This of course would exclude behavioral data, device fingerprinting, or other less direct identifiers – like
+purchasing activity
+or perhaps frequent flyer numbers. An airline that denies using “personal data” might still rely on information and inferences that are functionally personal to shape offers and prices to a person.
+It’s the difference between saying “Pope Leo” (personal information), and saying “the man who currently lives at the Vatican and is the head of the Catholic church” (which a company may claim does not contain personal information, but is … obviously Pope Leo).
+Moreover, even if an airline relies on data that truly isn’t personal to either generate or apply its pricing models, the result might still be pricing that’s personal. Suppose that an airline develops a model that takes into account information like time, approximate location, web browser, device manufacturer, or other attributes that are correlated with price sensitivity but not readily linkable to a person or device. Or, alternatively, suppose that the airline uses “
+privacy enhancing technology
+” (like differential privacy) to build a model based on correlations between customer attributes and price sensitivity without considering personal information. In the end, the price that one person receives may still be different from the price that another receives.
+And do consumers need to sign in for a company to collect data about you?
+No. Not signing in doesn’t mean you’re not being tracked. Companies
+still collect data
+about consumers — like your location, device type, browsing patterns, or
+other detailed profile data
+—
+without being logged into a service
+.
+Airlines have recently deployed the technical ability to determine offers and prices based on
+who
+a customer is, not just when or where they search.
+When booking directly, the airline has the ability to provide customized offers in the same manner as any other retailer.  But airline tickets are frequently searched for (and sometimes sold by) third-party online travel services such as Expedia or Google Flights.  Using the
+International Air Transport Association
+’s (IATA)
+New Distribution Capability
+(NDC) standard protocol, which has been in development since 2012 and is now being widely implemented, these third-party services can receive customized offers from airlines in response to a booking request. NDC requests can include data like the prospective traveler’s frequent flyer number, which can be used by the airline to customize the set of flights offered and their prices. While a frequent flyer number does not contain a person’s name or other more obvious identifiers, it is still personal data that can be and is tied to one individual.*
+This can be used to create “
+personalized offers
+”  that are shown to an individual in response to searches in real time.
+Delta’s letter raises more questions than answers.
+Companies vary widely in their use of data and algorithms to determine prices. Yet, public information about these practices remains sparse. The FTC published a
+Study
+and
+Request for Information
+about “surveillance pricing” in January 2025, and
+received comments from consumers
+about airline ticket prices like
+this
+and
+this one
+. However,
+the RFI was closed
+without explanation. To better understand how individualized pricing is applied, we outline open questions for
+further investigation
+:
+Where are people being charged AI-driven individualized prices
+?**
+Which industries and companies use and implement individualized pricing or AI-driven pricing? Current reporting indicates that at a minimum, groceries, retail, healthcare, banking, insurance, higher education, utilities, gig work platforms are using these models.
+Which
+U.S. airlines
+use AI‑powered or individualized pricing systems to raise costs, and what do they use?
+Which third-party technology providers or intermediaries (e.g., Fetcherr, PROS, etc.) do these airlines use to generate or optimize pricing for individual consumers or defined consumer segments?
+How does Delta define “personal data” in pricing?
+How does Delta define “personal data” in the context of its AI pricing system? Specifically, what categories of data—such as IP address, loyalty or frequent flyer status, device type, search history, or geolocation—are used as inputs by the AI, for purposes like predicting ability to pay and generating prices?
+What data and external sources feed airline pricing models?
+Do airlines use AI pricing systems that rely on data from competitors for training? If so, how? Does Delta use other third-party providers or intermediaries (such as Fetcherr) for pricing, and what specific roles do they play? Do these consultants use data to infer someone’s willingness to pay? What data? In what ways does customer loyalty influence individualized prices? Does Delta’s AI pricing system incorporate customer loyalty program statuses or frequent flyer data when generating pricing recommendations?
+What are the AI pricing models designed to optimize?
+Revenue per customer over time? Revenue per flight? Will an AI pricing model ever result in lower prices for a consumer? How are the AI prices performing on different audiences? What kind of person is being charged the most for a ticket? How have these models been tested to understand how they affect different kinds of consumers?
+Does Delta operate (or do its third-party providers enable) individual pricing at scale?
+In Fetcherr’s explanatory blog post, they describe the future of dynamic pricing as “moving from ‘segments of thousands’ to ‘segments of one’ – but at a scale that covers your entire network.” Does Delta’s AI pricing system generate or adjust fares for an individual consumer’s transaction, even when relying on aggregated or group segmentation data? Similarly, are there small groups of travelers who receive or are eligible for different pricing?
+***
+Contributors in alphabetical order by last name:
+David Choffnes
+is a Professor in the Khoury College of Computer Sciences at Northeastern University, Executive Director of the Cybersecurity and Privacy Institute
+Laura Edelson
+is an Assistant Professor of Computer Science at Northeastern University, Former Chief Technologist of the Antitrust Division and the Civil Rights Division of the Department of Justice
+Jonathan Mayer
+is an Associate Professor of Computer Science and Public Affairs and Former Chief Science and Technology Advisor and Chief AI Officer at the Department of Justice
+Erie Meyer
+is a Senior Fellow at Georgetown Institute for Technology Law & Policy, Former CFPB Chief Technologist
+Alan Mislove
+is a Professor and the Senior Associate Dean for Academic Affairs in the Khoury College of Computer Sciences at Northeastern University and former Deputy United States Chief Technology Officer for Privacy at the White House Office of Science and Technology Policy
+Stephanie T. Nguyen
+is a Senior Fellow at Georgetown Institute for Technology Law & Policy and Former Chief Technologist at the Federal Trade Commission
+* Privacy regulators in the U.S. and the EU would consider a frequent flyer number a form of personal information.
+https://www.ftc.gov/sites/default/files/documents/reports/federal-trade-commission-report-protecting-consumer-privacy-era-rapid-change-recommendations/120326privacyreport.pdf
+(OMB)
+https://www.cio.gov/policies-and-priorities/circular-a-130/
+(NIST)
+https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8053.pdf
+(GAO)
+https://www.gao.gov/assets/gao-08-536.pdf
+(GDPR) Article 4 and Recitals 26 and 30
+**
+There are a range of terms for individualized pricing and particular types of personalized pricing. In addition to“surveillance pricing” and “AI-driven pricing,” other terms can include “personalized pricing,” “dynamic pricing,” “customized offers,” “data-driven pricing,” “algorithmic pricing,” “real-time pricing,” and “price optimization.”
+Visit Our Campus
+About
+Make a Gift
+Accessibility
+ABA Required Disclosure
+Social Navigation
+Facebook
+X
+LinkedIn
+YouTube
+Instagram
+Georgetown Law
+600 New Jersey Avenue NW
+Washington
+DC
+20001
+202.662.9000
+Georgetown Law
+Close
+Search
+submit
+Academics
+Expand Navigation
+Tech Law Scholars JD Program
+Tech LLM Degree
+Master of Law and Technology
+Course Offerings
+Experiential Learning
+News and Events
+Programs and Initiatives
+Expand Navigation
+Georgetown AI and the Legal Profession
+Redesigning the Governance Stack
+Georgetown Justice Lab
+Tech Foundations for Government Staff
+AI Governance Series
+Research and Insights
+Expand Navigation
+Faculty Scholarship
+Georgetown Law Technology Review
+Insights
+People
+Expand Navigation
+Faculty
+Staff
+Tech Law Scholars
+Contact Us
+Visit Our Campus
+About
+Make a Gift
+Accessibility
+ABA Required Disclosure
+Close
+Resources For
+Helpful Links
+Main Menu
+Admissions & Aid
+J.D. Admissions
+Graduate Admissions
+Financial Aid
+International Student Services
+Early Outreach Initiative
+Connect with Georgetown Law
+Office of Admissions
+Admitted Students
+Academics
+Courses & Areas of Study
+J.D. Program
+LL.M. Degree Programs
+Transnational Programs
+S.J.D. Degree
+Certificates of Specialization
+Academic Resources
+Lifelong Learning
+Experiential Learning
+Clinics
+Pro Bono & Community Service
+Externships
+Simulations
+Practicums
+Centers & Institutes
+Law Journals
+Faculty & Research
+Your Life & Career
+Career Exploration & Professional Development
+Diversity & Inclusion
+Health & Fitness
+Spiritual Life
+Housing
+Campus Services
+Activities & Organizations
