@@ -1,0 +1,49 @@
+April 21, 2026
+Joanna Geraghty
+Chief Executive Officer
+JetBlue Airlines
+27-01 Queens Plaza North
+Long Island City, New York, 11101
+Dear Ms. Geraghty, 
+We are writing to request information about JetBlue’s potential use of surveillance-based price setting, or the 
+practice of using customer data and, often, artificial intelligence to inform personalized prices. 
+On April 18th, JetBlue’s X account suggested a customer try clearing their “cache and cookies or booking with 
+an incognito window” after the customer complained about a $230 increase in their ticket price after only one 
+day.1 The customer said they were trying to “make it to a funeral.” While JetBlue claimed in the wake of this 
+post that fares are not “determined” by cached data or other personal information,2 this exchange still raises 
+questions about how JetBlue sets prices — specifically, how JetBlue is defining personal data and whether 
+personal data is used in any capacity to inform prices. We are especially concerned that customers could be 
+charged different prices for the same flight based on their need for travel, such as attending a funeral.
+We ask that you please provide answers to the following questions by Thursday, April 30th, 2026:
+1. Can a customer’s web browser data — or a customer’s browser cache or cookies — influence the price 
+they are offered for a flight? Can searching for a flight in an “incognito” browser window affect the 
+price offered to that customer? 
+2. Does JetBlue contract with any companies that specialize in using individualized data to recommend 
+price levels?
+3. Does JetBlue use artificial intelligence to set prices? Does JetBlue set prices in whole or in part based on
+suggestions from a third-party company that uses artificial intelligence to inform price levels? If so, 
+how?
+4. What specific data sources, platforms, channels, or other sources does JetBlue utilize to obtain data on 
+customers? Specifically, does JetBlue collect data from other applications, including web browsers or 
+mail applications?
+5. What data is JetBlue collecting on customers? How long does JetBlue store the data it collects? What 
+customer data, if any, does JetBlue purchase from third parties? If third-party customer data is 
+purchased, how does JetBlue use this data? Is third-party data, if purchased, used for pricing?
+6. Does JetBlue use customer data to set personalized or differential price offers? If so, how often is this 
+practice used? How many customers are impacted by this pricing model?
+7. How does JetBlue define “personal” data? JetBlue’s online Privacy Policy defines “personal 
+information” as mailing address, email address, telephone contacts, etc.3 However, if JetBlue is tracking 
+the browsing, shopping, and purchasing habits of a customer or potential customer, does JetBlue view 
+such data as “personal information?” Is pricing adjusted according to such habits, based on algorithms 
+1 JetBlue [@JetBlue], April 18, 2026, https://x.com/JetBlue/status/2045593704434438431.
+2 David Shepardson [@davidshepardson], April 20, 2026, https://x.com/davidshepardson/status/2046273620255678777.
+3 JetBlue Airways Privacy Policy, Updated June 2025, https://www.jetblue.com/legal/privacy.
+
+suggesting that some customers are willing to pay more for flights due to how they interact with 
+JetBlue’s website?
+Sincerely,
+Greg Casar
+Member of Congress
+Ruben Gallego
+United States Senator
+Page 2
