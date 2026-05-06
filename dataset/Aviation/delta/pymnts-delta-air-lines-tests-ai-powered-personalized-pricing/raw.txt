@@ -1,0 +1,233 @@
+PYMNTS | Delta Air Lines Tests AI-Powered Personalized Pricing
+Delta Air Lines Tests AI-Powered Personalized Pricing
+Newswire
+|
+SUBSCRIBE
+Search
+PYMNTS TV
+Today
+B2B
+Retail
+Fintech
+Digital Transformation
+Crypto
+AI
+PYMNTS
+®
+Intelligence
+Trackers
+Trendscapes
+Proprietary Data Studies
+PYMNTS Data Lab
+Research Framework
+PYMNTS
+®
+Intelligence
+Trackers
+Trendscapes
+Proprietary Data
+Studies
+PYMNTS Data Lab
+Research Framework
+Regulation
+Events
+More
+Topics
+Artificial
+Intelligence
+Connected
+Car
+Buy
+Now
+Pay Later
+Banking
+Cloud
+Cross-Border
+Payments
+Gig-Economy
+Grocery
+& Pharmacy
+Healthcare
+Payments
+Insurtech
+Small &
+Medium
+Businesses
+Social
+Platforms
+Subscription
+Commerce
+Travel
+TechREG
+®
+Real-Time
+Payments
+Restaurants
+EMEA
+Featured
+SEE ALSO:
+Editor’s
+Picks
+Opinion
+Newswire Announcements
+CE100
+Index
+Working Capital & Liquidity
+Competition Policy International
+A PYMNTS Company
+Stay Current
+Events
+Podcasts
+Subscribe
+Newswire
+Advertise with Us
+Delta Air Lines Tests AI-Powered Personalized Pricing
+By
+PYMNTS
+|
+July 22, 2025
+|
+Highlights
+Delta is expanding AI-powered personalized pricing to 20% of its airfares by the end of 2025, using algorithms that adjust prices based on individual behaviors like booking history, device use and estimated willingness to pay.
+Lawmakers and advocacy groups have labeled the practice as “predatory” and raised concerns about privacy and fairness.
+Regulatory and reputational risks loom, particularly in Europe, where GDPR may limit such data use.
+Delta Air Lines
+is testing a new artificial intelligence (AI) pricing system that tailors fares to individual customers, a move that could reshape how airline tickets are sold and priced.
+Get the Full Story
+Complete the form to unlock this article and enjoy unlimited free access to all PYMNTS content — no additional logins required.
+yes
+Subscribe to our daily newsletter, PYMNTS Today.
+By completing this form, you agree to receive marketing communications from PYMNTS and to the sharing of your information with our sponsor, if applicable, in accordance with our
+Privacy Policy
+and
+Terms and Conditions
+.
+Δ
+The system, developed in partnership with Israeli startup
+Fetcherr
+, is already being used on 3% of Delta’s flights, with plans to expand it to 20% by the end of the year, according to the company.
+“While we’re still in the test phase, results are encouraging,” said Delta CEO
+Ed Bastian
+during the company’s second-quarter earnings
+call
+.
+Personalized pricing — or
+surveillance pricing
+as the Federal Trade Commission (
+FTC
+) calls it — is pricing tailored to the individual based on the personal data collected.
+For example, two people shopping for airfares at the same time might see different prices if one is a business traveler and the other is a budget-conscious consumer, based on things like income estimates, browsing behavior, purchase history or type of device used. The price is driven by who the buyer is and what the AI algorithm believes he or she will pay.
+That’s different from dynamic pricing, which is determined by market factors such as real-time supply and demand and pricing by competitors. While the price changes, everyone sees the same price at a given time. Airlines, ride-sharing and other companies already use dynamic pricing.
+Advertisement: Scroll to Continue
+In a nutshell, dynamic pricing changes based on when a consumer buys. Personalized pricing changes based on who the consumer is.
+Delta President
+Glen Hauenstein
+explained it this way during the airline’s “investor day”
+analyst briefing
+last November:
+“We will have a price that’s available on that flight, on that time, to you, the individual. Not a machine that’s doing an accept reject and a static price grid,” Hauenstein said. He called the AI a “super analyst” and results have been “amazingly favorable unit revenues.”
+Delta seeks to gain a “first-mover advantage,” Hauenstein added. “We do believe that we are ahead of our competitors in terms of implementing this and in changing our business processes and rules around it.”
+Ultimately, this is “a full reengineering of how we price — and how we will be pricing in the future,” Hauenstein said.
+More here
+:
+JetBlue and United Link Loyalty Programs Under ‘Blue Sky’ Banner
+Using a Consumer’s Personal Data
+There’s already rising outrage about the practice.
+“Delta’s CEO just got caught bragging about using AI to find your pain point — meaning they’ll squeeze you for every penny,” wrote U.S. Sen.
+Ruben Gallego
+, D-Ariz., in a
+post
+on X. “This isn’t fair pricing or competitive pricing. It’s predatory pricing. I won’t let them get away with this.”
+A Delta spokesperson told PYMNTS: “There is no fare product Delta has ever used, is testing, or plans to use that targets customers with individualized offers based on personal information or otherwise.”
+“A variety of market forces drive the dynamic pricing model that’s been used in the global industry for decades, with new tech simply streamlining this process. Delta always complies with regulations around pricing and disclosures,” the spokesperson added.
+In January, the FTC
+issued
+a study on “surveillance pricing,” noting that it has been going on in retail. According to the FTC, some retailers track consumer behaviors — ranging from how shoppers move the mouse on a webpage to the products they abandon in an online shopping cart — to customize pricing.
+At least 250 companies from grocers to clothing retailers are using surveillance pricing, the FTC found, but did not name names.
+Consumer Watchdog
+’s December 2024
+report
+said
+Target
+charged people $100 more for a TV when they’re in a Target parking lot versus another location. According to the same report, travel booking platform
+Orbitz
+found that Mac users were willing to spend more money to stay at hotels and charged them more.
+“It’s price gouging based on predictive behavior,” wrote
+Justin Kloczko
+, author of the report. “A lot is not known because of corporate secrecy, but what we do know now is companies are experimenting with surveillance pricing as a way for businesses to weaponize personal data against you in order to charge more.”
+PYMNTS reached out to Target and Orbitz for comment, but has yet to receive replies.
+Peter Fader
+, a marketing professor at
+The Wharton School of the University of Pennsylvania
+who specializes in customer lifetime value modeling, said in a LinkedIn
+post
+that “there’s going to be plenty of public outcry over Delta Air Lines’ new personalized pricing initiative.”
+“Concerns about ethics, privacy, price-gouging and ‘brain-hacking’” are “valid” but “that’s not what worries me most,” he wrote.
+Fader said Delta may be overestimating its ability to accurately assess individual price sensitivity.
+“There’s just too much noise, too much volatility, too much model risk” to do personalized pricing well, he said.
+The smarter approach would be to group customers based on behavioral traits like recency, frequency and monetary value.
+“Within these segments, individual errors cancel out, and decisions become more stable, more defensible, and more profitable,” Fader added.
+See also
+:
+European Airlines Report Uncertainty Drives Decline in Bookings to US
+Personalized Pricing May Not Fly in Europe With GDPR
+Delta faces a host of business risks, one of which is erosion of customer trust, said
+Philip Carls
+, who serves on the board of
+Priceagent
+.
+“This will likely dent customer trust since, unlike traditional pricing, passengers won’t know if they’re getting a fair deal or being targeted,” Carls told PYMNTS, adding that privacy issues could also be raised.
+“It is unclear exactly what factors are being used to target set prices,” Carls said. “It’s also unclear how this will play out with aggregators, travel agencies, partner or alliance airlines and other channels. It’s also unclear how effective this will be if competitors adopt similar algorithmic pricing — there is only so much upside Delta can charge before someone switches and flies a different airline.”
+There’s regulatory risks as well. While such pricing strategies may be legal in the U.S., they face more restrictions in the EU and U.K.
+“In Europe, GDPR limits data usage, and airlines must justify personalized pricing under ‘legitimate interest,’” Carls said, adding that there could be antitrust concerns as well if pricing algorithms lead to collusion. What’s more is that consumers will sue if they feel unfairly targeted. “If pricing seems discriminatory, there will be lawsuits,” he said.
+Tom Randklev
+, head of product at payment orchestration firm
+CellPoint Digital
+, which serves the airline and other industries, noted that Delta’s move could lead other carriers to follow suit.
+“The benefits highlighted from Delta’s pilot will generate significant interest and imitation from the other carriers,” Randklev told PYMNTS. He added that other major airlines, such as United and American, already use AI in revenue management, while noting that Delta’s partner, Fetcherr, also works with Virgin Atlantic, WestJet, Azul and Viva airlines.
+But Delta’s Hauenstein said the airline will proceed with care.
+“We’re all in on this,” he said. “We’re very excited about it, but we want to be really smart about it because it could also be very dangerous, if it’s not controlled and it’s not done correctly.”
+Read more:
+Airlines Boost Premium Offerings as Demand for Main Cabin Seats Slows
+Delta Air Lines Keeps Capacity Growth Flat Amid ‘Broad Economic Uncertainty’
+United Airlines Raising Fees for Travel Perks
+Recommended
+Hightouch Valued at $2.75 Billion as AI Agents Transform Enterprise Marketing
+OppFi Moves Deeper Into Banking With $130 Million BNC Purchase
+Canada Moves to Outlaw Crypto ATMs Amid Rising Fraud
+Sam Bankman-Fried Loses Bid for New Trial in FTX Case
+See More In:
+AI
+,
+Delta Air Lines
+,
+News
+,
+personalization
+,
+PYMNTS News
+,
+surveillance pricing
+,
+travel
+Trending News
+Solana Prez Touts Blockchain’s Usefulness for Payments
+DeFi Investors Pull $14 Billion Following Cyberattacks
+JPMorgan Says Instant Money Needs Instant Certainty
+The Big Story
+Why OpenAI, Amazon and Apple Want to Be the Smartphone in Your Pocket
+Featured News
+JPMorgan Says Instant Money Needs Instant Certainty
+22% BNPL Growth Gives Credit Unions a Member Loyalty Opening
+Delaware Makes Its Stablecoin Land Grab
+AI Firms Send Engineers to Rescue Enterprise Pilots
+PayPal’s New CEO Starts With a $1.5B Cleanup
+MDEnvoy Channels Jerry Maguire With Agents and AI for Doctors
+Mastercard Targets the Hidden Cost of Late B2B Payments
+Subscribe
+Get PYMNTS Today, AI, B2B and more.
+CONTINUE
+View all newsletters.
+Partner with PYMNTS
+We’re always on the lookout for opportunities to partner with innovators and disruptors.
+Talk to Sales
