@@ -1,0 +1,251 @@
+JetBlue Responds to Accusations of Using Surveillance Pricing After Viral Tweet
+Skip to content
+Gizmodo
+Latest
+News
+Reviews
+io9
+Science
+Deals
+Downloads
+Newsletters
+Privacy & Security
+JetBlue Responds to Accusations of Using Surveillance Pricing After Viral Tweet
+Surveillance pricing or not, the airline is probably offering good advice.
+By
+Matt Novak
+Published April 20, 2026, 2:15 pm ET
+Reading time 3 minutes
+A JetBlue plane at Ronald Reagan Washington National Airport.
+Â© Robert Alexander/Getty Images
+Read Later
+Read Later
+Comments
+(23)
+Is JetBlue engaging in surveillance pricing, the practice of charging customers different prices based on data like location, age, sex, and income level? That’s the question after a tweet from the airline went viral in recent days. But JetBlue tells Gizmodo the now-deleted tweet was an error.
+It started on April 18 when an X user called Nugg tweeted
+at the airline
+: “I love flying @JetBlue but a $230 increase on a ticket after one day is crazy. I’m just trying to make it to a funeral.”
+JetBlue responded with, “Try clearing your cache and cookies or booking with an incognito window. We’re sorry for your loss.”
+You can guess what the response was like. X users interpreted JetBlue’s tweet to mean that information was somehow being collected that caused the price for a ticket to rise by $230. It’s a reasonable assumption, given the way that surveillance pricing has emerged to squeeze every possible dollar out of consumers.
+Last year, Delta told shareholders that it would start using artificial intelligence to
+determine the prices
+of domestic fares, comments that the company later tried to walk back. Instacart was recently caught charging different prices to
+different consumers
+. And Uber can even jack up the price on a ride when a given user’s phone battery is low, a time when people are more desperate to just get a ride at any price.
+But JetBlue denies that it’s using personal information to adjust prices for consumers. “The reply from our JetBlue crewmember on social media was incorrect, and we apologize for the error,” the company told Gizmodo in an email Monday. “JetBlue fares on JetBlue.com and our mobile app are not determined by cached data or other personal information.”
+The airline says that pricing is based on “real-time availability and is managed through our reservation system,” though it didn’t answer follow-up questions from Gizmodo.
+“Fares can change at any moment as seats are purchased or as inventory is adjusted based on demand, and are not guaranteed until a purchase is completed,” the company said.
+Sen. Ruben Gallego, a Democrat from Arizona, tweeted in support of his own legislation to ban surveillance pricing after the post about JetBlue went viral.
+Is Jet Blue openly admitting to raising someoneâs price hundreds of dollars because they know they have to go to a funeral? Grief shouldnât come with surge pricing.
+We need to pass my bill to make surveillance pricing illegal.
+https://t.co/6gqLs2LYiS
+— Ruben Gallego (@RubenGallego)
+April 20, 2026
+There are several different pricing tactics that have become both popular and controversial in recent decades as technology evolves, including dynamic pricing and surveillance pricing. Information collected online can be compiled and cross-referenced with data collected by private brokers to customize prices and find the maximum amount a given customer is willing to pay. That can obviously turn off customers when they know it’s happening, since it feels inherently unfair for two people to pay different prices for the same goods or services.
+The Washington Post recently sent out an email to subscribers telling them their subscription rates would be going up and that the price was being set by an algorithm. New York is the only state that requires companies to notify consumers when prices have been
+set using AI
+, which is probably what led to the Washington Post’s disclosure.
+There are also concerns that facial recognition and security surveillance at brick-and-mortar retail locations might soon lead to new forms of algorithmic pricing. Grocery stores are the big ones, as at least half a dozen states are considering legislation to ban surveillance pricing.
+Digital shelf labels are another area of contention, as consumer advocates worry that centralized price changes on a moment’s notice across large retail stores could allow for price gouging. But retailers like Walmart, which is rolling out digital labels across all its stores by year’s end, argue it simply makes things more efficient.
+So far, there’s no solid evidence that any major grocery chain is using hyper-targeted algorithmic pricing for customers who walk into a store and are spotted on camera. But it’s theoretically possible, and people are starting to get concerned.
+Explore more on these topics
+dynamic pricing
+JetBlue
+surveillance pricing
+Share this story
+Copied!
+Sign up for our newsletters
+Subscribe and interact with our community, get up to date with our customised Newsletters and much more.
+Gizmodo
+io9
+Earther
+The Next Interface
+Subscribe now
+Leave this field empty if you're human:
+The Weirdest Wearables From 100 Years Ago
+Latest news
+May 6
+12:00 pm
+‘Mortal Kombat II’ Is a Lot of Mindless Action, Which Is All It Needs to Be
+May 6
+11:33 am
+Google Pixel Buds 2a Hit Their Lowest Price in Months, Now a Cheaper ANC Earbuds Alternative to AirPods 4
+May 6
+11:25 am
+Possible Flight-Related Hantavirus Case Emerges After Cruise Ship Outbreak
+May 6
+11:00 am
+I’m Sorry, *That’s* How Vader Killed Rook Kast in ‘Shadow Lord’?
+May 6
+10:53 am
+Medicube Booster Pro Beauty Massager Falls to Record Low for a Mother’s Day Limited-Time Offer
+May 6
+10:40 am
+NASA Released a Massive Trove of Artemis 2 Images. Here Are Gizmodoâs Favorites
+May 6
+10:20 am
+Xbox Project Helix Will Be Stuffed With AIâbut Not the Kind You Hate
+May 6
+10:14 am
+Apple A16 iPad Is Now Closing In on AirPods Pro 3 Pricing, the Best Tablet Pick for Mother’s Day
+Show All Latest news
+Latest Reviews
+May 5
+6:00 am
+Samsung Galaxy A57 5G Review: Not Worth It at Full Price
+May 3
+9:00 am
+Logitech G G512 X Review: The Tasting Menu of a Pro Gaming Keyboard
+May 3
+7:00 am
+Ecovacs Deebot X12 OmniCyclone Review: AI Canât Save This Robot Vacuum
+May 1
+11:30 am
+The Best Tech Gifts for Motherâs Day 2026
+May 1
+6:00 am
+Asus’ Dual-Display Gaming Laptop Will Ruin Your Single-Screen Lifestyle
+Apr 27
+1:03 pm
+Steam Controller Review: Trackpads Change Everything for PC Gaming
+Apr 26
+8:00 am
+Soundcore Space 2 Review: A Shockingly Stellar Value for Budget ANC Wireless Headphones
+Apr 23
+12:30 pm
+Ankerâs UV Printer Can Handle Almost Anything… If You Know What Youâre Doing
+Show All Latest Reviews
+Related Articles
+The Weirdest Wearables From 100 Years Ago
+The shockwatch of 1927 walked so Apple Watch could run.
+Gadgets
+Matt Novak
+May 6
+Maryland Just Banned Surveillance Pricing on Groceries. Critics Say It’s Basically Toothless
+Other states like New York, New Jersey, and Illinois are considering similar bills.
+Artificial Intelligence
+Matt Novak
+May 1
+JetBlue Sued for Allegedly Increasing the Price of Tickets Based on Personal Data
+The airline denies using surveillance pricing and says a recent viral tweet was a mistake.
+Privacy & Security
+Matt Novak
+Apr 23
+How the First Surveillance Pricing Ban in America Falls Short
+The bill prohibits surveillance pricing at grocery stores, but experts warn there are loopholes.
+Commerce
+Matt Novak
+Apr 23
+US Airlines Are Hiking Bag Fees Amid Iran War Oil Crisis
+United Airlines and JetBlue announced this week that they are raising baggage fees.
+Transportation
+Bruce Gil
+Apr 3
+Walmart Wins Patents for AI-Powered Price Changes
+The retailer denies it's engaging in dynamic pricing.
+Artificial Intelligence
+Matt Novak
+Mar 20
+Â©2026 GIZMODO USA LLC.
+All rights reserved.
+ð
+About Us
+Other editions
+Deutsch
+EspaÃ±ol
+FranÃ§ais
+PortuguÃªs
+Product Review
+Newsletters
+Your Privacy Choices
+Privacy Policy
+Terms of Use
+Accessibility
+Advertising & Licensing
+ð
+We may earn a commission when you buy through links on our sites.
+Search
+Sign up for our newsletters
+Latest
+Tech News
+Artificial Intelligence
+Commerce
+Crime
+Cryptocurrencies
+Culture
+Gadgets
+Internet
+Politics
+Privacy & Security
+Robots
+Social Media
+Sploid
+Tech Policy
+Transportation
+Reviews
+Smartphones
+Laptops
+Headphones
+Gaming
+Home Entertainment & Smart Home
+Other Gadgets
+Tablets
+Accessories & Wearables
+Desktops
+Deals
+Buying Guides
+Science
+Biology
+Health
+Human History
+Physics & Chemistry
+Space & Spaceflight
+Earther
+Climate Change
+Conservation
+Earth Science
+Energy
+Environmental Justice
+io9
+io9 Reviews
+Movies
+Trailers
+Television
+Books & Comics
+Anime
+Toys & Collectibles
+Games
+Corporate Culture
+Theme Parks & Destinations
+Software
+Best VPN
+Free VPN
+Cheap VPN
+NordVPN Review
+ExpressVPN Review
+Best eSIM
+Cloud Storage
+Free Cloud Storage
+pCloud Review
+Web Hosting
+Hostinger Review
+Best Antivirus
+Compare Antivirus
+Download Hub
+About Us
+Other editions
+Deutsch
+EspaÃ±ol
+FranÃ§ais
+PortuguÃªs
+Product Review
+Newsletters
+Your Privacy Choices
+Privacy Policy
+Terms of Use
+Accessibility
+Advertising & Licensing
+ð
+Bookmarks
+Cookies settings
