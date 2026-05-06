@@ -1,0 +1,198 @@
+S
+TATE OF NEW YORK 
+OFFICE OF THE ATTORNEY GENERAL 
+                                                                                                                                                  
+           
+       LETITIA JAMES                                                                                       JANE M. AZIA 
+ A TTORNEY GENERAL               BUREAU CHIEF 
+                                                    CONSUMER FRAUDS & PROTECTION BUREAU 
+ 
+January 8, 2026 
+ 
+Chris Rogers 
+Chief Executive Officer 
+ 
+Morgan Fong 
+General Counsel 
+ 
+Maplebear Inc. d/b/a Instacart 
+50 Beale Street, Suite 600 
+San Francisco, CA 94105 
+ 
+Re: Instacart’s Pricing Practices & New York’s Algorithmic Pricing Disclosure Act 
+ 
+Dear Mr. Rogers and Mr. Fong: 
+I write on behalf of the New York State Office of the Attorney General to  request 
+information concerning recent reports of  substantial price variations among shoppers using 
+Instacart, as well as your efforts to comply with New York’s Algorithmic Pricing Disclosure Act. 
+According to a report from Groundwork Collaborative and Consumer Reports, 
+released on December 9, 2025, shoppers using Instacart see significantly different prices  for the 
+same products at the same stores.
+1 Among the report’s observations, Instacart “offered as many as 
+five different sales prices for the exact same grocery item, in the exact same store, at the exact 
+same time,” with a 13% average price difference between highest and lowest  prices for a single 
+good. Id. at 2. Furthermore, the researchers found that even when shoppers were offered the same 
+sale price, there were significant variations in the “original price” shown and the discount applied 
+to arrive at the sale price. Id. at 12. Instacart has promoted its Eversight “Retail Pricing Suite” that 
+facilitates “revenue optimization” and “pricing solutions” that involve “ automated, continuous 
+testing of … prices directly with shoppers.”
+2 And Instacart has brought its pricing and promotions 
+tools from the web into physical stores with the introduction of its proprietary Caper Cart “smart” 
+ 
+1 Groundwork Collaborative & Consumer Reports, Same Cart, Different Price: Instacart’s Price Experiments Cost 
+Families at Checkout (Dec. 9, 2025), available at https://groundworkcollaborative.org/work/instacart/. 
+2 Instacart, Eversight by Instacart: AI-Powered Price Optimization, www.instacart.com/company/retailer-
+platform/connected-stores/eversight ( accessed Jan. 8, 2026).
+
+2 
+ 
+ 
+28 LIBERTY STREET, NEW YORK, NY 10005 ● PHONE (212) 416-8300 ● FAX (212) 416-6003 ● WWW.AG.NY.GOV 
+ 
+shopping cart , “ which provides three key capabilities: gamification, personalization, and 
+advertising.”3 
+In response to that report, Instacart acknowledged the existence of price variations 
+and, while claiming that it had been randomly assigning customers to price-testing cohorts, stated 
+that its retail partners “may use behavioral data … to inform discounts or promotional offers.” Id.  
+at 13. When accomplished by means of an algorithm, the use of a consumer’s behavior and other 
+personal data to inform the prices the consumer pays at checkout is  considered “personalized 
+algorithmic pricing” and requires disclosure under New York law. 
+On December 22, 2025, Instacart announced that, “effective immediately, Instacart 
+is ending all item price tests on our platform. Retailers will no longer be able to use Eversight 
+technology to run item price tests on Instacart.”
+4 Instacart barely described the “item price tests” 
+that it was planning to end, though it claimed those particular “tests were not dynamic pricing or 
+surveillance pricing.” Id. Whatever the now-canceled tests entailed, Instacart acknowledged that 
+its “[r]etail partners will continue to set their own prices on Instacart” and that Instacart will 
+“continue offering relevant promotions, discounts, and marketing incentives – including those 
+funded by CPG brands and retailers – as well as loyalty integrations, to help bring additional 
+savings to customers.” Id. Following Instacart’s announcement, “ Instacart told [Consumer 
+Reports] that it would still allow its partners—grocery retailers and food brands—to test different 
+types of promotions and discounts on their customers through the platform.”5 
+New York’s Algorithmic Pricing Disclosure Act, G.B.L § 349-A (the “Act”), which 
+took effect on November 10, 2025, requires companies to disclose the use of personalized pricing 
+algorithms when offering goods or services  to consumers in New York. The Act covers 
+“personalized algorithmic pricing,” which is defined as “dynamic pricing set by an algorithm that 
+uses personal data.” G.B.L. § 349-A(1)(f). The Act further defines “dynamic pricing” as “pricing 
+that fluctuates dependent on conditions, and “personal data” as “ any data that identifies or could 
+reasonably be linked, directly or indirectly, with a specific consumer or device .” G.B.L. 
+§ 349-A(1)(d), (e). 
+Under paragraph 2 of § 349-A: 
+Any entity that sets the price of a specific good or service 
+using personalized algorithmic pricing, and that directly or 
+indirectly, advertises, promotes, labels or publishes a 
+statement, display, image, offer or announcement of 
+personalized algorithmic pricing to a consumer  in New 
+York, using personal data specific to such consumer, shall  
+ 
+3 IGA News, Why Smart Carts Are the Winning Technology Format for Independent Grocers  (Dec. 18, 2024), 
+www.iga.com/insights/why-smart-carts-are-the-winning-technology-format-for-independent-grocers. 
+4 Instacart, Ending Item Price Tests on Instacart (Dec. 22, 2025), www.instacart.com/company/updates/ending-item-
+price-tests-on-instacart. 
+5 Consumer Reports, Instacart Stops Pricing Tests on Its Platform Amid Outrage from Customers  (updated Dec. 23, 
+2025), www.consumerreports.org/money/questionable-business-practices/instacart-stops-ai-pricing-experiments-
+a1176475852/.
+
+3 
+ 
+ 
+28 LIBERTY STREET, NEW YORK, NY 10005 ● PHONE (212) 416-8300 ● FAX (212) 416-6003 ● WWW.AG.NY.GOV 
+ 
+include with such statement, display, image, offer or 
+announcement, a  clear and conspicuous disclosure that 
+states: 
+“THIS PRICE WAS SET BY AN ALGORITHM USING 
+YOUR PERSONAL DATA”. 
+Entities found to be in violation of the law may, after continuing to violate the Act 
+following receipt of a cease-and-desist letter, be subject to injunctive and monetary relief. G.B.L. 
+§ 349-A(4). 
+We have some concerns about Instacart’s attempts to comply with the Act. Based 
+on our observations, the Instacart platform provides the following disclosure on a page linked to 
+certain retail stores’ front pages, accessed by clicking fine print text: “New York law requires the 
+following disclosure because certain prices and/or fees may vary based on randomized tests, we 
+use personal information (such as delivery address) to calculate fees, and we offer certain 
+personalized incentives: this price was set by an algorithm using your personal data.”
+6 This form 
+of disclosure does not appear to comply with , among other things, the “clear and conspicuous” 
+requirements of the Act.  Moreover, t here was no disclosure  on category pages listing product 
+prices (e.g., Meat & Seafood) or on individual product pages displaying price, though a disclosure 
+is required for all displays of price covered by the Act. 
+In order to ensure compliance  with the Act, we request that you provide, by 
+January 29, 2026, the following documents and information: 
+1. All current agreements with the retailers Target, Stop & Shop, Wegmans, Best Buy, 
+Key Food, Aldi, ShopRite, and Costco in any way concerning (a) the prices, 
+discounts, offers, and promotions available for Instacart users  when purchasing 
+from that retailer , including terms addressing  the setting of any markups or 
+discounts, (b) any loyalty or rewards program of the retailer, including integration 
+in the Instacart  and Eversight platform s and the setting of any prices, discounts, 
+offers, or promotions in connection with the program, and ( c) th e use of the 
+Eversight platform or Caper Cart system. If any such agreements were changed in 
+connection with Instacart’s December 22 announcement that it was halting some  
+price experiments, provide also the version effective prior to the announcement. 
+ 
+2. All current agreements with the consumer packaged goods (CPG) brands Frito-Lay, 
+Hormel Foods, Nabisco, Oscar Mayer, Pepsi, and Coca Cola in any way concerning 
+(a) the prices, discounts, offers, and promotions available for Instacart users when 
+purchasing those CPG brand’s products, including terms addressing the setting of 
+any markups or discounts and, and (b) the use of the Eversight platform or Caper 
+Cart system. If any such agreements were changed in connection with Instacart’s 
+December 22 announcement that it was halting some price experiments, provide 
+also the version effective prior to the announcement. 
+ 
+6 The fine print text on the Instacart app that linked to the disclosure page was: for Stop & Shop, “View pricing 
+policy”; for Wegmans, “Higher than in-store prices”; and for Costco, “Pricing & fees.”
+
+4 
+ 
+ 
+28 LIBERTY STREET, NEW YORK, NY 10005 ● PHONE (212) 416-8300 ● FAX (212) 416-6003 ● WWW.AG.NY.GOV 
+ 
+ 
+3. A detailed description of the Eversight platform  and Caper Cart system  and how 
+each is used, by Instacart or by retailers  and CPG brands  using the Instacart 
+platform, to adjust prices  and promotions, including how consumer data may be 
+used for pricing and promotions. 
+ 
+4. A detailed description of all price experiments performed and being performed by 
+Instacart and/or retailers or CPG brands  through Instacart ’s platforms and tools  
+(including Eversight or Caper Cart), including (1) the starting and ending dates of 
+the price experiments, (2) how customers were selected for price experimentation  
+and how many customers were affected, (3) the variables that were adjusted as part 
+of the price experiment (e.g., sale price, original price, discount , or promotion), 
+(4) how those variables were adjusted, including whether customer data was used  
+and how different values for different variables were assigned to different 
+customers, and (5) the effect on total prices paid for products and baskets of 
+products for individual affected consumers and all affected consumers as a group. 
+ 
+5. A statement whether Instacart and/or retailers or CPG brands using Instacart ’s 
+platforms and tools (including Eversight or Caper Cart)  use dynamic pricing or 
+personalized algorithmic pricing (as defined in the Act)—including by fluctuating 
+base prices or discounts, offers, or promotions affecting price — when offering 
+goods or services to consumers in New York State; and if so, (a) the specific goods 
+or services or categories subject to dynamic pricing or personalized algorithmic 
+pricing, (b) a list of all conditions on which pricing fluctuations depend, identifying 
+specifically all categories of personal data and personal data specific to a consumer, 
+and (c) a brief description of how the pric ing is set by an “algorithm” (as defined 
+in G.B.L. § 349-A(1)(a)). 
+ 
+6. If Instacart and/or retailers or CPG brands using Instacart ’s platforms and tools 
+(including Eversight or Caper Cart)  use personalized algorithmic pricing , an 
+explanation of efforts to comply with the disclosure requirement of G.B.L. 
+§ 349-A(2), accompanied by screenshots and screen -flows of consumer  
+transactions from initial display  of price, discount, offer, promotion, or other 
+pricing information, for relevant web pages and mobile apps (with accompanying 
+links or directions to locate app interfaces).  
+ 
+7. Other documents sufficient  to demonstrate the policies and practices Instacart is 
+undertaking to comply with the provisions of the Act.
+
+5 
+Please send your responses to me by email at ryan.galisewski@ag.ny.gov or to my 
+attention at 28 Liberty Street, New York, NY 10005 by January 29, 2026. We appreciate your 
+cooperation and your efforts to comply with the new legal obligations discussed above. 
+Ryan D. Galisewski 
+Assistant Attorney General 
+Bureau of Consumer Frauds and Protection 
+ryan.galisewski@ag.ny.gov 
+Tel: (212) 416-8341 
+28 LIBERTY STREET, NEW YORK, NY 10005 • PHONE (212)416-8300 • FAX (212) 416-6003 • WWW.AG.NY.GOV
