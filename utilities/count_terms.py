@@ -134,14 +134,53 @@ def iter_company_documents(company_dir: Path, file_name: str) -> list[tuple[Path
     return documents
 
 
+def find_source_tracker(company_dir: Path) -> Path | None:
+    candidates = [
+        company_dir / f"{company_dir.name}_source_tracker.csv",
+        company_dir / "source_tracker.csv",
+    ]
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate
+    return None
+
+
+def load_source_origins(company_dir: Path) -> dict[str, str]:
+    tracker_path = find_source_tracker(company_dir)
+    if tracker_path is None:
+        return {}
+
+    with tracker_path.open("r", encoding="utf-8", newline="") as csv_file:
+        reader = csv.DictReader(csv_file)
+        if not reader.fieldnames:
+            return {}
+        required_fields = {"source_id", "source_origin"}
+        missing_fields = required_fields.difference(reader.fieldnames)
+        if missing_fields:
+            missing = ", ".join(sorted(missing_fields))
+            raise ValueError(f"Missing required field(s) in {tracker_path}: {missing}")
+
+        return {
+            row["source_id"]: row.get("source_origin", "")
+            for row in reader
+            if row.get("source_id")
+        }
+
+
 def write_counts(
     output_path: Path,
     company_dir: Path,
     patterns: list[tuple[str, re.Pattern[str]]],
     file_name: str,
+    *,
+    include_source_type: bool = False,
 ) -> int:
     documents = iter_company_documents(company_dir, file_name)
-    headers = ["source_id", *[term for term, _pattern in patterns]]
+    headers = ["source_id"]
+    source_origins = load_source_origins(company_dir) if include_source_type else {}
+    if include_source_type:
+        headers.append("source_type")
+    headers.extend(term for term, _pattern in patterns)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as csv_file:
@@ -153,6 +192,11 @@ def write_counts(
             writer.writerow(
                 {
                     "source_id": source_dir.name,
+                    **(
+                        {"source_type": source_origins.get(source_dir.name, "")}
+                        if include_source_type
+                        else {}
+                    ),
                     **counts,
                 }
             )
@@ -171,7 +215,13 @@ def main() -> int:
             args.statement_output
             or company_dir / f"{company_dir.name}_statement_term_counts.csv"
         )
-        raw_row_count = write_counts(raw_output_path, company_dir, patterns, "raw.txt")
+        raw_row_count = write_counts(
+            raw_output_path,
+            company_dir,
+            patterns,
+            "raw.txt",
+            include_source_type=True,
+        )
         statement_row_count = write_counts(
             statement_output_path,
             company_dir,
