@@ -1,0 +1,3 @@
+The complaint contrasts JetBlue's public representations - e.g., that its "privacy commitments are fundamental to the way we run our business" - with alleged omissions in its privacy policy and cookie disclosures.
+
+Specifically, JetBlue allegedly does not disclose its use of specific data inputs - such as "IP address," "geo-location data," "pages visited," and "purchases and purchase history" - to inform pricing, or that it shares such data with third parties to develop pricing.

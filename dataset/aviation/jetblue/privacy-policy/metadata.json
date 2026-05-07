@@ -1,0 +1,14 @@
+{
+  "url": "https://www.jetblue.com/legal/privacy",
+  "title": "jetblue.com - Privacy Policy",
+  "industry": "aviation",
+  "company": "jetblue",
+  "page_name": "privacy-policy",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-07T16:49:49.620093+00:00",
+  "notes": "Original raw.html is the JetBlue client-side application shell and extracted only the page title. raw.txt was corrected on 2026-05-07 using the rendered JetBlue Airways Corporation privacy policy text exposed through JetBlue's investor-relations privacy-policy mirror at https://ir.jetblue.com/privacy-policy/."
+}
