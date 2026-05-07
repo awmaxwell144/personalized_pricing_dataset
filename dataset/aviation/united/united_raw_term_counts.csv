@@ -1,0 +1,7 @@
+source_id,source_type,\bsurveillance\b,\bdynamic\b,\balgorithmic\b,\b(?:AI|artificial intelligence)\b,\bpersonali[sz](?:e|ed|ing|ation)\b,\bindividuali[sz]ed\b,\bdemand[-\s]?driven\b,\bdemand\b,\bdifferential\b,\bcontinuous\b,\bdata[-\s]?driven\b,\breal[-\s]?time\b,\bpredatory\b,\boptimi[sz](?:e|ed|ing|ation)\b,\bcustomi[sz](?:e|ed|ing|ation)\b,\btarget(?:ed|ing)?\b
+do-airlines-charge-solo-travelers-more-some-deal-experts-says-yes-the-washington-post,third party,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+exclusive-us-airlines-are-quietly-hitting-solo-biz-travelers-with-higher-fares,third party,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+navan-enhances-direct-connection-with-united-airlines-as-tmc-introduces-nextgen-,third party with company statement,0,1,0,2,4,0,0,0,0,1,0,1,0,0,1,0
+sabre-testing-live-ndc-offers-with-united-airlines-and-beyond-ndc-agency-partners,third party with company statement,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+score-bonus-miles-register-now-for-uniteds-latest-mile-play-promotion-the-points,third party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+united-launches-airline-industrys-first-media-network-jun-7-2024,company,0,0,0,0,7,0,0,0,0,0,0,3,0,0,0,1
