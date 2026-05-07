@@ -1,0 +1,173 @@
+Frequently asked questions | Instacart Docs
+Skip to main content
+Instacart Docs
+Cross-platform
+Catalog
+Instacart Platform Portal
+Discounting Platform
+Storefronts
+In-Store Solutions
+Caper Cart
+FoodStorm Help Center
+Shopper App
+Ads
+Instacart Ads (for advertisers)
+Carrot Ads (for publishers)
+Instacart Data Hub
+Consumer Insights Portal
+Site Integrations
+Connect APIs
+FoodStorm APIs
+Shopping Widgets
+Marketplace Integrations
+Developer Platform API
+Glossary
+Support
+Search
+Instacart Docs
+Cross-platform
+Storefronts
+In-Store Solutions
+Ads
+Site Integrations
+Marketplace Integrations
+Glossary
+Support
+â Back to main menu
+Instacart Connect
+Explore user journeys
+Get started
+Fulfillment Guide
+Changelog
+Concepts
+Tutorials
+How to
+FAQ
+Transactions Guide
+Post-checkout Guide
+Sandbox Guide
+API Reference
+Fulfillment Guide
+FAQ
+On this page
+Frequently asked questions
+You might find answers to some of your questions here. If not, contact your Instacart representative.
+Store and catalog
+â
+Can I sell products through Connect that are not available in the Instacart catalog?
+â
+Yes. The product must exist at the store level, be enabled, and belong to an active department and aisle. To discuss how to send unavailable products, contact your Instacart representative.
+Can I sell alcoholic products? Is there a specific API for alcohol?
+â
+Yes. You call the same API endpoints whether or not a cart contains alcohol. Carts and orders with alcohol go through a compliance check to ensure the alcohol sale meets legal requirements in the region. Your Instacart Connect representative works with you to enable alcohol sales for your site. For more information, see
+Alcohol compliance
+.
+Can I sell over-the-counter medications?
+â
+Yes. Orders with over-the-counter medication go through a compliance check. For more information, see
+Over-the-counter medications
+.
+Can I sell prescription medications?
+â
+No. If you would like to offer this service, share your requirements with your Instacart Connect representative.
+Carts and orders
+â
+Can a customer change their store location while building their cart?
+â
+Yes, but all items in the cart will be shopped at one store location. If the item is not available at the store, the shopper suggests a replacement or refunds the item. After the order is created, the location can't be changed.
+Is there a limit on the number of items that a customer can have in an order?
+â
+There is no limit for pickup orders. There is a 250 limit for delivery orders, which includes all countable items. For example, a customer can have 250 units of the same product or 250 units of a mix of products. Be aware that large orders might result in increased latency or possible timeouts. As a best practice, check the limit while customers build their carts.
+In addition, if a shopper receives a large order that poses delivery issues, Instacart Customer Experience might contact the retailer about changes. For example, if the number of items exceeds the capacity of the shopper's vehicle, the order needs to be updated.
+How do I handle percentage tipping?
+â
+Percentage based tipping provides a good customer experience. Because Instacart Connect does not have access to order totals, we cannot support percentage tips natively. You can implement percentage tipping on the retailer site. Whenever the order total changes, the retailer platform calculates the tip amount based on the tip percentage and the current total. Update the tip amount by using
+Update an order
+or
+Update tip
+.
+Picking
+â
+Will the shopper always shop for the order at the requested store location?
+â
+For delivery orders, Instacart strongly encourages shoppers to shop at the requested store location. However, there is no guarantee that the shopper will do so.
+How are replacements and shopper-customer chat handled?
+â
+While picking an order, the shopper uses the Instacart Shopper app to suggest replacements and chat with the customer. The way that customers receive and respond to the messages depends on your implementation.
+You can offer one of the following approaches:
+SMS messaging via the customerâs phone number.
+An order status page with a replacement workflow and a chat window. This option automatically sends SMS messages as well. Customers can respond either from the chat window in the status page or from the SMS message.
+To support SMS messaging only, you must ask customers to opt-in to receiving the texts. For more information about messaging options, see
+Customer communications
+.
+To support an order status page, you can either request a retailer-branded order status page from Instacart Connect or build your own web application. In this scenario, customers are opted-in to SMS messaging automatically so that they can receive the link to the order status page. For more information about order status pages, see the
+Post-checkout Guide
+.
+Post-fulfillment support
+â
+How does the return process work?
+â
+Retailers are responsible for all returns and reconciliations. You might already have a return policy and process in your organization that can be extended to orders that were placed through Instacart Connect.
+What happens if groceries are damaged or missing?
+â
+The process depends on your needs and can be created with your Instacart Connect representative. For example, you might implement a process where the customer calls the retailer's customer service to report the issue. The retailer customer service representative arranges a refund if necessary and creates a new order with the replacement items. The new order is batched as usual.
+When are orders automatically rescheduled?
+â
+The Fulfillment service reschedules orders automatically in the following types of circumstances:
+Supply related reasons, such as no alcohol shopper is available in the customer area
+Operations-related reasons, such as the store is unexpectedly closed
+The retailer site receives a
+Rescheduled callback event
+with the new delivery time. Customers receive a
+Delivery rescheduled notification
+. Instacart Customer Experience specialists can also reschedule orders on request.
+Does Instacart re-batch undelivered orders?
+â
+No. The customer contacts the retailer's customer service. The customer service representative cancels the order, refunds the customer if necessary, and creates a new order.
+Can I use Instacart Connect to prompt customers to rate the service they received?
+â
+Yes. You can prompt your customers to provide feedback about their fulfillment experience. For more information, see
+Order feedback
+.
+Loadingâ¦
+Ë
+Last updated
+on
+Apr 29, 2026
+Previous
+Verify Instacart+ membership
+Next
+Overview
+Store and catalog
+Can I sell products through Connect that are not available in the Instacart catalog?
+Can I sell alcoholic products? Is there a specific API for alcohol?
+Can I sell over-the-counter medications?
+Can I sell prescription medications?
+Carts and orders
+Can a customer change their store location while building their cart?
+Is there a limit on the number of items that a customer can have in an order?
+How do I handle percentage tipping?
+Picking
+Will the shopper always shop for the order at the requested store location?
+How are replacements and shopper-customer chat handled?
+Post-fulfillment support
+How does the return process work?
+What happens if groceries are damaged or missing?
+When are orders automatically rescheduled?
+Does Instacart re-batch undelivered orders?
+Can I use Instacart Connect to prompt customers to rate the service they received?
+Instacart
+Instacart.com
+Press
+Blog
+Retailers
+Instacart Platform Portal
+Enterprise Service Desk
+Instacart Platform Status
+Engineers
+Building at Instacart
+Careers for Engineers
+Legal
+Privacy Policy
+Terms of Service
+Copyright Â© 2026 Instacart. Site version: 4008e01cd680b4c7e94a5cc9de8d2346f1c58965
