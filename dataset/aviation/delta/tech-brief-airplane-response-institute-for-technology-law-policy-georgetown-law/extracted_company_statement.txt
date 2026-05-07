@@ -1,0 +1,17 @@
+Last week, Delta told lawmakers:
+
+"There is no fare product Delta has ever used, is testing or plans to use that targets customers with individualized prices based on personal data. . . . [O]ur ticket pricing never takes into account personal data. . . . [C]ustomers are not required to sign in on delta.com or the app to shop and compare prices."
+
+In December 2023, Delta President Glen Hauenstein told investors that the carrier's AI price-setting technology is capable of setting fares based on a prediction of "the amount people are willing to pay for the premium products related to the base fares."
+
+Delta said that "by the end of [2025] it wants to use AI to set 20% of all fares," according to an NPR report.
+
+During an investor day last year, Hauenstein further described Delta's algorithmic pricing capability:
+
+"We will have a price that's available on that flight, on that time, to you, the individual."
+
+Fetcherr is the AI pricing company that partners with Delta Airlines -- along with other airlines including Azul, Royal Air Maroc, Virgin Atlantic, Viva Aerobus, and WestJet. "We've been training our engine, using all the data we can get our hands on," Roy Cohen, Fetcherr's CEO said.
+
+Fetcherr also described individualized pricing as using "factors like customer lifetime value, past purchase behaviors, and the real-time context of each booking inquiry," which "all contribute to creating a truly personalized offer."
+
+Senators sent a letter to Delta pressing for details, and Delta responded with a letter claiming that it doesn't use "personal data" in setting individualized prices -- but it also hasn't said what data it does use or the extent to which pricing may differ across individual customers.

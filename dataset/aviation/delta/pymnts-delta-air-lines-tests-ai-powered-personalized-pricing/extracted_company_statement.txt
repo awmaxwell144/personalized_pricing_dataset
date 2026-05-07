@@ -1,0 +1,19 @@
+The system, developed in partnership with Israeli startup Fetcherr, is already being used on 3% of Delta's flights, with plans to expand it to 20% by the end of the year, according to the company.
+
+"While we're still in the test phase, results are encouraging," said Delta CEO Ed Bastian during the company's second-quarter earnings call.
+
+"We will have a price that's available on that flight, on that time, to you, the individual. Not a machine that's doing an accept reject and a static price grid," Hauenstein said.
+
+He called the AI a "super analyst" and results have been "amazingly favorable unit revenues."
+
+Delta seeks to gain a "first-mover advantage," Hauenstein added. "We do believe that we are ahead of our competitors in terms of implementing this and in changing our business processes and rules around it."
+
+Ultimately, this is "a full reengineering of how we price -- and how we will be pricing in the future," Hauenstein said.
+
+A Delta spokesperson told PYMNTS: "There is no fare product Delta has ever used, is testing, or plans to use that targets customers with individualized offers based on personal information or otherwise."
+
+"A variety of market forces drive the dynamic pricing model that's been used in the global industry for decades, with new tech simply streamlining this process. Delta always complies with regulations around pricing and disclosures," the spokesperson added.
+
+But Delta's Hauenstein said the airline will proceed with care.
+
+"We're all in on this," he said. "We're very excited about it, but we want to be really smart about it because it could also be very dangerous, if it's not controlled and it's not done correctly."

@@ -1,0 +1,16 @@
+\bsurveillance\b
+\bdynamic\b
+\balgorithmic\b
+\b(?:AI|artificial intelligence)\b
+\bpersonali[sz](?:e|ed|ing|ation)\b
+\bindividuali[sz]ed\b
+\bdemand[-\s]?driven\b
+\bdemand\b
+\bdifferential\b
+\bcontinuous\b
+\bdata[-\s]?driven\b
+\breal[-\s]?time\b
+\bpredatory\b
+\boptimi[sz](?:e|ed|ing|ation)\b
+\bcustomi[sz](?:e|ed|ing|ation)\b
+\btarget(?:ed|ing)?\b

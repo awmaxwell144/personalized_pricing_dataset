@@ -1,0 +1,3 @@
+When the airline Delta appeared last month to tell shareholders that it would begin to use artificial intelligence to help determine domestic fares, the reaction from some lawmakers and the public was swift -- and negative, leading the company to reassure consumers that it would not deploy AI to create personalized flight prices.
+
+But the company -- like other American carriers -- has long used generalized data to determine the cost of its flights, with prices fluctuating based on factors like demand, time of year, and the weather, says Noah Giansiracusa, a mathematician and visiting scholar at the Institute for Rebooting Social Media, part of the Berkman Klein Center for Internet & Society at Harvard.

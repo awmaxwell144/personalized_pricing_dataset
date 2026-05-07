@@ -24,7 +24,12 @@ Each company should have its own `source_tracker.csv`. The tracker is meant to g
 | `publication_date` | Date the source was published, posted, filed, released, or last updated. |
 | `access_date` | Date you accessed or saved the source. |
 | `pricing_terms_used` | Exact pricing-related terms used in the source, such as `dynamic pricing`, `personalized pricing`, `AI pricing`, `surveillance pricing`, or `personalized discounts` etc. |
+| `information_tracked` | Types of information the source claims the company bases prices on, listed in quotes, e.g. `"purchase history, browsing behavior, geolocation, device type"`. Use `"none stated"` if the source does not identify any data inputs. |
 | `company_position` | The company's stance, if present: for example, `admits`, `denies`, `clarifies/qualifies`, `no response`, `third-party allegation`, or `unclear`. |
 | `summary` | Concise but informative summary of the source and how it discusses the company's pricing practices. Include enough detail to understand the source's main point, the pricing practice or allegation at issue, relevant data or AI claims, and any company response or legal/policy context. Keep it to a few sentences.|
-| `key_excerpts` |  Useful excerpt or excerpts that capture the source's main claim, framing, or evidence. |
+| `key_excerpts` |  Useful/Interesting excerpt or excerpts that capture the source's main claim, framing, or evidence. |
  
+## Extract Company Comments/Statements
+For every source categorized as "third party with company statement":
+- in the source directory, create `extracted_company_statement.txt`
+- go through the full article text file and extract and sentences/quotes that are conveying the company's position or official statements
