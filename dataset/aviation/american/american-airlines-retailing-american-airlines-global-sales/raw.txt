@@ -1,0 +1,329 @@
+American Airlines Retailing – American Airlines Global Sales
+Business travel programs
+AAdvantage Business™
+Business travel services
+Corporate Experience
+Agency support
+Status match
+Group & Meeting Travel
+Group fares
+Retailing
+New Distribution Capability
+Loyalty
+Join AAdvantage®
+Learn about AAdvantage®
+AAdvantage® credit cards
+Sustainability
+2024 Report
+2023 Report
+2022 Report
+American Airlines Retailing
+Inspiring the future of airline retailing through modern and tailored experiences
+American Airlines leads the travel industry with a customer-centric focus through modern retailing offers and seamless experiences.
+In the past, customers who booked travel through third-party distribution partners may have had subpar booking and travel management experiences with limited access to fares and packages.
+Today, American’s journey to modern retailing gives customers access to Enhanced content and functionality enabled by New Distribution Capability (NDC). These enhancements simplify the customer experience by enabling us to distribute products in new ways and provide more relevant, tailored offers to our customers. The International Air Transportation Association (IATA) designated American Airlines with Airline Retailing Maturity (ARM) status based on our retailing capabilities, partnerships development and value capture.
+News and updatesBenefitsEnhanced contentConnection and Implementation optionsNDC API featuresApproved Technology partnersFAQs
+Working together with our industry partners
+News and updates
+Accelya and American Airlines look to boost NDC adoption with breakthrough ticket exchange solution
+May 31, 2023 0
+Taking the long view of American Airlines’ NDC strategy
+April 12, 2023 0
+Op Ed: Mike McCormick On Misconceptions, Trends And The Canary In The Coal Mine
+April 4, 2023
+Op-Ed: American Airlines NDC Works for Corp. Agencies and Clients
+April 4, 2023 0
+Neil Geurin, American Airlines Managing Director of Airline Retailing | Business Travel News
+December 9, 2022 0
+October 24, 2022
+October 24, 2022
+A Modern Retailing Experience: American Airlines Signs New Agreements With All Three Major Global Distribution Systems
+Do you like it?
+Read more
+September 8, 2022
+September 8, 2022
+Spotnana and American Airlines Personalize Travel Offers
+Do you like it?
+Read more
+April 12, 2022
+April 12, 2022
+American Airlines and Expedia Group Offer Travelers More Choice via Scalable Direct NDC Connection
+Do you like it?
+Read more
+March 8, 2022
+March 8, 2022
+American Airlines Names Scott Laurence Senior Vice President of Partnership Strategy
+Do you like it?
+Read more
+May 20, 2021
+May 20, 2021
+A conversation with AmericanAirlines: The NDC Journey
+Do you like it?
+Read more
+February 23, 2021
+February 23, 2021
+American Airlines Makes It Easier for Customers to Choose Their Travel Experience
+Do you like it?
+Read more
+July 15, 2020
+July 15, 2020
+Ramping up the traveler experience across channels: American Airlines talks NDC
+Do you like it?
+Read more
+October 10, 2019
+October 10, 2019
+American Airlines and NDC: Driving new customer experiences at scale
+Do you like it?
+Read more
+Modern retailing benefits for travel agency and corporate partners
+Access to American’s best available third-party public channel content
+Improved shopping and booking experiences
+Rich content merchandizing
+Centralized access to American's comprehensive seat map and other ancillary products
+Relevant shopping results tailored to AAdvantage® membership benefits
+Advanced functionalities and servicing features
+Enhanced content
+Connection & implementation options
+TRAVEL AGENCIES
+CORPORATES
+Travel agency connection & implementation options
+American has worked closely with major technology partners to provide you access to our modern retailing ecosystem. We're committed to delivering modern retailing experiences to elevate your travel journey.
+This is how you can get connected:
+Via GDS/NDC Aggregator
+NDC Aggregators are third-party technology companies such as Global Distribution Systems (GDSs), Travel Management Companies (TMCs) or Online Booking Tools (OBTs) specializing in NDC integrations with American and other airlines. Tickets issued via this connection option are issued on neutral ticket stock.
+Recommended for travel agencies, preferring an off-the-shelf solution that doesn't require IT resource deployment for integration.
+View our approved technology partners.
+Via Travel Agency Direct Connect
+Travel Agency Direct Connect allows travel agencies to connect directly to our API. This connection type requires an ARC/IATA accredited agency for ticketing and these tickets are issued on neutral ticket stock.
+Recommended for large travel agencies, TMCs and technology providers with IT resources available to complete integration and preferring to manage the technology. Integration projects are expected to take between 3-6 months to complete, but may vary depending on business needs.
+Our dedicated team offers project roadmap and production support as well as assistance for other integration queries and needs.
+Please fill out our contact form to get started.
+Corporate connection & implementation options
+American has worked closely with major technology partners to provide you access to our modern retailing ecosystem. We are committed to delivering modern retailing experiences to elevate your travel journey.
+This is how you can get connected:
+Via GDS/NDC Aggregator
+NDC Aggregators are third-party technology companies such as Global Distribution Systems (GDS), Travel Management Companies (TMC) or Online Booking Tools (OBT) specializing in NDC integrations with American and other airlines. Tickets issued via this connection option are issued on neutral ticket stock.
+Recommended for corporations utilizing a travel agency and preferring an off-the-shelf solution that doesn’t require IT resource deployment for integration.
+View American’s approved technology partners »
+Via Direct Booking
+Direct Booking is the fastest solution, enabling access to NDC content for corporations or small-medium-sized businesses.
+Implementation is not required; however, NDC-enabled booking tool adoption may be necessary.
+Direct Booking tickets are issued on American Airlines ticket stock and American will become the Agency of Record for all ticketing and servicing inquiries.
+American's NDC API Features
+American's NDC API Functionality
+Frequently used functionalities
+Shopping
+Shop for fares such as one-way, round trip, multi-city and stopover
+Up to 9 passengers are supported with multiple passenger types
+Shop for all fares in a particular cabin including all branded fares and ancillaries
+Shop for public and private fares (including corporate fares)
+Ability to search with +/- 3-day window
+Search responses will include loyalty recognition, interline fares, mini fare rules
+Ticketing time limit applies based on fare rules
+Pricing and Upsell
+Ability to price upsell offers (e.g., from the lowest fare brand to a higher fare brand)
+Create and Display
+Create new orders and display orders
+Fulfillment
+Defer payment up to ticketing time limit
+Ability to ticket the order immediately
+Payment
+Accept form of payment such as cash, credit cards (American Express/Optima, Debit Card with Credit Card Logo, Diners Club, Discover Card, JCB, Mastercard, UATP, VISA)
+Ability to use multiple forms of payment (e.g., cash payment on a fare and credit card payment on an ancillary)
+3D Secure (3DS) supported
+Settlement / Reporting
+ARC/BSP settlement and reporting supported in major Points-of-Sale (PoS)
+Seats
+Loyalty recognition for American’s AAdvantage® program and partner loyalty programs
+Paid* and free seat selection (pre and post booking)
+Ancillaries
+Day of departure upgrades*
+Confirmed Flight Change on day of departure*
+Pre-ordered meals including dietary requests*
+Carbon offsets via Cool Effect®
+Purchase paid seats*
+Miscellaneous
+Automated Upfront Commissions available via AirShopping, OfferPriceRS & OrderViewRS by journey †
+* Applicable on American Airlines operated flights.
+† Applicable to Travel Agencies on a select programs with American Airlines
+American's NDC API Functionality – Servicing
+Frequently used servicing functionalities
+GDS EDIFACT
+American's NDC API
+Servicing –
+Order cancellations
+Ability to cancel an Order (PNR)
+Cancel Order (PNR) prior to document issuance
+Void and cancel an Order (PNR) after document issuance
+Refund and cancel an Order (PNR) after document issuance
+Servicing –
+Miscellaneous
+Add or update passenger details in an Order (email, phone, corporate identifier, loyalty number)
+Ability to divide Order (split PNR)
+Paid and free seat selection, recognition of loyalty status (pre and post air segment document issuance)*
+Only free seat selection available‡
+PNR Queues are supported†
+Add SSRs (wheelchairs, special meals, etc.)
+Servicing –
+Exchanges
+Change of itinerary in an existing Order
+Change of itinerary for a new Order using Flight Credits (using unused or partially used tickets)
+Even exchange
+Exchange with a additional collection
+Exchange resulting in a residual value
+Exchange an EDIFACT issued ticket for an NDC Order
+Exchange an NDC Order to an EDIFACT issued ticket
+Ability to apply Name Change waiver
+Dynamically apply a Travel Notice waiver without travel agency input
+Servicing –
+Schedule Changes
+Travel seller to receive Schedule Change Notifications in real-time. Orders will be automatically updated
+N/A
+Ability to apply Schedule Change (SKCHG) waiver†
+* Applicable on American Airlines operated flights.
+† Applicable on American Airlines operated flights; availability on partner flights is dependent on the functionality developed by that carrier.
+‡ Availability dependent on GDS partner.
+American's NDC connection approved technology partners
+Please contact the technology partner directly if you are interested in their offerings.
+Please see our partner functionality comparison chart to compare the functionality that each partner has developed.
+View now
+Provider
+Contact
+Regions supported
+aarongroup.net
+Ondrej Volrab
+volrab@aarongroup.net
+East, Central, Northern and Southern Europe
+airgateway.com
+Jorge Diaz
+operations@airgateway.com
+Global
+airtimeconnect.com
+support@airtimeconnect.com
+Global
+amadeus.com/en/topic/ndc-new-distribution-capability
+Global
+useargo.com
+Produtos@useargo.com
+Brazil, Latin America
+atriis.com
+support@atriis.zendesk.com
+Global
+claritytts.com
+Global
+duffel.com
+hello@duffelhq.com
+Global
+easylinkz.com/en
+super@easylinkz.com
+Global
+farenexus.com
+Farenexus sales
+contact@farenexus.com
+Global
+ideasfractal.com
+Ariulfo Sanchez
+ariulfo.sanchez@ideasfractal.com
+Latin America
+lleego.com
+Aurelio Oliva
+support@lleego.com
+Global
+mystifly.com
+ndc@mystifly.com
+Global
+Ximena Rivas
+ximena.rivas@netviax.com
+Alejandro Acosta
+alejandro.acosta@netviax.com
+Global
+pkfare.com
+Mainland China, Hong Kong, Macao, Taiwan, Asia Pacific, North America, Middle East
+pratra.com
+ndc@pratra.com
+Global
+reserve.com.br
+Tiago Quintanilha
+Tiago.Quintanilha@reserve.com.br
+Global
+sabre.com/insights/ndc/
+Global
+skywide.tech
+Christopher Cheng
+chris@skywide.tech
+Asia
+spotnana.com
+hello@spotnana.com
+Global
+thomalex.com
+info@thomalex.com
+Global
+tpconnects.com
+Maeneth Vergara
+maeneth@tpconnects.com
+Global
+corporate.travelfusion.com
+accounts@travelfusion.com
+Global
+travelport.com/theme/ndc
+Global
+中国民航信息集团 (travelsky.cn)
+aggskysupport@travelsky.com
+Global
+tripstack.com
+sales@tripstack.com
+Global
+twai.com
+N/A
+verteil.com
+Jerrin Jos
+jerrin.jos@verteil.com
+India, Japan, Asia Pacific, EMEA
+wooba.tur.br
+airlines@wooba.com.br
+Brazil, Latin America, North America, Europe
+ypsilon.net
+farelogix@ypsilon.net
+Global
+Interested in learning more?
+Contact us
+Have questions? Please review our frequently asked questions
+FAQs
+Contact American
+Receipts and refunds
+FAQs
+SalesLink
+American Airlines Cargo
+Bag and optional fees
+Customer service and contingency plans
+Conditions of carriage
+About us
+Careers
+Investor relations
+Newsroom
+Legal, privacy, copyright
+Combating human trafficking
+Browser compatibility
+Web accessibility
+Business travel services
+Gift cards
+Trip insurance
+UATP
+Charters
+©2026 American Airlines, Inc. All rights reserved.
+SalesLink Services
+SalesLink Insights
+Global Sales
+and Distribution
+Business travel programs
+AAdvantage Business™ >
+Business travel services
+Corporate Experience >Agency support >Status match >
+Group & Meeting Travel
+Group fares >
+Retailing
+New Distribution Capability >
+Loyalty
+Join AAdvantage® >Learn about AAdvantage® >AAdvantage® credit cards >
+Sustainability
+2024 Report >2023 Report >2022 Report >

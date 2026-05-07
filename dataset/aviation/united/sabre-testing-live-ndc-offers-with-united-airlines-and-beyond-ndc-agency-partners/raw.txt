@@ -1,0 +1,61 @@
+Sabre testing live NDC offers with United Airlines and Beyond NDC Agency Partners « Sabre
+Skip to main navigation
+Sabre
+Overview
+Financials & Filings
+Financial Information
+SEC Filings
+Annual Reports and Proxies
+Quarterly Results
+Key Ratios
+IRS FORM 8937
+Events & Presentations
+Governance
+Corporate Governance
+Executive Leadership
+Sustainability
+Board of Directors
+Committee Composition
+Contact the Board
+Resources
+Stock Information
+Historic Stock Lookup
+Analyst Coverage
+Investment Calculator
+Transfer Agent
+Press Releases
+Subscribe
+Search for...
+Search
+Get in touch
+Release Details
+Sabre testing live NDC offers with United Airlines and Beyond NDC Agency Partners
+04/02/2019
+PDF Version
+SOUTHLAKE, Texas, April 2, 2019 /PRNewswire/ -- Sabre Corporation (NASDAQ: SABR), the leading technology company serving the global travel industry, announced today it has released its first set of New Distribution Capability (NDC) APIs with launch carrier, United Airlines. Sabre's Beyond NDC agency partners are using these capabilities to enable live NDC bookings and provide customers with a more robust shopping experience.
+Sabre launched its NDC-enabled shopping, booking and fulfillment capability with United Airlines for flights across the airline's global network. United is the first major airline to launch with Sabre's NDC capabilities. Sabre's advanced shopping API integrates and normalizes air content from all sources, including traditional, low cost carrier and NDC offers.
+This development is a significant step forward for the travel industry, because it advances a pan-industry vision and moves NDC closer to becoming an everyday reality for travelers, carriers, agencies, corporations and more. Sabre's NDC solutions will allow United to offer new fare options and additional flight amenities for a more comprehensive shopping experience for customers who choose to book through Sabre.
+"United is thrilled to be the first airline to partner with Sabre to offer NDC capabilities through their booking platform as we continue to advance the travel industry," said Dave Bartels, vice president of revenue management for United Airlines. "We strive to provide the best experience for our customers at each step of their travel journey, including when they shop for flights. Working with Sabre to improve the booking process is another way we are able to enhance the experience for our customers."
+"Sabre remains committed to releasing scalable, NDC-enabled offerings that support end-to-end workflows and integrated content," said Kathy Morgan, vice president of NDC for Sabre. "This new NDC-enabled world we are bringing to life requires close collaboration and a common vision with entities from every corner of the industry. Working with United and all of our Beyond NDC partners to deliver integrated NDC content is the result of the great collaboration we are proud to have led over the last 18 months."
+Sabre is working diligently with all its Beyond NDC airline partners to integrate their NDC content this year. It will also release additional capabilities throughout 2019, including integration into its agent desktop workspace, Sabre Red 360. As part of its development plan, Sabre is considering the needs of multiple stakeholders in the travel ecosystem, including airlines, agencies, corporations and travelers. Sabre's holistic approach goes beyond shopping and will include important agency processes, such as invoicing/itinerary activities, mid- and back-office workflows and duty of care considerations.
+"NDC is an important component of a wide-ranging evolution in air content distribution. Testing Sabre's NDC-enabled shopping APIs and working with United to find ways to bring incremental value to clients while maintaining or enhancing full end-to-end capabilities is fundamental to preparing for a successful future," said John Bukowski, director of distribution for American Express Global Business Travel. "Access to NDC content, alongside other new and existing content, would allow us to expand what we offer travelers in a scalable way. Modern business travelers have specific expectations: they want access to all content and they want to know they're getting the best personalized fares and servicing in an omnichannel environment. This is why our collaboration with Sabre and United, which is entirely focused on value creation, is so important in driving the industry forward."
+Per the International Air Transport Association (IATA), Sabre is NDC Level 3 Certified (Offer and Order Management) as an Aggregator. As an IT Provider, Sabre is designated as NDC Level 3 Capable (Offer and Order Management). Achieving NDC Level 3 designation was a key step in Sabre's NDC strategy and it reinforces its role in airline retailing, driving success for both suppliers and buyers of air travel.
+About Sabre Corporation
+Sabre Corporation is the leading technology provider to the global travel industry. Sabre's software, data, mobile and distribution solutions are used by hundreds of airlines and thousands of hotel properties to manage critical operations, including passenger and guest reservations, revenue management, flight, network and crew management. Sabre also operates a leading global travel marketplace, which processes more than US$120 billion of global travel spend annually by connecting travel buyers and suppliers. Headquartered in Southlake, Texas, USA, Sabre serves customers in more than 160 countries around the world.
+SABR-F
+Media Contact:
+Heidi Castle, Sabre
+Heidi.Castle@sabre.com
+Investor Contact:
+sabre.investorrelations@sabre.com
+View original content to download multimedia:http://www.prnewswire.com/news-releases/sabre-testing-live-ndc-offers-with-united-airlines-and-beyond-ndc-agency-partners-300822536.html
+SOURCE Sabre Corporation
+About
+Careers
+News & Insights
+Investor Relations
+Contact
+Privacy
+Cookies
+Trademark
+© 2003-2026 Sabre

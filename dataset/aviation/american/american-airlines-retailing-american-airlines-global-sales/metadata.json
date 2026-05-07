@@ -1,0 +1,24 @@
+{
+  "url": "https://www.exploreamerican.com/globalsales/ndc-overview/",
+  "title": "American Airlines Retailing - American Airlines Global Sales",
+  "industry": "aviation",
+  "company": "american",
+  "page_name": "american-airlines-retailing-american-airlines-global-sales",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-07T15:53:01Z",
+  "scraped_by": "",
+  "notes": "Generated from local saved HTML file: American Airlines Retailing – American Airlines Global Sales.html",
+  "tags": [
+    "retailing",
+    "NDC",
+    "global sales",
+    "distribution"
+  ],
+  "language": "en-US",
+  "access_date": "2026-05-07",
+  "status": "complete"
+}
