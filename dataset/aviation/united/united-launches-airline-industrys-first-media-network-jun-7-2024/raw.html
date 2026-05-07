@@ -1,0 +1,389 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw=="></script>
+<script type="text/javascript" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw==">webDriver.push_jQuery();</script>
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:site style" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw==">/*
+{assets_div}*/
+
+.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}</style>
+<script type="text/javascript" nonce="OTY1NTk0ZTI5NzY5YzNmNjVjYTA5OGYwNjkxYmY3ZDk1MWJlMGVkNw==">webDriver.pop_jQuery();</script>
+
+<!-- end spin_special_output(head_start) -->
+
+    <title>United Launches Airline Industry's First Media Network - Jun 7, 2024</title>
+<script>
+(function () {
+        var s = document.createElement('script');
+        s.src = 'https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js';
+        s.setAttribute('data-tenant-uuid', '31270bbd-6025-4430-a211-12fb9c5112dd');
+        s.setAttribute('data-domain-uuid', '0a35e887-e1e6-4152-a7b2-958317993ad5');
+        s.setAttribute('data-backend-url', 'https://app.securiti.ai');
+        s.setAttribute('data-skip-css', 'false');
+        s.defer = true;
+        var parent_node = document.head || document.body;
+        parent_node.appendChild(s);
+})()
+</script> 
+<script type="text/javascript" src="https://cdn-prod.securiti.ai/consent/auto_blocking/31270bbd-6025-4430-a211-12fb9c5112dd/0a35e887-e1e6-4152-a7b2-958317993ad5.js"></script> 
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="United Launches Airline Industry's First Media Network" />
+ <meta name="twitter:description" content="Kinective Media by United Airlines is the only media network that uses insights from travel behaviors to connect customers to personalized advertising, experiences and offers from leading brands..." />
+ <meta name="twitter:image" content="https://mma.prnewswire.com/media/2432746/Kinective.jpg?p=twitter" />
+ <meta property="og:site_name" content="United - Newsroom" />
+ <meta property="og:url" content="https://united.mediaroom.com/2024-06-07-United-Launches-Airline-Industrys-First-Media-Network" />
+ <meta property="og:title" content="United Launches Airline Industry's First Media Network" />
+ <meta property="og:description" content="Kinective Media by United Airlines is the only media network that uses insights from travel behaviors to connect customers to personalized advertising, experiences and offers from leading brands..." />
+ <meta name="image" property="og:image" content="https://mma.prnewswire.com/media/2432746/Kinective.jpg?p=facebook" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/wdcontent.css"/>
+	<style type="text/css">
+		body {
+			font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			line-height: 1.4;
+		}
+
+		a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 5px 0;
+		}
+
+		h1, h2, h3 {
+			font-weight: normal;
+		}
+
+		h1 {
+			font-size: 2.6em;
+		}
+
+		h2 {
+			font-size: 2.3em;
+		}
+
+		h3 {
+			font-size: 2.1em;
+		}
+
+		h4 {
+			font-size: 1.8em;
+		}
+
+		h5 {
+			font-size: 1.4em;
+		}
+
+		h6 {
+			font-size: 1.1em;
+		}
+	</style>
+
+	
+    <link rel="alternate" href="https://united.mediaroom.com/news-releases?pagetemplate=rss" type="application/rss+xml" title="United - Newsroom">		  
+
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://united.mediaroom.com/2024-06-07-United-Launches-Airline-Industrys-First-Media-Network" />
+<!-- end spin_special_output(head_end) -->
+</head>
+<body class="wd_pageid_20295 wd_item_page wd_item_125335">
+<header id="wd_header_blue">
+	<div class="wd_container" >
+		<a href="#" class="wd_main_logo">
+			<img src="images/white_logo.png" alt="United Logo">
+		</a>
+	</div>
+</header>
+	<div class="content ">
+
+	<div class="wd_container">
+	<div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+
+<h1>United Launches Airline Industry's First Media Network</h1>
+
+<p class="wd_date">June 07, 2024</p>
+
+
+			<div class="wd_captioned_image" style="float: left;  margin: 10px 10px 10px 0px; width: 1225px;">
+				<div class="wd_image"><img src="/image/Kinective_EndorserLogo_MediaByUAL_Blue_RGB.jpg" border="0"/></div>
+				
+			</div>
+		
+
+			
+		
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+.prntac{
+TEXT-ALIGN: CENTER
+}
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://united.mediaroom.com/2024-06-07-United-Launches-Airline-Industrys-First-Media-Network?printable=1"><p class="prntac"><i>Kinective Media by United Airlines is the only media network that uses insights from travel behaviors to connect customers to personalized advertising, experiences and offers from leading brands</i></p>
+
+<p class="prntac"><i>Advertising technology platform uses United&#39;s data to create anonymized audience segments that marketers can reach on the airline&#39;s mobile app, inflight entertainment screens and more</i></p>
+
+<p class="prntac"><i>United is already working with dozens of global brands and agencies including </i><i>Norwegian Cruise Line, Macy&#39;s, Chase United Co-Brand Credit Cards, TelevisaUnivision, IHG Hotels &amp; Resorts and Dentsu</i></p>
+
+<p class="prntac"><i>Commercial launch planned at </i><i>Cannes Lions International Festival of Creativity</i></p>
+
+<p><span class="legendSpanClass"><span class="xn-location">CHICAGO</span></span>, <span class="legendSpanClass"><span class="xn-chron">June 7, 2024</span></span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- United Airlines today announced the launch of&nbsp;<a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=4018703104&amp;u=http%3A%2F%2Fkinectivemedia.com%2F&amp;a=Kinective+Media+by+United+Airlines" rel="nofollow" target="_blank">Kinective Media by United Airlines</a> - the first media network that uses insights from travel behaviors to connect customers to personalized, real-time advertising, content, experiences and offers from leading brands.</p>
+
+<p>The new technology platform gives marketers the opportunity to scale their reach across a wide range of channels including United&#39;s award-winning mobile app and inflight entertainment screens. And the airline expects its MileagePlus&reg; members will receive additional value through more personalized and real-time offers and experiences that drive even greater loyalty.</p>
+
+<p>Kinective Media is already working with brands such as Norwegian Cruise Line, Macy&#39;s, Chase United Co-Brand Credit Cards, TelevisaUnivision, IHG Hotels &amp; Resorts,&nbsp;as well as agency groups like Dentsu. The focus is on premium brand relationships across key verticals such as retail, luxury goods, financial services, automotive, media brands and travel.</p>
+
+<p>Kinective Media plans a&nbsp;formal commercial launch at the Cannes Lions International Festival of Creativity.</p>
+
+<p>&quot;We&#39;ve built a first-of-its-kind, real-time, adtech-enabled traveler media network where brands have already started connecting to premium audiences at an unmatched scale,&quot; said <span class="xn-person">Richard Nunn</span>, CEO of MileagePlus. &quot;Unlike some commerce media platforms, United gives brands across a wide range of industries the ability to reach engaged customers throughout the entire marketing funnel &ndash; from brand consideration to conversion &ndash; in a way that&#39;s highly personalized and relevant, and we&#39;re already seeing impressive results. There has been a huge strategic shift within this high growth sector in the past five years where advertisers and brands have come together to determine how best to connect with consumers in a way that&#39;s valuable, effective and personalized.&quot;</p>
+
+<p>Kinective Media aims to enhance the travel experience while growing the trust that travelers place in United. Advertisers cannot access the personally identifiable information of United customers - instead, Kinective Media leverages the insights of U.S. customers aged 18 and over to create aggregated and anonymized audience segments that it offers to Kinective Media advertisers. All U.S. customers have the option to <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=1734990880&amp;u=https%3A%2F%2Funiteddigital.iad1.qualtrics.com%2Fjfe%2Fform%2FSV_88OQmAbr20oeHn8&amp;a=opt-out+of+Kinective+Media+targeted+advertising+at+any+time" rel="nofollow" target="_blank">opt-out of Kinective Media targeted advertising at any time</a>.</p>
+
+<p class="prntac"><b>United&#39;s Mobile App and Inflight Entertainment Screens</b></p>
+
+<p>Kinective Media partners can scale their content through two of United&#39;s most impactful media channels, among others: its award-winning mobile app and the growing number of inflight entertainment screens across the airline&#39;s fleet, which are among the most addressable media assets in the industry.</p>
+
+<ul type="disc">
+	<li><b>The United Mobile App</b> &ndash; United has the world&#39;s most downloaded airline mobile app, with 110+ million total downloads across IOS &amp; Android and nearly 100 million sessions per month.<br />
+	&nbsp;</li>
+	<li>United continually seeks to add new, industry-first features to help travelers save time and make the travel experience even easier including the ability to automatically switch from a middle seat to a window or aisle if it becomes available by choosing a seat preference in the seat map, and live personalized <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=1590018288&amp;u=https%3A%2F%2Fwww.united.com%2Fen%2Fus%2Ffly%2Ftravel-experience%2Funited-app.html&amp;a=flight+notifications" rel="nofollow" target="_blank">flight notifications</a> with Live Activities for iPhone.<br />
+	&nbsp;</li>
+	<li><b>Seatback Entertainment</b> &ndash; United has nearly 100,000 seatback screens across its fleet, with plans to grow these numbers as the airline takes delivery of new airplanes and retrofits existing aircraft as part of its <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=3253610353&amp;u=https%3A%2F%2Fwww.united.com%2Fen%2Fus%2Ffly%2Fnew-united-fleet-experience.html&amp;a=United+Next" rel="nofollow" target="_blank">United Next</a> plan.<br />
+	<br />
+	There is the potential for 3.5 hours of attention per traveler, based on average flight time. United&#39;s seatback screen content &ndash; which is also available on customer&#39;s personal devices &ndash;includes free access to more than 2,800 movies and shows, as well as a new 3D moving map, personalized connecting gate information and digitized food and drink menus. The inflight content is available in more than 20 different languages.<br />
+	<br />
+	The new United signature interiors include 16-inch HD touch screens in each <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=2160482227&amp;u=https%3A%2F%2Fwww.united.com%2Fen%2Fus%2Ffly%2Ftravel%2Finflight%2Fpolaris.html&amp;a=United+Polaris" rel="nofollow" target="_blank">United Polaris</a>&reg; business class seat, 13-inch screens in every first class seat and 10-inch screens in every United Economy seat.</li>
+</ul>
+
+<p>For more information about Kinective Media by United Airlines, visit <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=2562328005&amp;u=http%3A%2F%2Fkinectivemedia.com%2F&amp;a=http%3A%2F%2Fkinectivemedia.com" rel="nofollow" target="_blank">http://kinectivemedia.com</a>.</p>
+
+<p class="prntac"><b>About </b><b>MileagePlus</b></p>
+
+<p>MileagePlus is one of the most valuable airline loyalty programs in the world with nearly 40 million active members, and more than 100 program partners. In 2020, United pioneered <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=3768616038&amp;u=https%3A%2F%2Fwww.cnn.com%2F2020%2F06%2F15%2Fbusiness%2Funited-airlines-frequent-flyer-loan%2Findex.html&amp;a=an+industry-first+transaction" rel="nofollow" target="_blank">an industry-first transaction</a>&nbsp;when it secured financing against MileagePlus and today some analysts value the program <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=682507769&amp;u=https%3A%2F%2Fonpointloyalty.com%2Fwp-content%2Fuploads%2F2023%2F02%2FOn-Point-Loyalty-Report-top-100-Most-Valuable-Airline-Programs-2023.pdf&amp;a=at+more+than+%2422+billion" rel="nofollow" target="_blank">at more than <span class="xn-money">$22 billion</span></a>.&nbsp;Over the past several years, United has continually improved MileagePlus&nbsp;including a change so that miles never expire, the introduction of PlusPoints, an industry-leading upgrade benefit for Premier&reg; members and most recently, a feature that <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=828713880&amp;u=https%3A%2F%2Fwww.united.com%2Fen%2Fus%2Fmileageplus%2Fmiles-pooling%2F&amp;a=lets+members+%27pool%27+their+miles+into+a+shared+account" rel="nofollow" target="_blank">lets members &#39;pool&#39; their miles into a shared account</a>&nbsp;to maximize the options for group trips.</p>
+
+<p class="prntac"><b>About United</b></p>
+
+<p>At United, <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=1989792684&amp;u=https%3A%2F%2Fwww.united.com%2Fen%2Fus%2Ffly%2Fcompany%2Fbrand%2Fgood-leads-the-way.html&amp;a=Good+Leads+The+Way" rel="nofollow" target="_blank">Good Leads The Way</a>. With U.S. hubs in <span class="xn-location">Chicago</span>, <span class="xn-location">Denver</span>, <span class="xn-location">Houston</span>, <span class="xn-location">Los Angeles</span>, <span class="xn-location">New York</span>/<span class="xn-location">Newark</span>, <span class="xn-location">San Francisco</span> and <span class="xn-location">Washington, D.C.</span>, United operates the most comprehensive global route network among North American carriers and&nbsp;is now the largest airline in the world as measured by available seat miles. For more about how to join the United team, please visit <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=2921345930&amp;u=http%3A%2F%2Fwww.united.com%2Fcareers&amp;a=www.united.com%2Fcareers" rel="nofollow" target="_blank">www.united.com/careers</a> and more information about the company is at <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4185581-1&amp;h=3493997973&amp;u=http%3A%2F%2Fwww.united.com%2F&amp;a=www.united.com" rel="nofollow" target="_blank">www.united.com</a>. United Airlines Holdings, Inc., the parent company of United Airlines, Inc., is traded on the Nasdaq under the symbol &quot;UAL&quot;.</p>
+
+<div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder2">
+<p><a href="https://mma.prnewswire.com/media/2432747/Kinective_Polaris.html" rel="nofollow" target="_blank"><img alt="" src="https://mma.prnewswire.com/media/2432747/Kinective_Polaris.jpg" title="" /> </a></p>
+
+<p><a href="https://mma.prnewswire.com/media/95577/united_airlines_logo_Logo.html" rel="nofollow" target="_blank"><img alt="United Airlines logo. (PRNewsFoto/United Airlines)" src="https://mma.prnewswire.com/media/95577/united_airlines_logo_Logo.jpg" title="United Airlines logo. (PRNewsFoto/United Airlines)" /> </a></p>
+</div>
+
+<p>SOURCE United Airlines</p>
+</div>
+
+<div class="wd_contact">For further information: United Airlines Worldwide Media Relations, +1-872-825-8640, media.relations@united.com</div>
+
+
+
+<!-- ITEMDATE: 2024-06-07 08:00:00 EDT -->
+
+</div>
+</div><br clear="all">		<div class="footer">
+					</div>
+	</div>
+	</div>
+		
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 4, "News Release Feed ID", "202406070800PR_NEWS_USPR_____CG34016", "page"]);
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "News Releases", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 1667]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=1667&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f8183856cb48d9b',t:'MTc3ODE3MDQyNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script type="text/javascript">
+	$(function() {
+		$('.wd_subscribe2 .wd_form_buttons').append('<a href="https://www.united.com/en/us/newsroom/" class="wd_email-form-back">Back to Newsroom</a>');
+	});
+</script>
+</html>
