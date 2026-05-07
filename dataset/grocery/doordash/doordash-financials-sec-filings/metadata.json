@@ -1,0 +1,14 @@
+{
+  "url": "https://ir.doordash.com/financials/sec-filings/default.aspx",
+  "title": "ir.doordash.com - DoorDash - Financials - SEC filings",
+  "industry": "grocery",
+  "company": "doordash",
+  "page_name": "doordash-financials-sec-filings",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-07T00:38:53.930958+00:00",
+  "notes": ""
+}
