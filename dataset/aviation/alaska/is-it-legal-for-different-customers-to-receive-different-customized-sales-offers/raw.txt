@@ -1,0 +1,274 @@
+Is It Legal for Different Customers to Receive Different, Customized Sales Offers? The Example of Alaska Airlines, and the Likely Regulatory Response - FindLaw
+Skip to main content
+Find a Lawyer
+Find a Lawyer
+Legal Forms & Services
+Legal Forms & Services
+Estate Planning
+Business Formation
+View All Legal Forms
+Learn About the Law
+Learn About the Law
+Explore Legal Topics
+Accidents & Injuries
+Bankruptcy
+Car Accidents
+Child Custody
+Criminal Law
+Divorce
+DUI
+Employment Law
+Estate Planning
+Family Law
+Malpractice
+Probate
+Real Estate Law
+Small Business
+Social Security
+Tax Law
+Traffic Law
+Workers' Comp
+View All Legal Topics
+Search Laws by State
+Arizona
+California
+Colorado
+Florida
+Georgia
+Illinois
+Maryland
+Massachusetts
+Michigan
+New Jersey
+New York
+North Carolina
+Ohio
+Pennsylvania
+Tennessee
+Texas
+Virginia
+Washington
+View All Laws by State
+Search Case Law
+U.S. Supreme Court
+First Circuit
+Second Circuit
+Third Circuit
+Fourth Circuit
+Fifth Circuit
+Sixth Circuit
+Seventh Circuit
+Eighth Circuit
+Ninth Circuit
+Tenth Circuit
+Eleventh Circuit
+D.C. Circuit
+State Courts
+View All Case Law
+Search U.S. Codes
+United States Code (USC)
+Code of Federal Regulations (CFR)
+U.S. Constitution
+California Code
+Delaware Code
+Florida Code
+Illinois Code
+New York Code
+Texas Code
+View All State and Federal Codes
+Explore Legal Topics
+Search Laws by State
+Search Case Law
+Search U.S. Codes
+Accidents & Injuries
+Bankruptcy
+Car Accidents
+Child Custody
+Criminal Law
+Divorce
+DUI
+Employment Law
+Estate Planning
+Family Law
+Malpractice
+Probate
+Real Estate Law
+Small Business
+Social Security
+Tax Law
+Traffic Law
+Workers' Comp
+View All Legal Topics
+Arizona
+California
+Colorado
+Florida
+Georgia
+Illinois
+Maryland
+Massachusetts
+Michigan
+New Jersey
+New York
+North Carolina
+Ohio
+Pennsylvania
+Tennessee
+Texas
+Virginia
+Washington
+View All Laws by State
+U.S. Supreme Court
+First Circuit
+Second Circuit
+Third Circuit
+Fourth Circuit
+Fifth Circuit
+Sixth Circuit
+Seventh Circuit
+Eighth Circuit
+Ninth Circuit
+Tenth Circuit
+Eleventh Circuit
+D.C. Circuit
+State Courts
+View All Case Law
+United States Code (USC)
+Code of Federal Regulations (CFR)
+U.S. Constitution
+California Code
+Delaware Code
+Florida Code
+Illinois Code
+New York Code
+Texas Code
+View All State and Federal Codes
+Legal Professionals
+Legal Professionals
+Legal Professional Resources
+Law Firm Marketing
+Blogs
+Find a Lawyer
+Search Legal Topics
+Begin typing to search, use arrow keys to navigate, use enter to select
+Legal Issue
+More Options
+Name Search
+Browse Legal Issues
+Browse Law Firms
+Support
+City, ZIP Code or County
+Enter either your legal issue or location to continue
+Find a Lawyer
+Search by Legal Topic
+Enter legal topic
+Get the Information
+FindLaw
+/
+US Supreme Court Center
+/
+Legal Commentary
+/
+Is It Legal for Different Customers to Receive Different, Customized Sales Offers? The Example of Alaska Airlines, and the Likely Regulatory Response
+Is It Legal for Different Customers to Receive Different, Customized Sales Offers? The Example of Alaska Airlines, and the Likely Regulatory Response
+By ANITA RAMASASTRY
+Tuesday, Apr. 01, 2008
+The next time you are online, you may come across an ad from Alaska Airlines offering you a really good deal – perhaps a roundtrip ticket to Hawaii for $200. Your neighbor might also be surfing online, but Alaska Airlines might offer her a significantly different deal — perhaps a roundtrip ticket to Hawaii for $400. The reason for the difference will be that each of you is receiving an offer targeted specifically at you – even if the offer appears in a banner ad on a webpage.
+Currently, this type of advertising – which falls into the category known as “Internet behavioral marketing,” and is specifically known as “retargeting” – appears to be legal. However, it may anger some customers, and has caught the attention of some regulators and legislators.
+Should they take action? I will argue that the kind of criminal regulation currently being proposed may be premature.  However, I will also contend that regulators would be wise to keep an eye on this trend, for two reasons: to ensure pricing is not discriminatory, and to ensure companies are not contradicting other promises and statements they have made to consumers about their pricing.
+The Details of the
+Alaska
+Airlines Program
+Alaska Airlines’ new system will
+cr
+eate unique advertisements
+for Web surfers by compiling data to create individual profiles. Such data may encompass, for example, previous Web surfing, spending, and travel patterns. After identifying a consumer’s computer by using a small piece of  computer code known as a cookie, Alaska Airlines can determine, for instance, a consumer’s geographic location, the number of times he or she has seen a particular Alaska
+Airlines
+ad, and whether he or she has visited Alaska’s web page. To the extent that Alaska can identify the consumer by matching a cookie to a profile, it can also access a consumer’s purchase history with Alaska Airlines, and his or her good and bad experiences with the airline, including problems with lost luggage and flight delays. .
+Reportedly, in the initial stage of the program, Alaska Airlines will offer different flight prices to different consumers.  Alaska Airlines is providing data about which ads people click on to a company called Proclivity Systems, which will analyzes how price-sensitive particular Alaska Airlines customers
+appear.  Alaska Airlines will then set its Internet ad prices accordingly. Other aspects of consumers behavior may be taken into account too:  For instance, someone who had visited Alaska
+Airlines
+‘ web page frequently, but then abruptly stopped visiting it, might be greeted with the $200 Hawaii offer to lure him or her back into becoming a customer.
+Offering Different Prices to Different Customers Is Legal – Unless Pricing Is Discriminatory, Prices are Published, or Companies Make False Statements
+As I have mentioned in
+a previous column
+, it is legal (and, in the brick-and-mortar world, quite common) for businesses to offer different prices to different customers. Car dealerships are a good example.  But if pricing is discriminatory – for instance, based on factors such as race and gender – it is illegal.
+It seems likely that targeted pricing will be more common in the offline than the online world, because with online purchases, you cannot see immediately what price your neighbor is being offered.  Nor must online stores show every customer who enters the same shelf or rack, with items bearing the same price tags.  Granted, consumers may compare notes on prices and offers on a blog or webpage. But to find these blogs and webpages will take effort, and all the consumer will see immediately is the particular targeted ad. Moreover, many customers may not even realize the ad they see is targeted – especially if it appears as a banner ad that seems to belong to a generally-accessible website that is otherwise the same for every visitor.
+U.S. airlines are required to guarantee that all customers
+are offered the lowest
+published
+fares
+. But, conversely, airlines can offer special deals to particular individuals, as long as those fares
+are not published
+.  In the past, direct mail has not been deemed to constitute “publication,” and Alaska Airlines will argue that directly targeted Internet ads are like direct mail, and thus also do not constitute “publication.”
+Alaska Airlines will also have to carefully monitor its website and all offers, published and unpublished, to ensure that all statements about prices remain true in light of the targeted ads. Assuming Alaska Airlines is clear about how it prices, then it will probably avoid any possible claims of unfair or deceptive trade practices, and thus avoid the attention of the Federal Trade Commission (FTC).  However, if any material were to be arguably misleading or contradictory, the FTC could step in.   If most consumers assume banner ads are not targeted, but are ads pitched to the general public, then it’s possible someone could argue that targeted banner ads are inherently misleading, but this might be a stretch.
+The Possible Clash Between Behavioral Advertising and Consumer Privacy, and the FTC’s Recommendation
+Some consumers may be concerned that the profiles built for targeted ads violate their privacy. But this privacy issue is not a concern specific to targeting, or to the Internet: Companies routinely send various customers different offers via direct mail, based on their purchasing habits, price preferences and other personal data.
+Still, Internet profiles may be more thorough and revealing. Accordingly, in December, the FTC Skip to next paragraph released
+a set of proposed principles
+to guide the development of behavioral advertising, defined as “individually-targeted advertising based on software that tracks a consumer’s activities online”- including his or her searches conducted, webpages visited, and content viewed.
+The purpose of the FTC proposal is to encourage the industry to use self- regulation as a means of protecting consumer privacy.  The FTC proposal does not condemn behavioral advertising. To the contrary, it takes the position that “behavioral advertising provides benefits to consumers in the form of free content and personalized advertising.” However, it also notes that “this practice is largely invisible and unknown to consumers,” and thus calls for greater disclosure, transparency, and consumer control. In particular, the FTC staff proposes that “Every Web site where data is collected for behavioral advertising should provide a clear, consumer-friendly, and prominent statement that data is being collected to provide ads targeted to the consumer and give consumers the ability to choose whether or not to have their information collected for such purpose.”
+I believe the FTC’s recommend approach is spot on. As long as consumers are clear about what is happening, and have a chance to opt out, behavioral advertising may be positive for consumers.
+Whereas the FTC’s Disclosure/Opt Out Approach Seems Wise, Criminal Penalties for Targeted Advertising May Be Too Harsh
+In New York, a legislator is considering
+a bill that would make it a crime
+— punishable by a fine to be determined — for certain types of Internet-based companies such as search engines, to use personal information gathered about online consumers for retargeted advertising without their prior consent.  The draft law is labeled an Internet advertising bill of rights for consumers, and would apply to companies that provide third- party advertising to consumers.
+If the bill becomes law, moreover, it is likely to reach beyond New York, as it may be difficult for websites to consistently isolate and exempt New York consumers from their targeted ads and data collection. (For instance, what if the consumer lived in California, but had just moved to New York, unbeknownst to the company? A criminal statute might possibly apply, depending on the intent requirement, but the website might lack notice of how the law would apply to new residents who had not registered a New York address.)
+If the bill becomes law, moreover, computer users will be able to request that companies like Google, Yahoo and Microsoft, which currently keep track of Internet searches conducted on their own sites, refrain from peering over their shoulders as they surf the Web and move on to other websites. Consumers would have to give explicit permission, according to the proposed New York law, before such companies could link any anonymous Internet search histories or web page visits to personal data such as a consumer’s name and address.
+It is unclear whether a criminal statute is really necessary at this stage, especially with the FTC potentially taking an interest in regulating in order to improve disclosure and provide an opt-out.  The time for mandatory disclosure, however, has already come: Consumers should know that their surfing patterns are being watched and that such tracking has real and material consequences for them as they transact online.
+Anita Ramasastry is a visiting professor at the National University of Ireland – Galway and an Associate Professor of Law at the University of Washington School of Law in Seattle and a Director of the Shidler Center for Law, Commerce & Technology. She has previously written on business law, cyberlaw, computer data security issues, and other legal issues for this site, which contains an archive of her columns.
+Was this helpful?
+Yes
+No
+Why was this helpful?
+Easy to understand
+Solved my problem
+Other
+Why was this not helpful?
+Missing the information I need
+Too complicated / too many steps
+Out of date
+Other
+Submit
+Cancel
+Copied to clipboard
+Back to Top
+Questions?
+At FindLaw.com, we pride ourselves on being the number one source of free legal information and resources on the web.
+Contact us.
+Stay up-to-date with how the law affects your life.
+Sign up for our consumer newsletter.
+ENTER YOUR EMAIL ADDRESS (Required)
+Thank you for subscribing!
+FOLLOW US:
+ABOUT US
+Our Team
+Accessibility
+Contact Us
+FIND A LAWYER
+By Location
+By Legal Issue
+By Lawyer Profiles
+By Name
+SELF-HELP RESOURCES
+Legal Forms & Services
+LEGAL RESEARCH
+Learn About the Law
+State Laws
+U.S. Caselaw
+U.S. Codes
+LEGAL NETWORK
+FindLaw.com
+Free, trusted legal information for consumers and legal professionals
+SuperLawyers.com
+Directory of U.S. attorneys with the exclusive Super Lawyers rating
+Abogado.com
+The #1 Spanish-language legal website for consumers
+LawInfo.com
+Nationwide attorney directory and legal consumer resources
+Copyright © 2026, FindLaw. All rights reserved.
+Terms
+Privacy
+Disclaimer
+Cookies
+Your Privacy Choices
