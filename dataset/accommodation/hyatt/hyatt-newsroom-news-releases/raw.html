@@ -1,0 +1,3626 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg=="></script>
+<script type="text/javascript" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">webDriver.push_jQuery();</script>
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="toolbar_style" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:site style" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+</style>
+<style type="text/css" wd_script_id="featureboxes_style" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+<script type="text/javascript" nonce="Y2RjYjAzMGY5YjI3OTI5ZjMyOGQxOTgxM2U4YzQ3MzE0NmI4ODBlMg==">webDriver.pop_jQuery();</script>
+
+<!-- end spin_special_output(head_start) -->
+
+    <title>Hyatt Newsroom - News Releases</title>
+    
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Hyatt Selects Sabre to Enhance Central Reservation System Capabilities, Making the Search and Booking Process Faster for Guests" />
+ <meta name="twitter:description" content="CHICAGO (July 19, 2023) – Hyatt Hotels Corporation (NYSE: H) today announced a new technology agreement between affiliates of Hyatt and Sabre Corporation (NASDAQ: SABR), a leading provider of..." />
+ <meta property="og:site_name" content="Hyatt Newsroom" />
+ <meta property="og:url" content="https://newsroom.hyatt.com/news-releases?item=124401" />
+ <meta property="og:title" content="Hyatt Selects Sabre to Enhance Central Reservation System Capabilities, Making the Search and Booking Process Faster for Guests" />
+ <meta property="og:description" content="CHICAGO (July 19, 2023) – Hyatt Hotels Corporation (NYSE: H) today announced a new technology agreement between affiliates of Hyatt and Sabre Corporation (NASDAQ: SABR), a leading provider of..." />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <!-- OneTrust Cookies Consent Notice start for newsroom.hyatt.com -->
+            <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="0193433e-0ad1-7311-a65d-bfa1d9166cb0"></script>
+        <!-- OneTrust Cookies Consent Notice end for newsroom.hyatt.com -->
+
+    <style data-styles="">
+        slot-fb {
+            display: contents
+        }
+
+        slot-fb[hidden] {
+            display: none
+        }
+
+        be-alert,
+        be-benefit,
+        be-button,
+        be-header,
+        be-icon-social,
+        be-link,
+        be-select,
+        be-stepper,
+        be-app-store,
+        be-apple-wallet,
+        be-brand-explorer,
+        be-brand-flag,
+        be-brand-square,
+        be-carousel-button,
+        be-certification,
+        be-checkbox,
+        be-checkbox-group,
+        be-currency,
+        be-date,
+        be-distance,
+        be-input,
+        be-logo-corporate,
+        be-logo-footer,
+        be-logo-inclusive,
+        be-logo-slh,
+        be-logo-world,
+        be-navigate,
+        be-number,
+        be-pagination,
+        be-payment-card,
+        be-percent,
+        be-pill-filter,
+        be-play-store,
+        be-radio,
+        be-radio-group,
+        be-rating,
+        be-separator,
+        be-tab,
+        be-telephone,
+        be-textarea,
+        be-time,
+        be-toggle,
+        be-button-icon,
+        be-logo-header,
+        be-icon {
+            visibility: hidden
+        }
+
+        [bellhop-hydrated] {
+            visibility: inherit
+        }
+    </style>
+    <style>
+        be-button {
+            display: inline-block
+        }
+
+        be-button[width=full] {
+            display: block
+        }
+
+        @media (max-width: 599px) {
+            be-button[width=responsive] {
+                display: block
+            }
+        }
+
+        .be-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            min-width: 120px;
+            padding: 0;
+            padding-inline: calc(var(--bellhop-button-default-padding-inline-lg) - 4px);
+            text-transform: uppercase;
+            text-align: center;
+            border-style: solid;
+            border-width: var(--bellhop-button-default-border-width);
+            border-radius: var(--bellhop-button-default-border-radius-lg);
+            cursor: pointer
+        }
+
+        .be-button,
+        .be-button:hover {
+            text-decoration: none
+        }
+
+        be-button[size=sm] .be-button {
+            min-height: 32px;
+            min-width: 80px;
+            padding-inline: calc(var(--bellhop-button-default-padding-inline-sm) - 4px);
+            border-radius: var(--bellhop-button-default-border-radius-sm)
+        }
+
+        be-button[width=full] .be-button {
+            width: 100%
+        }
+
+        @media (max-width: 599px) {
+            be-button[width=responsive] .be-button {
+                width: 100%
+            }
+        }
+
+        .be-button-primary {
+            background-color: var(--bellhop-button-primary-on-light-background-color-enabled);
+            border-color: var(--bellhop-button-primary-on-light-border-color-enabled);
+            background-image: var(--bellhop-button-primary-on-light-background-image)
+        }
+
+        .be-button-primary,
+        .be-button-primary:visited {
+            color: var(--bellhop-button-primary-on-light-text-color-enabled)
+        }
+
+        .be-button-primary:hover {
+            background-color: var(--bellhop-button-primary-on-light-background-color-hover);
+            border-color: var(--bellhop-button-primary-on-light-border-color-hover);
+            color: var(--bellhop-button-primary-on-light-text-color-hover)
+        }
+
+        be-button[reverse] .be-button-primary {
+            background-color: var(--bellhop-button-primary-on-dark-background-color-enabled);
+            border-color: var(--bellhop-button-primary-on-dark-border-color-enabled)
+        }
+
+        be-button[reverse] .be-button-primary,
+        be-button[reverse] .be-button-primary:visited {
+            color: var(--bellhop-button-primary-on-dark-text-color-enabled)
+        }
+
+        be-button[reverse] .be-button-primary:hover {
+            background-color: var(--bellhop-button-primary-on-dark-background-color-hover);
+            border-color: var(--bellhop-button-primary-on-dark-border-color-hover);
+            color: var(--bellhop-button-primary-on-dark-text-color-hover)
+        }
+
+        .be-button-secondary {
+            background-color: var(--bellhop-button-secondary-on-light-background-color-enabled);
+            border-color: var(--bellhop-button-secondary-on-light-border-color-enabled)
+        }
+
+        .be-button-secondary,
+        .be-button-secondary:visited {
+            color: var(--bellhop-button-secondary-on-light-text-color-enabled)
+        }
+
+        .be-button-secondary:hover {
+            background-color: var(--bellhop-button-secondary-on-light-background-color-hover);
+            border-color: var(--bellhop-button-secondary-on-light-border-color-hover);
+            color: var(--bellhop-button-secondary-on-light-text-color-hover)
+        }
+
+        be-button[reverse] .be-button-secondary {
+            background-color: var(--bellhop-button-secondary-on-dark-background-color-enabled);
+            border-color: var(--bellhop-button-secondary-on-dark-border-color-enabled)
+        }
+
+        be-button[reverse] .be-button-secondary,
+        be-button[reverse] .be-button-secondary:visited {
+            color: var(--bellhop-button-secondary-on-dark-text-color-enabled)
+        }
+
+        be-button[reverse] .be-button-secondary:hover {
+            background-color: var(--bellhop-button-secondary-on-dark-background-color-hover);
+            border-color: var(--bellhop-button-secondary-on-dark-border-color-hover);
+            color: var(--bellhop-button-secondary-on-dark-text-color-hover)
+        }
+
+        .be-button-shop {
+            background-color: #ffb610;
+            border-color: #c88820;
+            color: #282828
+        }
+
+        .be-button-shop,
+        .be-button-shop:visited {
+            color: #282828
+        }
+
+        .be-button-shop:hover {
+            background-color: #c88820;
+            border-color: #c88820;
+            color: #282828
+        }
+
+        .be-button-tertiary {
+            background-color: transparent;
+            border-color: transparent
+        }
+
+        .be-button-tertiary span {
+            padding: 3px 0;
+            border-bottom: var(--bellhop-button-default-border-width) solid var(--bellhop-button-tertiary-on-light-text-color-enabled)
+        }
+
+        .be-button-tertiary,
+        .be-button-tertiary:visited {
+            color: var(--bellhop-button-tertiary-on-light-text-color-enabled)
+        }
+
+        .be-button-tertiary:hover span {
+            border-color: transparent
+        }
+
+        be-button[reverse] .be-button-tertiary span {
+            border-bottom: 1px solid var(--bellhop-button-tertiary-on-dark-text-color-enabled)
+        }
+
+        be-button[reverse] .be-button-tertiary,
+        be-button[reverse] .be-button-tertiary:visited {
+            color: var(--bellhop-button-tertiary-on-dark-text-color-enabled)
+        }
+
+        be-button[reverse] .be-button-tertiary:hover span {
+            border-color: transparent
+        }
+
+        .be-button-label {
+            display: block;
+            margin-inline: 4px
+        }
+
+        .be-button-disabled {
+            background-color: #ededed;
+            border-color: #ededed;
+            color: #949494;
+            cursor: not-allowed
+        }
+
+        slot-fb {
+            display: contents
+        }
+
+        slot-fb[hidden] {
+            display: none
+        }
+    </style>
+    <style>
+        /* .main-content-container {
+            @media (min-width: 1440px) {
+                background: url('images/tier-default.svg'), linear-gradient(180deg, rgb(245, 247, 250) 0%, rgb(207, 222, 233) 50%, rgb(245, 247, 250) 100%);
+            }
+            }
+            .main-nested-content-container {
+            @media (max-width: 1439px) {
+                background: url('images/tier-default.svg'), linear-gradient(180deg, rgb(245, 247, 250) 0%, rgb(207, 222, 233) 50%, rgb(245, 247, 250) 100%);
+            }
+            @media (max-width: 639px) {
+                background: linear-gradient(180deg, rgb(245, 247, 250) 0%, rgb(207, 222, 233) 50%, rgb(245, 247, 250) 100%);
+            }
+        } */
+    </style>
+
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.hyatt.com/hds/favicons/1.latest/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.hyatt.com/hds/favicons/1.latest/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/world-2024.min.css" data-bellhop="">
+    <link rel="stylesheet" href="css/migrate-all.min.css">
+
+    <style>
+        .wd_nav_top .hbe {
+            font-size: 14px;
+            font-family: "Noto Sans Display", "_Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.3
+        }
+
+        .wd_nav_top .hbe,
+        .wd_nav_top .hbe *,
+        .wd_nav_top .hbe *:before,
+        .wd_nav_top .hbe *:after {
+            box-sizing: border-box
+        }
+
+        .wd_nav_top .hbe a {
+            background-color: transparent;
+            text-decoration: none
+        }
+
+        .wd_nav_top .hbe img {
+            border: 0;
+            vertical-align: middle
+        }
+
+        .wd_nav_top .hbe button {
+            font-family: "Noto Sans Display", "_Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+        }
+
+        .wd_nav_top .hbe li {
+            margin-bottom: 0
+        }
+
+        .wd_nav_top .hbe-sr-only {
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+            position: absolute;
+            height: 1px;
+            width: 1px
+        }
+
+        .wd_nav_top .hbe-container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 0 10px
+        }
+
+        @media (min-width: 320px) {
+            .wd_nav_top .hbe-container {
+                padding: 0 15px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .wd_nav_top .hbe-container {
+                padding: 0 32px
+            }
+        }
+
+        .wd_nav_top .hbe-container_1280 {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 10px
+        }
+
+        @media (min-width: 320px) {
+            .wd_nav_top .hbe-container_1280 {
+                padding: 0 15px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .wd_nav_top .hbe-container_1280 {
+                padding: 0 32px
+            }
+        }
+
+        @media (min-width: 1080px) {
+            .wd_nav_top .hbe-container_1280 {
+                padding: 0 55px
+            }
+        }
+
+        .wd_nav_top .hbe-drawer_container-2mVdH {
+            position: relative
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-drawer_container-2mVdH.hbe-drawer_detached-3t-EF {
+                position: static
+            }
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD {
+            position: relative
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_icon-372WC {
+            position: absolute;
+            cursor: pointer;
+            top: 16px
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_icon-372WC.hbe-drawer_back-1nm59 {
+            top: 20px;
+            transform: rotate(180deg)
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo {
+            top: 0;
+            position: fixed;
+            z-index: 600;
+            width: 100%;
+            height: 100%;
+            transition: all .5s ease-in-out
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo.hbe-drawer_right-HUOQn {
+            right: 0;
+            transform: translateX(100%)
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo.hbe-drawer_right-HUOQn .hbe-drawer_icon-372WC {
+            right: 12px;
+            z-index: 305
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo.hbe-drawer_left-1eamq {
+            left: 0;
+            transform: translateX(-100%)
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo.hbe-drawer_left-1eamq .hbe-drawer_icon-372WC {
+            left: 12px
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo.hbe-drawer_showDrawer-1x1HU {
+            transform: none
+        }
+
+        .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo.hbe-drawer_hideDrawer-2Z5X2 {
+            visibility: hidden
+        }
+
+        @media (min-width: 320px) {
+            .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_menu-21_Oo {
+                width: auto;
+                min-width: 320px
+            }
+        }
+
+        @media (min-width: 320px) {
+            .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_overlay-3kL-r {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.5);
+                z-index: 300;
+                transition: all .5s;
+                opacity: 0
+            }
+
+            .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_overlay-3kL-r.hbe-drawer_right-HUOQn,
+            .wd_nav_top .hbe-drawer_drawer-15DHD .hbe-drawer_overlay-3kL-r.hbe-drawer_left-1eamq {
+                opacity: 1
+            }
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_ {
+            display: flex;
+            align-items: center;
+            height: 55px;
+            line-height: 54px;
+            border: none;
+            margin: 0;
+            font-size: 14px;
+            text-transform: none;
+            text-decoration: none;
+            background: none;
+            color: #282828;
+            cursor: pointer;
+            text-align: center;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-left: 1px solid transparent;
+            border-right: 1px solid transparent;
+            border-bottom: 1px solid rgba(0, 0, 0, 0)
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_ svg {
+            position: relative;
+            top: 4px
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_ path {
+            fill: #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_ .hbe-menuButton_arrow-1mAL_ {
+            margin-left: 8px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-menuButton_default-2Yjj_ .hbe-menuButton_arrow-1mAL_ {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_hamburger-2Rn6j {
+            padding: 0;
+            border: none
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_hamburger-2Rn6j:hover {
+            border: none
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_hamburger-2Rn6j .hbe-menuButton_arrow-1mAL_ {
+            display: none
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_globe-2dLpY {
+            color: #282828;
+            padding: 0
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_globe-2dLpY path {
+            fill: #282828
+        }
+
+        @media (max-width: 1439px) {
+            .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_globe-2dLpY .hbe-menuButton_menuLabel-ZtRSv {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_person-1ItdC {
+            padding: 0
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_person-1ItdC .hbe-menuButton_menuLabel-ZtRSv {
+                display: none
+            }
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_person-1ItdC:hover {
+                border-bottom: 1px solid rgba(0, 0, 0, 0)
+            }
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_person-1ItdC svg {
+                width: 24px;
+                height: 24px;
+                top: 8px
+            }
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_dropdown-1dye1 {
+            padding: 0
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_dropdown-1dye1 .hbe-menuButton_menuLabel-ZtRSv {
+            margin-left: 0
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_open-2HbqJ {
+            color: #282828;
+            outline: none;
+            z-index: 305;
+            position: relative;
+            border-bottom: 1px solid #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_open-2HbqJ.hbe-menuButton_standalone-2S-p6 {
+            border-bottom: none
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_open-2HbqJ:hover {
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_open-2HbqJ:hover path {
+            fill: #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_open-2HbqJ path {
+            fill: #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_.hbe-menuButton_open-2HbqJ .hbe-menuButton_arrow-1mAL_ svg {
+            transform: rotate(180deg)
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_:hover {
+            color: #282828;
+            border-bottom: 1px solid #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_:hover.hbe-menuButton_standalone-2S-p6 {
+            border-bottom: 1px solid transparent
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_:hover path {
+            fill: #282828
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_ .hbe-menuButton_menuLabel-ZtRSv {
+            margin: 0 4px 0 8px;
+            display: inline-block;
+            max-width: 240px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-menuButton_default-2Yjj_ .hbe-menuButton_menuLabel-ZtRSv {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-menuButton_default-2Yjj_ .hbe-menuButton_hideMenuLabel-3iCHS {
+            display: none
+        }
+
+        .wd_nav_top .hbe-header_panel-left,
+        .wd_nav_top .hbe-header_panel-right {
+            z-index: 300;
+            position: absolute;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.175);
+            top: 43px;
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-glass,
+        .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-full,
+        .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-glass,
+        .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-full {
+            top: 55px;
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 0 0 4px 4px;
+            border-top: 1px solid rgba(0, 0, 0, 0.15)
+        }
+
+        .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-glass,
+        .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-glass {
+            background-color: #fff
+        }
+
+        .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-glass,
+        .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-glass {
+            background-color: rgba(255, 255, 255, 0.8);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px)
+        }
+
+        @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+
+            .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-glass,
+            .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-glass {
+                background-color: #fff
+            }
+        }
+
+        @media screen and (-ms-high-contrast: active),
+        (-ms-high-contrast: none) {
+
+            .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-glass,
+            .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-glass {
+                background-color: #fff
+            }
+        }
+
+        @media (min-width: 600px) {
+
+            .wd_nav_top .hbe-header_panel-left,
+            .wd_nav_top .hbe-header_panel-right {
+                width: 320px
+            }
+
+            .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-glass,
+            .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-glass {
+                width: auto;
+                min-width: 290px
+            }
+        }
+
+        .wd_nav_top .hbe-header_panel-left.hbe-header_panel-style-full,
+        .wd_nav_top .hbe-header_panel-right.hbe-header_panel-style-full {
+            position: static;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            top: 0;
+            border-top: none
+        }
+
+        .wd_nav_top .hbe-header_panel-right {
+            right: 0
+        }
+
+        .wd_nav_top .hbe-header_signin-form {
+            padding: 34px 15px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: solid 1px rgba(61, 61, 61, 0.1)
+        }
+
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form {
+            padding: 24px 15px;
+            background-image: none
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-heading {
+            font-family: "Noto Sans Display", "_Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            text-transform: none;
+            text-align: center;
+            margin-bottom: 24px;
+            width: 100%
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-heading small {
+            display: block;
+            font-size: 14px;
+            font-weight: normal
+        }
+
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form .hbe-header_signin-heading {
+            font-family: "Noto Sans Display", "_Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            margin: 0px 0px 10px 0px
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-button {
+            display: block;
+            cursor: pointer;
+            border: 1px solid transparent;
+            padding: 10px 30px;
+            text-transform: uppercase;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            display: block;
+            text-align: center;
+            border-radius: 0;
+            background-color: #0072ce;
+            color: #fff
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-button:hover {
+            text-decoration: none;
+            background-color: #0161ae
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-join {
+            margin-top: 16px;
+            border: 1px solid #0072ce;
+            padding: 10px 30px;
+            text-transform: uppercase;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            display: block;
+            text-align: center;
+            border-radius: 0;
+            background-color: rgba(255, 255, 255, 0.4);
+            color: #0072ce
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-join:visited {
+            color: #0072ce
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-join:hover {
+            text-decoration: none;
+            border: 1px solid #0161ae;
+            color: #0161ae;
+            background-color: rgba(0, 0, 0, 0.05)
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-button,
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-join {
+            width: 260px;
+            font-size: 14px;
+            min-height: 36px;
+            margin: 6px 0
+        }
+
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form .hbe-header_signin-button,
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form .hbe-header_signin-join {
+            width: 214px;
+            height: 32px;
+            margin: 5px 10px;
+            padding: 0px
+        }
+
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form .hbe-header_signin-button .hbe-header_signin-join-text,
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form .hbe-header_signin-join .hbe-header_signin-join-text {
+            padding: 8px
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-signout-form button[type="submit"] {
+            margin: 24px 0 0;
+            color: #282828;
+            font-size: 12px;
+            font-weight: bold;
+            background: none;
+            border: none;
+            cursor: pointer;
+            width: 100%
+        }
+
+        .wd_nav_top .hbe-header_signin-form .hbe-header_signin-signout-form button[type="submit"]:hover {
+            text-decoration: underline
+        }
+
+        .wd_nav_top .hbe-header_flyout .hbe-header_signin-form .hbe-header_signin-signout-form button[type="submit"] {
+            margin: 12px 0 0
+        }
+
+        .wd_nav_top .hbe-header_flyout {
+            min-height: 130px;
+            width: 245px;
+            border-bottom: solid 1px rgba(61, 61, 61, 0.1);
+            border-radius: 6px;
+            box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.12), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+            float: right;
+            position: absolute;
+            right: 0px;
+            top: 55px;
+            opacity: 0;
+            transition: 1s opacity;
+            z-index: 300
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-header_flyout {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-header_flyout.fadeIn {
+            opacity: 1;
+            pointer-events: auto
+        }
+
+        .wd_nav_top .hbe-header_flyout.fadeOut {
+            opacity: 0
+        }
+
+        .wd_nav_top .hbe-header_linklist {
+            list-style: none;
+            margin: 0 8px;
+            padding: 15px 0
+        }
+
+        .wd_nav_top .hbe-header_linklist li {
+            display: block;
+            border: none;
+            margin: 0;
+            padding: 4px 0
+        }
+
+        .wd_nav_top .hbe-header_linklist li:hover {
+            background-color: rgba(61, 61, 61, 0.1)
+        }
+
+        .wd_nav_top .hbe-header_linklist li:hover a,
+        .wd_nav_top .hbe-header_linklist li:hover a:visited {
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-header_linklist li.hbe-header_linkListHeader span {
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: bold;
+            margin: 0 20px;
+            padding: 12px 0;
+            line-height: 1.25;
+            color: #282828
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_linklist li.hbe-header_linkListHeader span {
+                margin: 0 12px
+            }
+        }
+
+        .wd_nav_top .hbe-header_linklist li.hbe-header_linkListHeader:hover {
+            background-color: transparent
+        }
+
+        .wd_nav_top .hbe-header_linklist li:first-child a {
+            border-top: none
+        }
+
+        .wd_nav_top .hbe-header_linklist a {
+            display: block;
+            margin: 0 20px;
+            padding: 6px 0;
+            font-size: 14px;
+            color: #282828;
+            line-height: 1.25
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_linklist a {
+                margin: 0 12px
+            }
+        }
+
+        .wd_nav_top .hbe-header_linklist a:visited {
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-header_linklist a:hover {
+            text-decoration: none;
+            outline: 0
+        }
+
+        .wd_nav_top .hbe-header_linklist.hbe-header_linklist-style-woh-hamburger {
+            margin: 0 12px
+        }
+
+        .wd_nav_top .hbe-header_linklist.hbe-header_linklist-style-woh-hamburger>li {
+            border-bottom: 1px solid rgba(26, 36, 38, 0.1)
+        }
+
+        .wd_nav_top .hbe-header_linklist.hbe-header_linklist-style-woh-hamburger>li a.hbe-header_linklist-item-selected {
+            font-weight: bold
+        }
+
+        .wd_nav_top .hbe-header_linklist.hbe-header_linklist-style-woh-hamburger .hbe-header_linkListMenu:hover {
+            background-color: transparent
+        }
+
+        .wd_nav_top .hbe-header_linklist.hbe-header_linklist-style-woh-hamburger .hbe-header_linkListMenu .hbe-header_linkListMenu-arrow {
+            position: relative;
+            top: 4px;
+            left: 8px
+        }
+
+        .wd_nav_top .hbe-header_linklist.hbe-header_linklist-style-woh-hamburger .hbe-header_linkListMenu.hbe-header_linkListMenu-open .hbe-header_linkListMenu-arrow svg {
+            transform: rotate(180deg)
+        }
+
+        .wd_nav_top .hbe-header_signin {
+            padding: 0
+        }
+
+        @media (min-width: 600px) {
+            .wd_nav_top .hbe-header_signin {
+                width: 376px
+            }
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-header_signin {
+                width: 100%
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100%
+        }
+
+        @media (min-width: 600px) {
+            .wd_nav_top .hbe-header_profile {
+                width: 376px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-member {
+            background-color: #0072CE
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-discoverist {
+            background-color: #907051
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-explorist {
+            background-color: #295B81
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-globalist,
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-lifetime {
+            background-color: #1a2426
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-globalist.hbe-header_profile-card,
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-lifetime.hbe-header_profile-card {
+            background-color: #666666
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-tier-courtesy {
+            background-color: #15573F
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container {
+            padding: 0;
+            height: 183px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container {
+                height: 182px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card {
+            position: relative;
+            top: 28px;
+            margin: 0 auto;
+            width: 320px;
+            height: 200px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.35), 0 5px 15px 0 rgba(0, 0, 0, 0.3)
+        }
+
+        @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card {
+                background-image: radial-gradient(circle at 13% 23%, transparent, rgba(0, 0, 0, 0.3) 88%)
+            }
+        }
+
+        @media screen and (-ms-high-contrast: active),
+        (-ms-high-contrast: none) {
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card {
+                background-image: radial-gradient(circle at 13% 23%, transparent, rgba(0, 0, 0, 0.3) 88%)
+            }
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card {
+                width: 296px;
+                height: 182px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-card-content {
+            padding: 12px;
+            color: #ffffff;
+            position: relative;
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+            font-size: 14px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-card-content {
+                padding: 10px;
+                font-size: 12px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-logo {
+            position: absolute;
+            right: 12px;
+            width: 45px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-logo {
+                right: 10px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-points-balance,
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-woh-number {
+            font-family: "Noto Sans Display", "_Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 700
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-tier {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            margin: 0px 50px 16px 0px;
+            font-family: "Darby Sans Poster Cond", "_Darby Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            line-height: 1.1
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-points,
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-member {
+            margin-bottom: 8px
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-name {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-tier-icon {
+            display: inline-block;
+            position: relative;
+            margin-right: 3px
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-flex-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_link-list-container {
+            padding: 32px 0 0;
+            margin-top: 45px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_profile .hbe-header_link-list-container {
+                margin-top: 28px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-signout {
+            margin-top: auto;
+            border-top: solid 1px rgba(61, 61, 61, 0.1)
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-signout .hbe-header_profile-signout-form {
+            margin: 8px
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-signout button {
+            display: block;
+            cursor: pointer;
+            text-align: center;
+            padding: 8px;
+            text-transform: uppercase;
+            background-color: transparent;
+            width: 100%;
+            border: 1px solid transparent;
+            font-size: 16px;
+            min-height: 44px;
+            padding: 10px 15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            border-radius: 0;
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-signout button:hover {
+            background-color: rgba(61, 61, 61, 0.1);
+            color: #282828;
+            border-radius: 2px
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_profile-signout button .hbe-header_new-look-button {
+            margin-bottom: 50px
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-header_profile {
+                width: auto;
+                margin-top: 0
+            }
+
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container {
+                height: 194px
+            }
+
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card {
+                top: 40px;
+                width: 296px;
+                height: 182px
+            }
+
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-card-content {
+                padding: 10px
+            }
+
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-logo {
+                right: 10px
+            }
+
+            .wd_nav_top .hbe-header_profile .hbe-header_profile-container .hbe-header_profile-card .hbe-header_profile-tier {
+                margin-bottom: 4px
+            }
+        }
+
+        .wd_nav_top .hbe-header_profile .hbe-header_link-list-container {
+            margin-top: 28px
+        }
+
+        .wd_nav_top .hbe-header_loadingAnim {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            text-transform: uppercase;
+            font-size: 11px;
+            color: #282828;
+            height: 55px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_loadingAnim .hbe-header_loadingAnim-label {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-header_loadingAnim .dot-flashing {
+            display: inline-block;
+            margin-left: 12px;
+            margin-right: 20px;
+            position: relative;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: #666;
+            color: #666;
+            -webkit-animation: dot-flashing 1s infinite linear alternate;
+            animation: dot-flashing 1s infinite linear alternate;
+            -webkit-animation-delay: .5s;
+            animation-delay: .5s
+        }
+
+        .wd_nav_top .hbe-header_loadingAnim .dot-flashing::before,
+        .wd_nav_top .hbe-header_loadingAnim .dot-flashing::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: 0
+        }
+
+        .wd_nav_top .hbe-header_loadingAnim .dot-flashing::before {
+            left: -15px;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: #666;
+            color: #666;
+            -webkit-animation: dot-flashing 1s infinite alternate;
+            animation: dot-flashing 1s infinite alternate;
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s
+        }
+
+        .wd_nav_top .hbe-header_loadingAnim .dot-flashing::after {
+            left: 15px;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: #666;
+            color: #666;
+            -webkit-animation: dot-flashing 1s infinite alternate;
+            animation: dot-flashing 1s infinite alternate;
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s
+        }
+
+        @-webkit-keyframes dot-flashing {
+            0% {
+                background-color: #666
+            }
+
+            50%,
+            100% {
+                background-color: #999
+            }
+        }
+
+        @keyframes dot-flashing {
+            0% {
+                background-color: #666
+            }
+
+            50%,
+            100% {
+                background-color: #999
+            }
+        }
+
+        .wd_nav_top .hbe-brandbar_alila {
+            background-size: 599px 504px;
+            background-position: -524px -221px;
+            height: 46px;
+            width: 68px
+        }
+
+        .wd_nav_top .hbe-brandbar_alila:hover {
+            background-position: -524px -165px
+        }
+
+        .wd_nav_top .hbe-brandbar_andaz {
+            background-size: 599px 504px;
+            background-position: -337px -5px;
+            height: 46px;
+            width: 91px
+        }
+
+        .wd_nav_top .hbe-brandbar_andaz:hover {
+            background-position: -211px -229px
+        }
+
+        .wd_nav_top .hbe-brandbar_caption {
+            background-size: 599px 504px;
+            background-position: -285px -341px;
+            height: 46px;
+            width: 82px
+        }
+
+        .wd_nav_top .hbe-brandbar_caption:hover {
+            background-position: -193px -341px
+        }
+
+        .wd_nav_top .hbe-brandbar_centric {
+            background-size: 599px 504px;
+            background-position: -337px -229px;
+            height: 46px;
+            width: 86px
+        }
+
+        .wd_nav_top .hbe-brandbar_centric:hover {
+            background-position: -337px -173px
+        }
+
+        .wd_nav_top .hbe-brandbar_destination {
+            background-size: 599px 504px;
+            background-position: -524px -333px;
+            height: 46px;
+            width: 67px
+        }
+
+        .wd_nav_top .hbe-brandbar_destination:hover {
+            background-position: -524px -277px
+        }
+
+        .wd_nav_top .hbe-brandbar_dream {
+            background-size: 599px 504px;
+            background-position: -101px -285px;
+            height: 46px;
+            width: 86px
+        }
+
+        .wd_nav_top .hbe-brandbar_dream:hover {
+            background-position: -5px -285px
+        }
+
+        .wd_nav_top .hbe-brandbar_grand {
+            background-size: 599px 504px;
+            background-position: -438px -61px;
+            height: 46px;
+            width: 76px
+        }
+
+        .wd_nav_top .hbe-brandbar_grand:hover {
+            background-position: -438px -5px
+        }
+
+        .wd_nav_top .hbe-brandbar_house {
+            background-size: 599px 504px;
+            background-position: -266px -453px;
+            height: 46px;
+            width: 53px
+        }
+
+        .wd_nav_top .hbe-brandbar_house:hover {
+            background-position: -203px -453px
+        }
+
+        .wd_nav_top .hbe-brandbar_hyatt {
+            background-size: 599px 504px;
+            background-position: -438px -173px;
+            height: 46px;
+            width: 74px
+        }
+
+        .wd_nav_top .hbe-brandbar_hyatt:hover {
+            background-position: -438px -117px
+        }
+
+        .wd_nav_top .hbe-brandbar_impression {
+            background-size: 599px 504px;
+            background-position: -230px -61px;
+            height: 46px;
+            width: 97px
+        }
+
+        .wd_nav_top .hbe-brandbar_impression:hover {
+            background-position: -230px -5px
+        }
+
+        .wd_nav_top .hbe-brandbar_jdv {
+            background-size: 599px 504px;
+            background-position: -513px -453px;
+            height: 46px;
+            width: 40px
+        }
+
+        .wd_nav_top .hbe-brandbar_jdv:hover {
+            background-position: -387px -285px
+        }
+
+        .wd_nav_top .hbe-brandbar_miraval {
+            background-size: 599px 504px;
+            background-position: -230px -173px;
+            height: 46px;
+            width: 93px
+        }
+
+        .wd_nav_top .hbe-brandbar_miraval:hover {
+            background-position: -230px -117px
+        }
+
+        .wd_nav_top .hbe-brandbar_park {
+            background-size: 599px 504px;
+            background-position: -115px -173px;
+            height: 46px;
+            width: 100px
+        }
+
+        .wd_nav_top .hbe-brandbar_park:hover {
+            background-position: -5px -173px
+        }
+
+        .wd_nav_top .hbe-brandbar_place {
+            background-size: 599px 504px;
+            background-position: -392px -453px;
+            height: 46px;
+            width: 53px
+        }
+
+        .wd_nav_top .hbe-brandbar_place:hover {
+            background-position: -329px -453px
+        }
+
+        .wd_nav_top .hbe-brandbar_regency {
+            background-size: 599px 504px;
+            background-position: -116px -117px;
+            height: 46px;
+            width: 101px
+        }
+
+        .wd_nav_top .hbe-brandbar_regency:hover {
+            background-position: -5px -117px
+        }
+
+        .wd_nav_top .hbe-brandbar_studios {
+            background-size: 599px 504px;
+            background-position: -455px -453px;
+            height: 46px;
+            width: 48px
+        }
+
+        .wd_nav_top .hbe-brandbar_studios:hover {
+            background-position: -377px -341px
+        }
+
+        .wd_nav_top .hbe-brandbar_thompson {
+            background-size: 599px 504px;
+            background-position: -5px -61px;
+            height: 46px;
+            width: 103px
+        }
+
+        .wd_nav_top .hbe-brandbar_thompson:hover {
+            background-position: -5px -5px
+        }
+
+        .wd_nav_top .hbe-brandbar_unbound {
+            background-size: 599px 504px;
+            background-position: -392px -397px;
+            height: 46px;
+            width: 57px
+        }
+
+        .wd_nav_top .hbe-brandbar_unbound:hover {
+            background-position: -325px -397px
+        }
+
+        .wd_nav_top .hbe-brandbar_world {
+            background-size: 599px 504px;
+            background-position: -524px -85px;
+            height: 70px;
+            width: 70px
+        }
+
+        .wd_nav_top .hbe-brandbar_world:hover {
+            background-position: -524px -5px
+        }
+
+        .wd_nav_top .hbe-brandbar_ziva {
+            background-size: 599px 504px;
+            background-position: -72px -453px;
+            height: 46px;
+            width: 57px
+        }
+
+        .wd_nav_top .hbe-brandbar_ziva:hover {
+            background-position: -5px -453px
+        }
+
+        .wd_nav_top .hbe-brandbar_zilara {
+            background-size: 599px 504px;
+            background-position: -248px -397px;
+            height: 46px;
+            width: 67px
+        }
+
+        .wd_nav_top .hbe-brandbar_zilara:hover {
+            background-position: -524px -389px
+        }
+
+        .wd_nav_top .hbe-brandbar_urcove {
+            background-size: 599px 504px;
+            background-position: -438px -285px;
+            height: 46px;
+            width: 74px
+        }
+
+        .wd_nav_top .hbe-brandbar_urcove:hover {
+            background-position: -438px -229px
+        }
+
+        .wd_nav_top .hbe-brandbar_alua {
+            background-size: 599px 504px;
+            background-position: -139px -453px;
+            height: 46px;
+            width: 54px
+        }
+
+        .wd_nav_top .hbe-brandbar_alua:hover {
+            background-position: -459px -397px
+        }
+
+        .wd_nav_top .hbe-brandbar_breathless {
+            background-size: 599px 504px;
+            background-position: -118px -61px;
+            height: 46px;
+            width: 102px
+        }
+
+        .wd_nav_top .hbe-brandbar_breathless:hover {
+            background-position: -118px -5px
+        }
+
+        .wd_nav_top .hbe-brandbar_secrets {
+            background-size: 599px 504px;
+            background-position: -99px -341px;
+            height: 46px;
+            width: 84px
+        }
+
+        .wd_nav_top .hbe-brandbar_secrets:hover {
+            background-position: -5px -341px
+        }
+
+        .wd_nav_top .hbe-brandbar_dreams {
+            background-size: 599px 504px;
+            background-position: -292px -285px;
+            height: 46px;
+            width: 85px
+        }
+
+        .wd_nav_top .hbe-brandbar_dreams:hover {
+            background-position: -197px -285px
+        }
+
+        .wd_nav_top .hbe-brandbar_zoetry {
+            background-size: 599px 504px;
+            background-position: -167px -397px;
+            height: 46px;
+            width: 71px
+        }
+
+        .wd_nav_top .hbe-brandbar_zoetry:hover {
+            background-position: -86px -397px
+        }
+
+        .wd_nav_top .hbe-brandbar_sunscape {
+            background-size: 599px 504px;
+            background-position: -337px -117px;
+            height: 46px;
+            width: 90px
+        }
+
+        .wd_nav_top .hbe-brandbar_sunscape:hover {
+            background-position: -337px -61px
+        }
+
+        .wd_nav_top .hbe-brandbar_vacation {
+            background-size: 599px 504px;
+            background-position: -108px -229px;
+            height: 46px;
+            width: 93px
+        }
+
+        .wd_nav_top .hbe-brandbar_vacation:hover {
+            background-position: -5px -229px
+        }
+
+        .wd_nav_top .hbe-brandbar_vivid {
+            background-size: 599px 504px;
+            background-position: -5px -397px;
+            height: 46px;
+            width: 71px
+        }
+
+        .wd_nav_top .hbe-brandbar_vivid:hover {
+            background-position: -438px -341px
+        }
+
+        .wd_nav_top .hbe-brandbar {
+            padding: 30px 0;
+            background-color: #fff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .wd_nav_top .hbe-brandbar_heading {
+            text-align: center;
+            margin-bottom: 18px
+        }
+
+        .wd_nav_top .hbe-brandbar_brands {
+            margin: 16px auto 4px auto;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 980px
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-brandbar_brands {
+                justify-content: space-around
+            }
+        }
+
+        .wd_nav_top .hbe-brandbar_brands li {
+            flex: 0 1 50%;
+            text-align: center;
+            margin: 0 0 12px 0;
+            padding: 0
+        }
+
+        @media (min-width: 375px) {
+            .wd_nav_top .hbe-brandbar_brands li {
+                flex: 0 1 33%
+            }
+        }
+
+        @media (min-width: 640px) {
+            .wd_nav_top .hbe-brandbar_brands li {
+                flex: 0 1 25%
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-brandbar_brands li {
+                flex: 0 1 auto
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-brandbar_row {
+                display: flex
+            }
+
+            .wd_nav_top .hbe-brandbar_timeless {
+                padding: 0 24px
+            }
+
+            .wd_nav_top .hbe-brandbar_boundless {
+                width: 75%;
+                padding-right: 8px
+            }
+        }
+
+        @media (min-width: 960px) and (min-width: 960px) {
+            .wd_nav_top .hbe-brandbar_boundless .hbe-brandbar_brands {
+                justify-content: space-between
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-brandbar_collections {
+                width: 25%;
+                padding-left: 8px
+            }
+        }
+
+        .wd_nav_top .hbe-brandbar_section {
+            font-family: "Darby Sans Poster Cond", "_Darby Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            color: #717171;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+            max-width: 980px
+        }
+
+        .wd_nav_top .hbe-brandbar_section::before,
+        .wd_nav_top .hbe-brandbar_section::after {
+            content: '';
+            border-top: 1px solid #717171;
+            margin: 0 6px 0 0;
+            flex: 1 0 6px;
+            display: block
+        }
+
+        .wd_nav_top .hbe-brandbar_section::after {
+            margin: 0 0 0 6px
+        }
+
+        .wd_nav_top .hbe-brandbar_disclaimer {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin-top: 8px;
+            font-size: 11px;
+            color: #717171;
+            text-align: center
+        }
+
+        .wd_nav_top .hbe-brandbar_disclaimer span {
+            display: block;
+            padding: 0 2px 2px 2px
+        }
+
+        @media (min-width: 480px) {
+            .wd_nav_top .hbe-brandbar_disclaimer span {
+                display: inline-block
+            }
+        }
+
+        .wd_nav_top .hbe-brandbar_disclaimer a {
+            color: #717171;
+            text-decoration: none
+        }
+
+        .wd_nav_top .hbe-brandbar_disclaimer a:visited {
+            color: #717171
+        }
+
+        .wd_nav_top .hbe-brandbar_disclaimer a:hover {
+            border-bottom: 1px solid #717171
+        }
+
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu {
+            text-align: center;
+            font-size: 12px;
+            padding: 18px 0;
+            background-color: #000;
+            color: #b6b6b6;
+            -webkit-font-smoothing: auto;
+            -moz-osx-font-smoothing: auto
+        }
+
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp button,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button {
+            font-size: 12px;
+            line-height: 1.3;
+            transition: none;
+            border-color: transparent;
+            background-color: transparent;
+            padding: 0
+        }
+
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp a,
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp button,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu a,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button {
+            margin-bottom: 12px;
+            display: inline-block;
+            border-bottom: 1px solid transparent;
+            color: #b6b6b6
+        }
+
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp a:visited,
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp button:visited,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu a:visited,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button:visited {
+            color: #b6b6b6
+        }
+
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp a:hover,
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp button:hover,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu a:hover,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button:hover {
+            text-decoration: none;
+            color: #fff;
+            border-bottom: 1px solid #fff
+        }
+
+        .wd_nav_top .hbe-legalFooter_carbon-1wbKp span,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu span {
+            margin-bottom: 12px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-legalFooter_light-2pFuu {
+            background-color: #fff;
+            color: #535353
+        }
+
+        .wd_nav_top .hbe-legalFooter_light-2pFuu a,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button {
+            color: #535353
+        }
+
+        .wd_nav_top .hbe-legalFooter_light-2pFuu a:visited,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button:visited {
+            color: #535353
+        }
+
+        .wd_nav_top .hbe-legalFooter_light-2pFuu a:hover,
+        .wd_nav_top .hbe-legalFooter_light-2pFuu button:hover {
+            color: #282828;
+            border-bottom: 1px solid #282828
+        }
+
+        .wd_nav_top .hbe-legalFooter_links-2n6IF {
+            margin: 0;
+            padding: 0;
+            list-style-type: none
+        }
+
+        .wd_nav_top .hbe-legalFooter_links-2n6IF li {
+            margin: 0;
+            padding: 0;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-legalFooter_links-2n6IF li::after {
+            content: "|";
+            padding: 0 8px 0 8px;
+            color: #666
+        }
+
+        .wd_nav_top .hbe-legalFooter_links-2n6IF li:last-of-type::after {
+            content: "";
+            padding: 0
+        }
+
+        .wd_nav_top .hbe-footer {
+            background-color: #282828;
+            color: #fff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            border-top: 10px solid #b6b6b6
+        }
+
+        .wd_nav_top .hbe-footer.hbe-footer_theme-light {
+            background-color: #f6f6f6;
+            color: #282828
+        }
+
+        @media (max-width: 959px) {
+            .wd_nav_top .hbe-footer .hbe-container {
+                padding: 0
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-footer_row {
+                display: flex
+            }
+        }
+
+        .wd_nav_top .hbe-footer_row-alpha {
+            padding: 48px 32px 0;
+            width: 100%
+        }
+
+        @media (max-width: 479px) {
+            .wd_nav_top .hbe-footer_row-alpha {
+                padding: 48px 16px 0
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-footer_row-alpha {
+                width: auto;
+                flex: 2
+            }
+        }
+
+        .wd_nav_top .hbe-footer_row-beta {
+            padding-top: 48px;
+            margin: 0 12px;
+            display: block
+        }
+
+        @media (min-width: 480px) {
+            .wd_nav_top .hbe-footer_row-beta {
+                margin: 0 32px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .wd_nav_top .hbe-footer_row-beta {
+                display: flex;
+                flex-wrap: wrap
+            }
+        }
+
+        @media (min-width: 960px) {
+            .wd_nav_top .hbe-footer_row-beta {
+                width: 365px;
+                display: block;
+                margin: 12px 0;
+                padding: 36px 0 0 65px;
+                border-left: 1px solid #b6b6b6
+            }
+        }
+
+        @media (max-width: 959px) {
+            .wd_nav_top .hbe-footer_row-beta {
+                border-top: 1px solid #b6b6b6
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 959px) {
+            .wd_nav_top .hbe-footer_row-beta .hbe-footer_column {
+                width: 100%;
+                order: 99
+            }
+        }
+
+        .wd_nav_top .hbe-bestRates {
+            padding-bottom: 24px;
+            margin-bottom: 27px
+        }
+
+        @media (min-width: 768px) and (max-width: 959px) {
+            .wd_nav_top .hbe-bestRates {
+                width: 50%
+            }
+        }
+
+        .wd_nav_top .hbe-bestRates_label {
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 600
+        }
+
+        .wd_nav_top .hbe-bestRates_link {
+            display: block;
+            font-size: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            max-width: 300px;
+            padding: 8px 0;
+            border: 1px solid #fff;
+            background: rgba(40, 40, 40, 0.4)
+        }
+
+        .wd_nav_top .hbe-bestRates_link:visited {
+            background: rgba(40, 40, 40, 0.4);
+            color: #fff
+        }
+
+        .wd_nav_top .hbe-bestRates_link:hover {
+            background: rgba(27, 27, 27, 0.4);
+            color: #fff
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-bestRates_link {
+            background: transparent;
+            border: 1px solid #fff;
+            color: #407bae;
+            border-color: #407bae
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-bestRates_link:hover {
+            background: #ededed;
+            color: #407bae
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-bestRates_link:visited {
+            background: transparent;
+            color: #407bae
+        }
+
+        .wd_nav_top .hbe-socialIcons {
+            padding-bottom: 24px
+        }
+
+        @media (min-width: 768px) and (max-width: 959px) {
+            .wd_nav_top .hbe-socialIcons {
+                width: 50%
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 959px) {
+            .wd_nav_top .hbe-socialIcons {
+                width: 50%
+            }
+        }
+
+        .wd_nav_top .hbe-socialIcons_heading {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 18px
+        }
+
+        .wd_nav_top .hbe-socialIcons_links {
+            list-style: none;
+            margin: 0;
+            padding: 0
+        }
+
+        .wd_nav_top .hbe-socialIcons_links li {
+            padding: 0;
+            display: inline-block;
+            margin: 0 12px 0 0;
+            height: 36px;
+            width: 36px
+        }
+
+        .wd_nav_top .hbe-socialIcons_facebook {
+            background-size: 184px 184px;
+            background-position: -5px -5px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_facebook:hover {
+            background-position: -51px -5px
+        }
+
+        .wd_nav_top .hbe-socialIcons_instagram {
+            background-size: 184px 184px;
+            background-position: -5px -51px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_instagram:hover {
+            background-position: -51px -51px
+        }
+
+        .wd_nav_top .hbe-socialIcons_kakaotalk {
+            background-size: 184px 184px;
+            background-position: -97px -5px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_kakaotalk:hover {
+            background-position: -97px -51px
+        }
+
+        .wd_nav_top .hbe-socialIcons_line {
+            background-size: 184px 184px;
+            background-position: -5px -97px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_line:hover {
+            background-position: -51px -97px
+        }
+
+        .wd_nav_top .hbe-socialIcons_linkedin {
+            background-size: 184px 184px;
+            background-position: -97px -97px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_linkedin:hover {
+            background-position: -143px -5px
+        }
+
+        .wd_nav_top .hbe-socialIcons_x {
+            background-size: 184px 184px;
+            background-position: -5px -143px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_x:hover {
+            background-position: -51px -143px
+        }
+
+        .wd_nav_top .hbe-socialIcons_youtube {
+            background-size: 184px 184px;
+            background-position: -97px -143px;
+            height: 36px;
+            width: 36px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-socialIcons_youtube:hover {
+            background-position: -143px -143px
+        }
+
+        .wd_nav_top .hbe-mobileBadges {
+            padding-bottom: 27px;
+            margin-bottom: 27px
+        }
+
+        @media (min-width: 768px) and (max-width: 959px) {
+            .wd_nav_top .hbe-mobileBadges {
+                width: 50%
+            }
+        }
+
+        .wd_nav_top .hbe-mobileBadges_container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 300px
+        }
+
+        .wd_nav_top .hbe-mobileBadges_heading {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 18px
+        }
+
+        @media (min-width: 768px) {
+            .wd_nav_top .hbe-linkBlocks {
+                padding-left: 0
+            }
+        }
+
+        @media (min-width: 480px) {
+            .wd_nav_top .hbe-linkBlocks_row {
+                display: flex
+            }
+        }
+
+        @media (min-width: 480px) {
+            .wd_nav_top .hbe-linkBlocks_col {
+                width: 50%
+            }
+        }
+
+        .wd_nav_top .hbe-linkBlocks_heading {
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+            margin-right: 18px
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links {
+            padding: 0 24px 36px 0;
+            margin: 0;
+            list-style: none
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links a {
+            color: #b6b6b6;
+            text-decoration: none;
+            line-height: 1.5
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links a:visited {
+            color: #b6b6b6
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links a:hover {
+            color: #fff
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links a:hover span {
+            border-bottom: 1px solid #fff
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links li {
+            padding: 0;
+            margin: 0 0 15px 0
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links a[target="_blank"]::after {
+            content: '';
+            height: 14px;
+            width: 14px;
+            margin-left: 6px;
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI0I2QjZCNiIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMTUuMDQgMS41MzJMMTAuMTEgNi4xNmEuODMuODMgMCAxIDAgMS4xMzUgMS4yMDhsNC45MzItNC42M0EuODMuODMgMCAxIDAgMTUuMDQgMS41M3YuMDAyeiIvPjxwYXRoIGQ9Ik0xNy42OTguMzQyYy4wMzItLjE4OC0uMTUtLjM3LS4zMzktLjMzOGwtNC44My44MjlhLjI5NC4yOTQgMCAwIDAtLjE1Ny40OTdjLjA0LjA0LjA5LjA2Ni4xNDQuMDc4bDIuNTE4IDEuMjYgMS4yNiAyLjUyYS4yOTMuMjkzIDAgMCAwIC41NzYtLjAxNGwuODI4LTQuODMyek0xNC4zMjIgOC4zODd2OC40NTJoLjgyOWwtLjU4Ny0uNTg2LjU3Ny41OTV2LS44MjlILjg0di44M2wuNTg2LS41ODctLjU5NS41NzdoLjgyOFYyLjUzNkguODNsLjU4Ni41ODctLjU3Ny0uNTk1di44MjhoOC4zMzZhLjgzLjgzIDAgMSAwIDAtMS42NTdILjgzOGEuODMuODMgMCAwIDAtLjU4Ni4yNDMuODM2LjgzNiAwIDAgMC0uMjUyLjU5NFYxNi44NGMwIC4yMi4wODguNDMuMjQ0LjU4NS4xNTYuMTYuMzcuMjUxLjU5NC4yNTJoMTQuMzA0YS44My44MyAwIDAgMCAuNTg3LS4yNDIuODM2LjgzNiAwIDAgMCAuMjUtLjU5NVY4LjM4N2EuODMuODMgMCAwIDAtMS42NTYgMGgtLjAwMXoiLz48L2c+PC9zdmc+");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 14px 14px;
+            display: inline-block
+        }
+
+        .wd_nav_top .hbe-linkBlocks_links a[target="_blank"]:hover::after {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMTUuMDQgMS41MzJMMTAuMTEgNi4xNmEuODMuODMgMCAxIDAgMS4xMzUgMS4yMDhsNC45MzItNC42M0EuODMuODMgMCAxIDAgMTUuMDQgMS41M3YuMDAyeiIvPjxwYXRoIGQ9Ik0xNy42OTguMzQyYy4wMzItLjE4OC0uMTUtLjM3LS4zMzktLjMzOGwtNC44My44MjlhLjI5NC4yOTQgMCAwIDAtLjE1Ny40OTdjLjA0LjA0LjA5LjA2Ni4xNDQuMDc4bDIuNTE4IDEuMjYgMS4yNiAyLjUyYS4yOTMuMjkzIDAgMCAwIC41NzYtLjAxNGwuODI4LTQuODMyek0xNC4zMjIgOC4zODd2OC40NTJoLjgyOWwtLjU4Ny0uNTg2LjU3Ny41OTV2LS44MjlILjg0di44M2wuNTg2LS41ODctLjU5NS41NzdoLjgyOFYyLjUzNkguODNsLjU4Ni41ODctLjU3Ny0uNTk1di44MjhoOC4zMzZhLjgzLjgzIDAgMSAwIDAtMS42NTdILjgzOGEuODMuODMgMCAwIDAtLjU4Ni4yNDMuODM2LjgzNiAwIDAgMC0uMjUyLjU5NFYxNi44NGMwIC4yMi4wODguNDMuMjQ0LjU4NS4xNTYuMTYuMzcuMjUxLjU5NC4yNTJoMTQuMzA0YS44My44MyAwIDAgMCAuNTg3LS4yNDIuODM2LjgzNiAwIDAgMCAuMjUtLjU5NVY4LjM4N2EuODMuODMgMCAwIDAtMS42NTYgMGgtLjAwMXoiLz48L2c+PC9zdmc+")
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-linkBlocks_links a {
+            color: #666666
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-linkBlocks_links a:visited {
+            color: #666666
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-linkBlocks_links a:hover {
+            color: #666666
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-linkBlocks_links a:hover span {
+            border-bottom: 1px solid #666666
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-linkBlocks_links a[target="_blank"]::after {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iIzUzNTM1MyI+PHBhdGggZD0iTTE1LjA0IDEuNTMyTDEwLjExIDYuMTZhLjgzLjgzIDAgMTAxLjEzNSAxLjIwOGw0LjkzMi00LjYzQS44My44MyAwIDEwMTUuMDQgMS41M3YuMDAyeiIvPjxwYXRoIGQ9Ik0xNy42OTguMzQyYy4wMzItLjE4OC0uMTUtLjM3LS4zMzktLjMzOGwtNC44My44MjlhLjI5NC4yOTQgMCAwMC0uMTU3LjQ5N2MuMDQuMDQuMDkuMDY2LjE0NC4wNzhsMi41MTggMS4yNiAxLjI2IDIuNTJhLjI5My4yOTMgMCAwMC41NzYtLjAxNGwuODI4LTQuODMyem0tMy4zNzYgOC4wNDV2OC40NTJoLjgyOWwtLjU4Ny0uNTg2LjU3Ny41OTV2LS44MjlILjg0di44M2wuNTg2LS41ODctLjU5NS41NzdoLjgyOFYyLjUzNkguODNsLjU4Ni41ODctLjU3Ny0uNTk1di44MjhoOC4zMzZhLjgzLjgzIDAgMTAwLTEuNjU3SC44MzhhLjgzLjgzIDAgMDAtLjU4Ni4yNDMuODM2LjgzNiAwIDAwLS4yNTIuNTk0VjE2Ljg0YzAgLjIyLjA4OC40My4yNDQuNTg1LjE1Ni4xNi4zNy4yNTEuNTk0LjI1MmgxNC4zMDRhLjgzLjgzIDAgMDAuNTg3LS4yNDIuODM2LjgzNiAwIDAwLjI1LS41OTVWOC4zODdhLjgzLjgzIDAgMDAtMS42NTYgMGgtLjAwMXoiLz48L2c+PC9zdmc+")
+        }
+
+        .wd_nav_top .hbe-footer_theme-light .hbe-linkBlocks_links a[target="_blank"]:hover::after {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iIzUzNTM1MyI+PHBhdGggZD0iTTE1LjA0IDEuNTMyTDEwLjExIDYuMTZhLjgzLjgzIDAgMTAxLjEzNSAxLjIwOGw0LjkzMi00LjYzQS44My44MyAwIDEwMTUuMDQgMS41M3YuMDAyeiIvPjxwYXRoIGQ9Ik0xNy42OTguMzQyYy4wMzItLjE4OC0uMTUtLjM3LS4zMzktLjMzOGwtNC44My44MjlhLjI5NC4yOTQgMCAwMC0uMTU3LjQ5N2MuMDQuMDQuMDkuMDY2LjE0NC4wNzhsMi41MTggMS4yNiAxLjI2IDIuNTJhLjI5My4yOTMgMCAwMC41NzYtLjAxNGwuODI4LTQuODMyem0tMy4zNzYgOC4wNDV2OC40NTJoLjgyOWwtLjU4Ny0uNTg2LjU3Ny41OTV2LS44MjlILjg0di44M2wuNTg2LS41ODctLjU5NS41NzdoLjgyOFYyLjUzNkguODNsLjU4Ni41ODctLjU3Ny0uNTk1di44MjhoOC4zMzZhLjgzLjgzIDAgMTAwLTEuNjU3SC44MzhhLjgzLjgzIDAgMDAtLjU4Ni4yNDMuODM2LjgzNiAwIDAwLS4yNTIuNTk0VjE2Ljg0YzAgLjIyLjA4OC40My4yNDQuNTg1LjE1Ni4xNi4zNy4yNTEuNTk0LjI1MmgxNC4zMDRhLjgzLjgzIDAgMDAuNTg3LS4yNDIuODM2LjgzNiAwIDAwLjI1LS41OTVWOC4zODdhLjgzLjgzIDAgMDAtMS42NTYgMGgtLjAwMXoiLz48L2c+PC9zdmc+")
+        }
+
+        .wd_nav_top .hbe-header_woh {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative
+        }
+
+        .wd_nav_top .hbe-header_woh .hbe-header_wohLeftNav {
+            display: flex;
+            align-items: center
+        }
+
+        @media (min-width: 1280px) {
+            .wd_nav_top .hbe-header_woh .hbe-header_woh-mobile-menu {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-header_woh .hbe-header_wohNavTabs {
+            margin-left: 12px
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-header_woh-logo {
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%
+            }
+
+            .wd_nav_top .hbe-header_woh-logo.hbe-header_logo-left {
+                justify-content: flex-start
+            }
+        }
+
+        .wd_nav_top .hbe-header_woh-logo img {
+            /* width: 215px */
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_woh-logo img {
+                /* width: 170px */
+            }
+        }
+
+        .wd_nav_top .hbe-header_woh-logo.hbe-header_core-logo img {
+            width: 101px
+        }
+
+        @media (max-width: 599px) {
+            .wd_nav_top .hbe-header_woh-logo.hbe-header_core-logo img {
+                width: 91px
+            }
+        }
+
+        .wd_nav_top .hbe-header_pagetabs {
+            height: 55px;
+            display: flex;
+            justify-content: flex-end
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-header_pagetabs .hbe-header_pagetabs-global-lang-panel {
+                display: none
+            }
+        }
+
+        @media (min-width: 600px) {
+            .wd_nav_top .hbe-header_popover {
+                position: relative
+            }
+        }
+
+        .wd_nav_top .hbe-header_popover-hamburger {
+            margin-right: 12px
+        }
+
+        .wd_nav_top .hbe-header_popover-dropdown {
+            margin: 0 14px
+        }
+
+        .wd_nav_top .hbe-header_popover-globe {
+            margin-right: 24px
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_header-1BlqZ {
+            position: relative;
+            height: 56px;
+            line-height: 55px;
+            background: #fff;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+            pointer-events: none
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_subnavHeader-3iIgm {
+            margin: 0;
+            background-color: rgba(26, 36, 38, 0.05);
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+            padding: 8px 15px;
+            text-transform: uppercase;
+            font-size: 12px
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_menu-3IoqH {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            transition: all .75s;
+            pointer-events: none
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_menu-3IoqH.hbe-wohMenuPanel_mainMenu-2vLzT {
+            left: -100%
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_menu-3IoqH.hbe-wohMenuPanel_mainMenu-2vLzT.hbe-wohMenuPanel_show-DrF-G {
+            left: 0;
+            pointer-events: auto
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_menu-3IoqH.hbe-wohMenuPanel_languageMenu-5yeOH {
+            opacity: 0
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_menu-3IoqH.hbe-wohMenuPanel_languageMenu-5yeOH.hbe-wohMenuPanel_show-DrF-G {
+            opacity: 1;
+            pointer-events: auto
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_menu-3IoqH .hbe-wohMenuPanel_menuInnerContainer-1rSea {
+            flex-grow: 1;
+            position: relative;
+            top: 54px;
+            overflow: auto;
+            padding-bottom: 70px
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButtonContainer-3X2_I {
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            background-color: #ffffff
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButton-2u9iG {
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            margin: 12px 12px 10px
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButton-2u9iG:hover {
+            background: rgba(61, 61, 61, 0.1)
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButton-2u9iG span {
+            margin-right: 6px;
+            position: relative;
+            top: 3px
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButton-2u9iG a {
+            display: block;
+            margin: 0 12px;
+            padding: 12px 0;
+            font-size: 16px;
+            color: #282828;
+            line-height: 1.25;
+            font-size: 14px
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButton-2u9iG a:visited {
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-wohMenuPanel_languageButton-2u9iG a:hover {
+            text-decoration: none;
+            outline: 0
+        }
+
+        @media (max-width: 1279px) {
+            .wd_nav_top .hbe-header_wohNavTabs {
+                display: none
+            }
+        }
+
+        .wd_nav_top .hbe-header_wohNavTabs .hbe-header_wohNavItems {
+            padding: 0;
+            margin: 0;
+            list-style: none
+        }
+
+        .wd_nav_top .hbe-header_wohNavTabs .hbe-header_wohNavItems>li {
+            display: inline-block;
+            vertical-align: top
+        }
+
+        .wd_nav_top .hbe-header_wohNavItem {
+            line-height: 54px
+        }
+
+        .wd_nav_top .hbe-header_wohNavItem a {
+            display: inline-block;
+            font-size: 14px;
+            color: #282828;
+            margin: 0 14px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0)
+        }
+
+        .wd_nav_top .hbe-header_wohNavItem a:visited {
+            color: #282828
+        }
+
+        .wd_nav_top .hbe-header_wohNavItem a:hover {
+            color: #282828;
+            border-bottom: 1px solid #282828
+        }
+
+        .wd_nav_top .hbe-header {
+            background-color: #fff;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+            position: relative
+        }
+
+        .wd_nav_top .hbe-header_container {
+            height: 55px;
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 16px
+        }
+
+        @media (min-width: 600px) {
+            .wd_nav_top .hbe-header_container {
+                padding: 0 32px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .wd_nav_top .hbe-header_container {
+                padding: 0 48px
+            }
+        }
+
+        .wd_nav_top .hbe-header_container.hbe-header_container-xxl {
+            max-width: 1920px
+        }
+
+        a.hbe-header_skipnav {
+            min-width: 263px;
+            position: fixed;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            font-size: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 13px;
+            color: #fff;
+            background-color: #0072CE;
+            transition: all .25s ease;
+            border-radius: 2px;
+            white-space: nowrap
+        }
+
+        a.hbe-header_skipnav:focus {
+            top: 35px
+        }
+
+        a.hbe-header_skipnav:visited {
+            color: #fff
+        }
+    </style>
+    <!-- <style type="text/css">
+        .hbe-brandbar_img {
+            background-image: url('images/brandbar.svg');
+            display: inline-block;
+        }
+
+        .hbe-socialIcons_icon {
+            background-image: url('images/social.svg');
+        }
+    </style> -->
+
+    <link href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/template.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+    <link rel="alternate" href="https://newsroom.hyatt.com/news-releases?pagetemplate=rss" type="application/rss+xml" title="Hyatt Newsroom">
+    <script>
+        ! function(e) {
+            var n = "https://s.go-mpulse.net/boomerang/";
+            if ("True" == "True") e.BOOMR_config = e.BOOMR_config || {}, e.BOOMR_config.PageParams = e.BOOMR_config.PageParams || {}, e.BOOMR_config.PageParams.pci = !0, n = "https://s2.go-mpulse.net/boomerang/";
+            if (window.BOOMR_API_key = "ZNWTJ-TNUTH-W52HZ-V82XE-KWZ42", function() {
+                    function e() {
+                        if (!o) {
+                            var e = document.createElement("script");
+                            e.id = "boomr-scr-as", e.src = window.BOOMR.url, e.async = !0, i.parentNode.appendChild(e), o = !0
+                        }
+                    }
+
+                    function t(e) {
+                        o = !0;
+                        var n, t, a, r, d = document,
+                            O = window;
+                        if (window.BOOMR.snippetMethod = e ? "if" : "i", t = function(e, n) {
+                                var t = d.createElement("script");
+                                t.id = n || "boomr-if-as", t.src = window.BOOMR.url, BOOMR_lstart = (new Date).getTime(), e = e || d.body, e.appendChild(t)
+                            }, !window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]\./)) return window.BOOMR.snippetMethod = "s", void t(i.parentNode, "boomr-async");
+                        a = document.createElement("IFRAME"), a.src = "about:blank", a.title = "", a.role = "presentation", a.loading = "eager", r = (a.frameElement || a).style, r.width = 0, r.height = 0, r.border = 0, r.display = "none", i.parentNode.appendChild(a);
+                        try {
+                            O = a.contentWindow, d = O.document.open()
+                        } catch (_) {
+                            n = document.domain, a.src = "javascript:var d=document.open();d.domain='" + n + "';void(0);", O = a.contentWindow, d = O.document.open()
+                        }
+                        if (n) d._boomrl = function() {
+                            this.domain = n, t()
+                        }, d.write("<bo" + "dy onload='document._boomrl();'>");
+                        else if (O._boomrl = function() {
+                                t()
+                            }, O.addEventListener) O.addEventListener("load", O._boomrl, !1);
+                        else if (O.attachEvent) O.attachEvent("onload", O._boomrl);
+                        d.close()
+                    }
+
+                    function a(e) {
+                        window.BOOMR_onload = e && e.timeStamp || (new Date).getTime()
+                    }
+                    if (!window.BOOMR || !window.BOOMR.version && !window.BOOMR.snippetExecuted) {
+                        window.BOOMR = window.BOOMR || {}, window.BOOMR.snippetStart = (new Date).getTime(), window.BOOMR.snippetExecuted = !0, window.BOOMR.snippetVersion = 12, window.BOOMR.url = n + "ZNWTJ-TNUTH-W52HZ-V82XE-KWZ42";
+                        var i = document.currentScript || document.getElementsByTagName("script")[0],
+                            o = !1,
+                            r = document.createElement("link");
+                        if (r.relList && "function" == typeof r.relList.supports && r.relList.supports("preload") && "as" in r) window.BOOMR.snippetMethod = "p", r.href = window.BOOMR.url, r.rel = "preload", r.as = "script", r.addEventListener("load", e), r.addEventListener("error", function() {
+                            t(!0)
+                        }), setTimeout(function() {
+                            if (!o) t(!0)
+                        }, 3e3), BOOMR_lstart = (new Date).getTime(), i.parentNode.appendChild(r);
+                        else t(!1);
+                        if (window.addEventListener) window.addEventListener("load", a, !1);
+                        else if (window.attachEvent) window.attachEvent("onload", a)
+                    }
+                }(), "".length > 0)
+                if (e && "performance" in e && e.performance && "function" == typeof e.performance.setResourceTimingBufferSize) e.performance.setResourceTimingBufferSize();
+            ! function() {
+                if (BOOMR = e.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) {
+                    var n = "" == "true" ? 1 : 0,
+                        t = "",
+                        a = "jr4xiatio666uzwxhkyq-f-75febec3a-clientnsv4-s.akamaihd.net",
+                        i = "false" == "true" ? 2 : 1,
+                        o = {
+                            "ak.v": "37",
+                            "ak.cp": "18222",
+                            "ak.ai": parseInt("235288", 10),
+                            "ak.ol": "0",
+                            "ak.cr": 66,
+                            "ak.ipv": 4,
+                            "ak.proto": "h2",
+                            "ak.rid": "2bc85b4e",
+                            "ak.r": 35417,
+                            "ak.a2": n,
+                            "ak.m": "x",
+                            "ak.n": "essl",
+                            "ak.bpcip": "76.121.116.0",
+                            "ak.cport": 50609,
+                            "ak.gh": "104.119.189.230",
+                            "ak.quicv": "",
+                            "ak.tlsv": "tls1.3",
+                            "ak.0rtt": "",
+                            "ak.csrc": "-",
+                            "ak.acc": "",
+                            "ak.t": "1725381297",
+                            "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==RpMf7gsMuUZnCJZO9ExjYdaZXVc3sYvM1AJHe7SqHxDWV13O9e5ZbuA9L/JXoSbPfQ3N+M85XDZmVu5IrMMlyWCsw8Oja3GpTQQ5FGASGvBKS8tharmhCjEKjcRad4MWP69H2s2A30UPyWRWHfIOie8N7qshDge/eqHaFaSqPjXEdKTravO2ZYeOwGRz2PzLTrrkGcZh0Nb8b4d1CvFRAnKsaTz9fakZUbdu9OJVvLSy0Cll1t9c6yJAmpDwGEbz7+7j34JhOUbxYj41DXsRoRNq94/g8PMp0z9/kYCUXsiiX61G/xW140y4AZxk+NcHyshDUxEU5mzqeytilrkOI63YCCGpdyGo42igl3fco2W2LmIfpwcqTbFYmxeD0ZqjxRKjfm1FVO3bJG0IYlxE+9MwIDfiwjavxeIHyZfpql8=",
+                            "ak.pv": "263",
+                            "ak.dpoabenc": "",
+                            "ak.tf": i
+                        };
+                    if ("" !== t) o["ak.ruds"] = t;
+                    var r = {
+                        i: !1,
+                        av: function(n) {
+                            var t = "http.initiator";
+                            if (n && (!n[t] || "spa_hard" === n[t])) o["ak.feo"] = void 0 !== e.aFeoApplied ? 1 : 0, BOOMR.addVar(o)
+                        },
+                        rv: function() {
+                            var e = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"];
+                            BOOMR.removeVar(e)
+                        }
+                    };
+                    BOOMR.plugins.AK = {
+                        akVars: o,
+                        akDNSPreFetchDomain: a,
+                        init: function() {
+                            if (!r.i) {
+                                var e = BOOMR.subscribe;
+                                e("before_beacon", r.av, null, null), e("onbeacon", r.rv, null, null), r.i = !0
+                            }
+                            return this
+                        },
+                        is_complete: function() {
+                            return !0
+                        }
+                    }
+                }
+            }()
+        }(window);
+    </script>
+
+<!-- begin spin_special_output(head_end) -->
+<!-- OneTrust Cookies Consent Notice start -->
+<script src="" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+
+<link rel="canonical" href="https://newsroom.hyatt.com/news-releases?item=124401" />
+<!-- end spin_special_output(head_end) -->
+</head>
+
+<body class="wd_pageid_20295 wd_item_page wd_item_124401">
+
+    
+    
+
+    <!-- header_nav -->
+    <div class="wd_nav_top home-page-ui-bookends-header-wrapper b-layer-delta">
+        <div class="ecom-header" data-bookends="">
+            <div role="banner" class="hbe hbe-header">
+                <a href="#hbe-skipnav" class="hbe-header_skipnav">Skip Main Navigation</a>
+                <div class="hbe-header_container ">
+                    <div class="hbe-header_woh">
+                        <div class="hbe-header_wohLeftNav">
+                            <div class="hbe-header_woh-logo  ">
+                                <a href="https://www.hyatt.com">
+                                    <img src="images/hyatt_logo.png" alt="World of Hyatt">
+                                </a>
+                                <a class="wd_header_newsroom" href="./">Newsroom</a>
+                            </div>
+                            <div data-locator="hamburger-menu" class="hbe-header_woh-mobile-menu">
+                                <div class="hbe-drawer_container-2mVdH ">
+                                    <button type="button" class="hbe-menuButton_default-2Yjj_
+                                 hbe-menuButton_hamburger-2Rn6j
+                                 " aria-label="Open Menu" aria-expanded="false">
+                                        <span>
+                                            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M17.59 14.773a.41.41 0 01.074.812l-.073.006H.409a.41.41 0 01-.073-.811l.073-.007h17.182zm0-6.136a.41.41 0 01.074.811l-.073.007H.409a.41.41 0 01-.073-.812l.073-.006h17.182zm0-6.137a.41.41 0 01.074.812l-.073.006H.409a.41.41 0 01-.073-.811L.409 2.5h17.182z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="hbe-menuButton_menuLabel-ZtRSv"><span></span></span>
+                                        <span class="hbe-menuButton_arrow-1mAL_">
+                                            <svg width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M.123 7.164a.382.382 0 01-.021-.54.384.384 0 01.505-.053l.037.03 4.34 3.996 4.373-3.996a.384.384 0 01.507-.01l.035.033a.382.382 0 01.01.506l-.034.035-4.633 4.234a.385.385 0 01-.481.03l-.039-.03L.123 7.164z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    <div class="hbe-drawer_drawer-15DHD hbe-drawer_left-1eamq">
+                                        <div class="hbe-drawer_menu-21_Oo hbe-drawer_left-1eamq
+                                    hbe-drawer_hideDrawer-2Z5X2">
+                                            <div class="hbe-header_panel-left hbe-header_panel-style-full">
+                                                <div data-locator="hamburger-header" class="hbe-wohMenuPanel_header-1BlqZ">
+                                                    <div class="hbe-header_woh-logo  "><img src="images/hyatt_logo.png" alt="World of Hyatt"></div>
+                                                </div>
+
+                                                <div data-locator="hamburger-subnav" class="hbe-wohMenuPanel_menu-3IoqH hbe-wohMenuPanel_mainMenu-2vLzT hbe-wohMenuPanel_show-DrF-G">
+                                                    <div class="hbe-wohMenuPanel_menuInnerContainer-1rSea">
+                                                        <div>
+                                                            <ul class="hbe-header_linklist hbe-header_linklist-style-woh-hamburger">
+                                                                <!-- mr nav mobile -->
+                                                                
+
+
+            <li>
+            <a class="" href="https://newsroom.hyatt.com/newsroom-overview">Newsroom</a>
+        </li>
+    
+
+
+
+
+            <li>
+            <a class="" href="https://newsroom.hyatt.com/news-releases">News Releases</a>
+        </li>
+    
+
+
+
+
+            <li>
+            <a class="" href="https://newsroom.hyatt.com/Media-Resources">Media Resources</a>
+        </li>
+    
+
+
+
+
+
+            <li>
+            <a class="" href="https://newsroom.hyatt.com/media-gallery">Media Gallery</a>
+        </li>
+    
+
+
+
+
+
+            <li>
+            <a class="" href="https://newsroom.hyatt.com/awards">Awards</a>
+        </li>
+    
+
+
+
+
+
+            <li class="hbe-header_linkListMenu">
+            <a aria-expanded="false" href="#">Corporate Governance<span class="hbe-header_linkListMenu-arrow"><svg width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg"><path d="M.123 7.164a.382.382 0 01-.021-.54.384.384 0 01.505-.053l.037.03 4.34 3.996 4.373-3.996a.384.384 0 01.507-.01l.035.033a.382.382 0 01.01.506l-.034.035-4.633 4.234a.385.385 0 01-.481.03l-.039-.03L.123 7.164z"></path></svg></span></a>
+            <div>
+                <ul class="hbe-header_linklist hbe-header_linklist-style-woh">
+                    
+    <li>
+        <a class="" href="https://newsroom.hyatt.com/management-team">Management Team</a>
+    </li>
+
+
+    <li>
+        <a class="" href="https://newsroom.hyatt.com/board-of-directors">Board of Directors</a>
+    </li>
+
+
+                </ul>
+            </div>
+        </li>
+    
+
+
+
+
+
+            <li>
+            <a class="" href="https://newsroom.hyatt.com/contacts">Contacts</a>
+        </li>
+    
+
+
+
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div data-locator="hamburger-language-button" class="hbe-wohMenuPanel_languageButtonContainer-3X2_I">
+                                                        <div class="hbe-wohMenuPanel_languageButton-2u9iG">
+                                                            <a aria-controls="language-options" aria-expanded="false" aria-label="Choose a language" href="#">
+                                                                <span>
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M9 1a8 8 0 110 16A8 8 0 019 1zm-.26 12.524l.16-.009a6.439 6.439 0 00-2.837.765c.235.34.5.633.793.884.435.373.9.623 1.363.775.226.073.406.11.523.125l-.002-2.54zm.72.014v2.495a3.27 3.27 0 00.346-.094 3.992 3.992 0 001.363-.775c.29-.249.552-.539.786-.873a6.419 6.419 0 00-2.494-.753zM5.49 14.63l-.2.14a6.62 6.62 0 00-.385.306 7.25 7.25 0 001.955.935 5.347 5.347 0 01-1.37-1.381zm7.039.01l-.02.029a5.336 5.336 0 01-1.321 1.328 7.307 7.307 0 001.91-.92 6.42 6.42 0 00-.57-.438zM4.154 9.46h-2.47a7.315 7.315 0 002.67 5.209c.249-.225.512-.43.787-.615-.617-1.157-.968-2.675-.987-4.594zm12.161 0l-2.445-.001v.032c-.022 1.912-.375 3.423-.993 4.576.269.181.525.382.769.6a7.31 7.31 0 002.67-5.207zm-3.115 0H9.46v3.406l.172.015a7.1 7.1 0 012.672.836c.557-1.052.878-2.452.896-4.256zm-4.46 0H4.824v.017c.02 1.79.34 3.181.89 4.23a7.106 7.106 0 012.956-.851l.07-.004V9.459zM4.155 3.501l-.01.008a7.311 7.311 0 00-2.47 5.23h2.487c.058-1.814.402-3.284.978-4.442-.35-.234-.68-.5-.985-.796zm1.559 1.147l-.02.041c-.502 1.05-.806 2.387-.861 4.05H8.74V5.504l-.07-.005a7.106 7.106 0 01-2.956-.851zm8.13-1.148l.189-.187a7.218 7.218 0 01-1.153.973c.578 1.16.925 2.633.983 4.454l2.462-.001a7.312 7.312 0 00-2.48-5.239zm-1.538 1.137l-.275.143a7.106 7.106 0 01-2.57.71L9.46 8.739h3.732c-.056-1.691-.37-3.045-.886-4.102zM8.294 2.102a4.39 4.39 0 00-1.393.9c-.32.303-.609.654-.862 1.058a6.424 6.424 0 002.7.772l.002-2.875a3.39 3.39 0 00-.447.145zm1.166-.096v2.81a6.435 6.435 0 002.5-.754l.02-.012a5.362 5.362 0 00-.856-1.047 4.39 4.39 0 00-1.664-.997zm-2.22-.123l-.114.03a7.299 7.299 0 00-2.444 1.164c.247.233.51.445.786.634.284-.457.61-.854.972-1.196.269-.253.538-.462.8-.632zm3.56.01l.038.025c.245.163.496.36.746.597.36.34.683.732.965 1.182.27-.184.527-.392.769-.62A7.288 7.288 0 0010.8 1.894z"></path>
+                                                                    </svg>
+                                                                </span>
+                                                                Language
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" class="hbe-drawer_icon-372WC undefined">
+                                                    <path d="m19.3 4.7c.246.245.265.632.057.9l-.057.064-6.336 6.335 6.336 6.337c.266.266.266.698 0 .964-.246.246-.632.265-.9.057l-.064-.057-6.336-6.336-6.336 6.336c-.266.266-.698.267-.964 0-.246-.245-.265-.632-.057-.9l.056-.064 6.336-6.336-6.335-6.336c-.267-.266-.267-.698 0-.964.245-.246.632-.265.9-.057l.064.057 6.335 6.335 6.337-6.335c.266-.267.698-.267.964 0z"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="hbe-drawer_left-1eamq "></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hbe-header_wohNavTabs">
+                                <ul class="hbe-header_wohNavItems">
+                                    <!-- mr nav desktop -->
+                                                <li class="hbe-header_wohNavItem">
+            <a class="" href="https://newsroom.hyatt.com/newsroom-overview" target="_self">Newsroom</a>
+        </li>
+                <li class="hbe-header_wohNavItem">
+            <a class="" href="https://newsroom.hyatt.com/news-releases" target="_self">News Releases</a>
+        </li>
+                <li class="hbe-header_wohNavItem">
+            <a class="" href="https://newsroom.hyatt.com/Media-Resources" target="_self">Media Resources</a>
+        </li>
+                <li class="hbe-header_wohNavItem">
+            <a class="" href="https://newsroom.hyatt.com/media-gallery" target="_self">Media Gallery</a>
+        </li>
+                <li class="hbe-header_wohNavItem">
+            <a class="" href="https://newsroom.hyatt.com/awards" target="_self">Awards</a>
+        </li>
+                <li>
+            <div class="hbe-header_popover hbe-header_popover-dropdown">
+                <button type="button" class="hbe-menuButton_default-2Yjj_
+                    hbe-menuButton_dropdown-1dye1
+                    " aria-expanded="false">
+                    <span></span><span class="hbe-menuButton_menuLabel-ZtRSv"><span>Corporate Governance</span></span>
+                    <span class="hbe-menuButton_arrow-1mAL_">
+                        <svg width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M.123 7.164a.382.382 0 01-.021-.54.384.384 0 01.505-.053l.037.03 4.34 3.996 4.373-3.996a.384.384 0 01.507-.01l.035.033a.382.382 0 01.01.506l-.034.035-4.633 4.234a.385.385 0 01-.481.03l-.039-.03L.123 7.164z"></path>
+                        </svg>
+                    </span>
+                </button>
+
+                <div class="hbe-header_panel-left hbe-header_panel-style-glass">
+                    <div>
+                        <ul class="hbe-header_linklist hbe-header_linklist-style-woh">
+                                <li>
+        <a class="" href="https://newsroom.hyatt.com/management-team">Management Team</a>
+    </li>
+    <li>
+        <a class="" href="https://newsroom.hyatt.com/board-of-directors">Board of Directors</a>
+    </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </li>
+                <li class="hbe-header_wohNavItem">
+            <a class="" href="https://newsroom.hyatt.com/contacts" target="_self">Contacts</a>
+        </li>
+                                    </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="hbe-skipnav"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header_hero / main_content -->
+    <div class="main-content-container">
+        <div class="masthead" data-js="masthead" data-module="masthead">
+            <!-- headerimage/slides -->
+                            <div class="wd_header_wrapper" style="background-image: url(/image/News+Releases_Grand+Hyatt+Goa-resized.jpg);">
+                    <div class="wd_header_content">
+                        <h1><span>News Releases</span></h1>
+                        <div>
+                            <p>GRAND HYATT GOA, INDIA</p>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+        <div class="main-nested-content-container b-pt6">
+            <div class="m-promoslots be-container" data-module="promoslots">
+
+                <!-- wdcontainer-->
+                <div class="wd_container">
+                    <!-- BEGIN CONTENT-WRAPPER -->
+                    <div class="wd_content">
+                        <!-- <a href="https://newsroom.hyatt.com/newsroom-overview">Newsroom</a><br>
+                        <a href="https://newsroom.hyatt.com/email-alerts">https://newsroom.hyatt.com/email-alerts</a><br>
+                        <br><br>
+                        <div class="breadcrumb">
+<a href="https://newsroom.hyatt.com/news-releases" target="_self" class=nav>News Releases</a>
+</div>
+ -->
+                        <div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+
+<div class="wd_date">Jul 19, 2023</div>
+<div class="wd_title wd_language_left">Hyatt Selects Sabre to Enhance Central Reservation System Capabilities, Making the Search and Booking Process Faster for Guests</div>
+<div class="wd_subtitle wd_language_left">Hyatt hotels worldwide will deploy Sabre technology, supporting advanced connectivity and distribution in an effort to drive even more high-quality revenue to owners and get closer to guests</div>
+
+
+
+			
+		
+
+			
+		
+
+<style type="text/css">
+
+					div.PRN_ImbeddedAssetReference{
+						display: none;
+					}
+					div[id^="prni_dvprne"]{
+						display: none;
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://newsroom.hyatt.com/news-releases?item=124401&printable=1"><p><strong>CHICAGO (July 19, 2023)</strong> &ndash; <a href="https://www.hyatt.com/">Hyatt Hotels Corporation</a> (NYSE: H) today announced a new technology agreement between affiliates of Hyatt and <a href="https://www.sabre.com/">Sabre Corporation</a> (NASDAQ: SABR), a leading provider of software and technology that powers the global travel industry. Under this agreement, Sabre&rsquo;s SynXis Central Reservation System will become the main Central Reservation System (CRS) for Hyatt hotels beginning in 2024. This integration will enhance Hyatt&rsquo;s reservation capabilities,&nbsp;streamline its operations, and deliver a seamless and efficient experience for guests, including a faster search and booking process.&nbsp;The agreement comes on the heels of Hyatt&rsquo;s announcement of Hyatt PrO to optimize its revenue management system. These innovations are done with the aim of enhancing Hyatt&rsquo;s commercial technology stack, informed by listening to owners and operators.</p>
+
+<p>&ldquo;All of our business decisions are driven by our purpose &ndash; <em>we care for people so they can be their best</em> &ndash; and that begins with empathy and listening,&rdquo; said Eben Hewitt, chief information officer, Hyatt. &ldquo;As part of our transformative growth journey, we heard directly from owners and franchise management companies that we had an opportunity to create a more efficient and streamlined Central Reservation System, and after a very thorough evaluation, we decided that Sabre would be the perfect provider for Hyatt&rsquo;s global portfolio to make the search and booking process even better for guests.&rdquo;</p>
+
+<p>By leveraging the SynXis Central Reservation System, Hyatt&rsquo;s new system will be designed to make the guest search and booking process even smoother and increase visibility for property availability through:</p>
+
+<ul>
+	<li><strong>Flexible calendar search &ndash; </strong>Guests searching for availability will have a more intuitive and efficient calendar view, including key dates when special promotions are available, as well as when World of Hyatt members can redeem their points for the highest value.</li>
+	<li><strong>Enhanced rooms and rates view &ndash; </strong>Hotels will be able to quickly synchronize reservation modifications, enabling guests and colleagues to access newly available rooms in real-time. Hotels will also be able to share dynamic packages allowing guests to individually customize aspects of their stay.</li>
+	<li><strong>Efficient booking</strong> &ndash; The platform is designed to simplify the booking process by unlocking the best rates for our guests through advance purchase rates and streamlining the processing for hotel colleagues.</li>
+</ul>
+
+<p>&ldquo;I am thrilled to announce that Sabre&#39;s reservation system has been selected by Hyatt to advance its technology strategy, enhance its reservation capabilities, and improve its guests&#39; experience,&quot; said Scott Wilson, president of Sabre Hospitality Solutions. &quot;At Sabre, we are committed to enabling our customers in achieving their goals by delivering the technology that forms the foundation of their operations and future innovation. This collaboration represents our dedication to empowering the hospitality industry and elevating the guest experience.&quot;</p>
+
+<p>&ldquo;Our collaboration with Sabre will also simplify operations for on- and off-property colleagues that will result in enhanced experiences for our guests, World of Hyatt members and customers,&rdquo; said Jessica White, senior vice president, global property &amp; guest services, Hyatt. &ldquo;Adopting Sabre as our new Central Reservation System will increase the distribution breadth and reach of our brands and personalized direct booking experiences across our global portfolio.&rdquo;</p>
+
+<p>This announcement builds on Hyatt&rsquo;s commitment to simplify hotel systems while creating property-level flexibility with best-in-class applications like Hyatt PrO, which is a global collaboration with IDeaS. With Hyatt PrO, on-property and above property Hyatt colleagues will benefit from best-in-class modularity and flexibility, increased automation, organizational growth empowered by innovation, and the ability to drive deeper collaboration across commercial teams.</p>
+
+<p>Hyatt&#39;s unique vision for innovative capabilities aims to create a differentiating value proposition for Hyatt owners and operators and deliver customization in areas that drive competitive advantage. With the aim to continue these efforts, Hyatt is also exploring ways to further enhance property management system options.</p>
+
+<p><em>The term &ldquo;Hyatt&rdquo; is used in this release for convenience to refer to Hyatt Hotels Corporation and/or one or more of its affiliates.</em></p>
+
+<p><strong><u>About Sabre Corporation</u></strong><br />
+Sabre Corporation is a leading software and technology company that powers the global travel industry, serving a wide range of travel companies including airlines, hoteliers, travel agencies and other suppliers. The company provides retailing, distribution and fulfilment solutions that help its customers operate more efficiently, drive revenue and offer personalized traveler experiences. Through its leading travel marketplace, Sabre connects travel suppliers with buyers from around the globe. Sabre&rsquo;s technology platform manages more than $260B worth of global travel spend annually. Headquartered in Southlake, Texas, USA, Sabre serves customers in more than 160 countries around the world. For more information visit <u>www.sabre.com</u>.</p>
+
+<p><strong><u>About Hyatt Hotels Corporation</u></strong></p>
+
+<p>Hyatt Hotels Corporation, headquartered in Chicago, is a leading global hospitality company guided by its purpose &ndash; to care for people so they can be their best. As of March 31, 2023, the Company&rsquo;s portfolio included more than 1,250 hotels and all-inclusive properties in 75 countries across six continents. The Company&#39;s offering includes brands in the <em>Timeless Collection</em>, including <strong><em>Park Hyatt&reg;</em></strong>, <strong><em>Grand Hyatt&reg;</em></strong>, <strong><em>Hyatt Regency&reg;</em></strong>, <strong><em>Hyatt&reg;</em></strong>, <strong><em>Hyatt Residence Club&reg;</em></strong>, <strong><em>Hyatt Place&reg;</em></strong>, <strong><em>Hyatt House&reg;</em></strong>, <strong><em>Hyatt Studios</em></strong>, and <strong><em>UrCove</em></strong>; the <em>Boundless Collection</em>, including <strong><em>Miraval&reg;</em></strong>, <strong><em>Alila&reg;</em></strong>, <strong><em>Andaz&reg;</em></strong>, <strong><em>Thompson Hotels&reg;</em></strong>, <strong><em>Dream&reg; Hotels</em></strong>,<strong> <em>Hyatt Centric&reg;</em></strong>, and <strong><em>Caption by Hyatt&reg;</em></strong>; the <em>Independent Collection</em>, including <strong><em>The Unbound Collection by Hyatt&reg;</em></strong>, <strong><em>Destination by Hyatt&reg;</em></strong>, and <strong><em>JdV by Hyatt&reg;</em></strong>; and the <em>Inclusive Collection</em>, including <strong><em>Impression by Secrets</em></strong>,&nbsp; <strong><em>Hyatt Ziva&reg;</em></strong>, <strong><em>Hyatt Zilara&reg;</em></strong>, <strong><em>Zo&euml;try&reg; Wellness &amp; Spa Resorts</em></strong>, <strong><em>Secrets&reg; Resorts &amp; Spas</em></strong>, <strong><em>Breathless Resorts &amp; Spas&reg;</em></strong>, <strong><em>Dreams&reg; Resorts &amp; Spas</em></strong>, <strong><em>Hyatt Vivid Hotels &amp; Resorts</em></strong>, <strong><em>Alua Hotels &amp; Resorts&reg;</em></strong>, and <strong><em>Sunscape&reg; Resorts &amp; Spas</em></strong>. Subsidiaries of the Company operate the World of Hyatt&reg; loyalty program, ALG Vacations&reg;, Unlimited Vacation Club&reg;, Amstar DMC destination management services, and Trisept Solutions&reg; technology services. For more information, please visit <em><u>www.hyatt.com</u></em>.</p>
+
+<p><strong>Forward-Looking Statements</strong></p>
+
+<p><em>Forward-Looking Statements in this press release, which are not historical facts, are forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. In some cases, you can identify forward-looking statements by the use of words such as &ldquo;may,&rdquo; &ldquo;could,&rdquo; &ldquo;expect,&rdquo; &ldquo;intend,&rdquo; &ldquo;plan,&rdquo; &ldquo;seek,&rdquo; &ldquo;anticipate,&rdquo; &ldquo;believe,&rdquo; &ldquo;estimate,&rdquo; &ldquo;predict,&rdquo; &ldquo;potential,&rdquo; &ldquo;continue,&rdquo; &ldquo;likely,&rdquo; &ldquo;will,&rdquo; &ldquo;would&rdquo; and variations of these terms and similar expressions, or the negative of these terms or similar expressions. Such forward-looking statements are necessarily based upon estimates and assumptions that, while considered reasonable when made, are inherently uncertain, and are subject to numerous assumptions and uncertainties, many of which are outside of Sabre&rsquo;s or Hyatt&rsquo;s control, which could cause actual results, performance or achievements to differ materially from those expressed in or implied by such statements.&nbsp; Forward-looking statements made in this press release are made only as of the date of their initial publication and neither party undertakes an obligation to publicly update any of these forward-looking statements as actual events unfold, except to the extent required by applicable law.&nbsp; If one or more forward-looking statements is updated, no inference should be drawn that any additional updates will be made with respect to those or other forward-looking statements.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Hyatt Contact:</strong><br />
+Patrice Henry<br />
+Patrice.henry@hyatt.com&nbsp;</p>
+
+<p><strong>Sabre Contacts:</strong><br />
+<u>Media:</u><br />
+Kristin Hays<br />
+Kristin.hays@sabre.com&nbsp;</p>
+
+<p>Heidi Castle<br />
+Heidi.castle@sabre.com&nbsp;</p>
+
+<p><u>Investors:</u><br />
+Brian Roberts<br />
+sabre.investorrelations@sabre.com&nbsp;</p>
+</div>
+
+
+
+
+<div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="print"><span class="fa fa-print"></span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Hyatt%20Newsroom%20-%20News%20Releases&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="email"><span class="fa fa-envelope"></span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://newsroom.hyatt.com/all-rss-feeds?rsspage=20295" title="rss"><span class="fa fa-rss"></span></a></span></li><li class="wd_tool wd_tool-pdf"><span class="wd_tool_icon"><a href="https://newsroom.hyatt.com/news-releases?item=124401&amp;asPDF=1" rel="nofollow" title="PDF"><span class="fa fa-file-pdf-o"></span><span class="wd_sr-only wd_sr-only-focusable">PDF</span></a></span></li></ul></div>
+<!-- ITEMDATE: 2023-07-19 10:00:00 CDT -->
+
+</div>
+</div><div class="wd_featureboxes_right_highlight wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-teaser_1379" class="wd_featurebox_container wd_featurebox-teaser"><div class="wd_featurebox_title">More Stories </div><div class="wd_featurebox">
+<div class="wd_newsfeed_releases-teaser">
+<div class="wd_news_releases-teaser"><!-- deprecated class; please do not use -->
+<div class="item">
+<div class="item_date">May 7, 2026</div><div class="item_name"><a href="https://newsroom.hyatt.com/DC_Hotel_Hangzhou_CBD_Debuts_Today_Joining_The_JdV_By_Hyatt_Brand" class="itemlink">DC Hotel Hangzhou CBD Debuts Today Joining The JdV By Hyatt Brand</a></div>
+</div><div class="item">
+<div class="item_date">May 6, 2026</div><div class="item_name"><a href="https://newsroom.hyatt.com/standardbrussels" class="itemlink">The Standard, Brussels Joins World of Hyatt, Expanding The Standard’s Global Loyalty Offering</a></div>
+</div><div class="item">
+<div class="item_date">May 6, 2026</div><div class="item_name"><a href="https://newsroom.hyatt.com/Hyatt_Announces_Master_Franchise_Agreement_with_Dossen_Group_to_Debut_Hyatt_Select_Brand_in_the_Chinese_Mainland" class="itemlink">Hyatt Announces Master Franchise Agreement with Dossen Group 
+to Debut Hyatt Select Brand in the Chinese Mainland
+</a></div>
+</div>
+</div>
+</div>
+<p class="more"><a href="https://newsroom.hyatt.com/news-releases"><span>All News</span></a></p>
+</div></div></div>
+                    </div>
+                    <!-- END CONTENT -->
+                </div>
+                <!-- END WDCONTAINER -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end header_hero / main_content -->
+
+    <!-- brand bar -->
+    
+    <!-- footer -->
+    <div data-bookends="ecom-footer" data-prop-domain="hyatt.com">
+        <div class="hbe hbe-footer hbe-footer_theme-carbon" aria-label="Footer Navigation" role="contentinfo">
+            <div class="hbe-container">
+                <div class="hbe-footer_row">
+                    <div class="hbe-footer_row-alpha">
+                        <div class="hbe-linkBlocks">
+                            <div class="hbe-linkBlocks_row">
+                                <div class="hbe-linkBlocks_col">
+                                    <div class="hbe-linkBlocks_heading">Reservations</div>
+                                    <ul class="hbe-linkBlocks_links">
+                                        <li><a href="https://www.hyatt.com/en-US/reservation/find"><span>Modify&nbsp;/&nbsp;Cancel</span></a></li>
+                                        <li><a href="https://www.hyatt.com/en-US/contact-hyatt/retrieve-hotel-bill"><span>Retrieve Hotel Bill</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="hbe-linkBlocks_col">
+                                    <div class="hbe-linkBlocks_heading">Customer Service</div>
+                                    <ul class="hbe-linkBlocks_links">
+                                        <li><a href="https://help.hyatt.com/en.html"><span>Customer Service</span></a></li>
+                                        <li><a href="https://help.hyatt.com/en/faqs.html"><span>FAQs</span></a></li>
+                                        <li><a href="https://about.hyatt.com/en/contact.html"><span>Contact Us</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="hbe-linkBlocks_row">
+                                <div class="hbe-linkBlocks_col">
+                                    <div class="hbe-linkBlocks_heading">Corporate Sites</div>
+                                    <ul class="hbe-linkBlocks_links">
+                                        <li><a href="https://about.hyatt.com/"><span>About Us</span></a></li>
+                                        <li><a href="https://careers.hyatt.com/en-US/careers/" aria-label="Careers (Opens in new tab or window.)" target="_blank" rel="noopener"><span>Careers</span></a></li>
+                                        <li><a href="http://investors.hyatt.com" aria-label="Investor Relations (Opens in new tab or window.)" target="_blank" rel="noopener"><span>Investor Relations</span></a></li>
+                                        <li><a href="https://www.hyatt.com/development" aria-label="Hyatt Development (Opens in new tab or window.)" target="_blank" rel="noopener"><span>Hyatt Development</span></a></li>
+                                        <li><a href="https://about.hyatt.com/en/hyatt-thrive.html"><span>Corporate Responsibility</span></a></li>
+                                        <li><a href="https://newsroom.hyatt.com/" aria-label="Newsroom (Opens in new tab or window.)" target="_blank" rel="noopener"><span>Newsroom</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="hbe-linkBlocks_col">
+                                    <div class="hbe-linkBlocks_heading">Explore More</div>
+                                    <ul class="hbe-linkBlocks_links">
+                                        <li><a href="https://www.hyatt.com/en-US/info/traveladvisors"><span>Travel Advisors</span></a></li>
+                                        <li><a href="https://www.hyatt.com/leverage"><span>Corporate Travel</span></a></li>
+                                        <li><a href="https://www.hyatt.com/en-US/info/hyatt-residences"><span>Residences</span></a></li>
+                                        <li><a href="https://www.buyatab.com/custom/hyatt/" aria-label="Gift Cards (Opens in new tab or window.)" target="_blank" rel="noopener"><span>Gift Cards</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hbe-footer_row-beta">
+                        <div class="hbe-bestRates">
+                            <div class="hbe-bestRates_label">THE HYATT.COM<br>BEST RATE GUARANTEE</div>
+                            <div><a href="https://www.hyatt.com/en-US/info/best-rate-guarantee" class="hbe-bestRates_link"><span class="hbe-sr-only">The Hyatt.com Best Rate Guarantee</span> <span>Learn More</span></a></div>
+                        </div>
+                        <div class="hbe-footer_column">
+                            <div class="hbe-mobileBadges">
+                                <div class="hbe-mobileBadges_heading">Get the Mobile App</div>
+                                <div class="hbe-mobileBadges_container"><a href="http://itunes.apple.com/us/app/hyatt-hotels/id476639005"><img src="images/ios@2x.png" height="40" width="135" class="hbe-mobileBadges_ios" alt="Download on the App Store"></a><a href="https://play.google.com/store/apps/details?id=com.Hyatt.hyt"><img src="images/play@2x.avif" height="40" width="135" class="hbe-mobileBadges_play" alt="Get it on Google Play"></a></div>
+                            </div>
+                        </div>
+                        <div class="hbe-socialIcons">
+                            <div class="hbe-socialIcons_heading">Connect with Hyatt</div>
+                            <ul class="hbe-socialIcons_links">
+                                <li><a href="https://www.facebook.com/hyatt" class="hbe-socialIcons_icon hbe-socialIcons_facebook"><span class="hbe-sr-only">Facebook</span></a></li>
+                                <li><a href="https://instagram.com/hyatt" class="hbe-socialIcons_icon hbe-socialIcons_instagram"><span class="hbe-sr-only">Instagram</span></a></li>
+                                <li><a href="https://x.com/Hyatt" class="hbe-socialIcons_icon hbe-socialIcons_x"><span class="hbe-sr-only">X</span></a></li>
+                                <li><a href="https://www.linkedin.com/company/hyatt" class="hbe-socialIcons_icon hbe-socialIcons_linkedin"><span class="hbe-sr-only">Linkedin</span></a></li>
+                                <li><a href="https://www.youtube.com/user/hyatt" class="hbe-socialIcons_icon hbe-socialIcons_youtube"><span class="hbe-sr-only">Youtube</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright bar -->
+    <div data-bookends="legal-footer" data-prop-domain="hyatt.com">
+        <div class="hbe hbe-legalFooter_carbon-1wbKp" lang="en-US" aria-label="Legal Navigation" role="contentinfo">
+            <div class="hbe-container_1280">
+                <ul class="hbe-legalFooter_links-2n6IF">
+                    <li><a href="https://www.hyatt.com/en-US/info/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="https://help.hyatt.com/en/hyatt-terms.html">Terms &amp; Conditions</a></li>
+                    <li>
+                        <!-- OneTrust Cookies Settings button start -->
+                        <a class="stickyOptanonCookieButtonLink" href="javascript:void(0)" onclick="Optanon.ToggleInfoDisplay()">Cookie Center</a>
+                        <!-- OneTrust Cookies Settings button end -->
+                    </li>
+                    <li><a href="https://about.hyatt.com/en/security-safety.html">Security &amp; Safety</a></li>
+                    <li><a href="https://about.hyatt.com/en/hyatt-thrive/human-rights-statements.html">Modern Slavery and Human Trafficking</a></li>
+                    <li><a href="https://www.hyatt.com/forms/do-not-sell">Do Not Sell or Share My Personal Information</a></li>
+                    <li><span>© 2026 Hyatt Corporation</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Corporation",
+            "name": "Hyatt Hotels Corporation",
+            "url": "https://www.hyatt.com",
+            "logo": "https://www.hyatt.com/hds/images/4.2.0/brands/master/logos/logo_hc@2x.png",
+            "tickerSymbol": "H",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "150 N Riverside Plaza",
+                "addressLocality": "Chicago",
+                "addressRegion": "IL",
+                "postalCode": "60606",
+                "addressCountry": "USA"
+            },
+            "sameAs": ["https://en.wikipedia.org/wiki/Hyatt", "https://www.facebook.com/hyatt", "https://twitter.com/Hyatt", "https://www.instagram.com/hyatt", "https://www.youtube.com/user/hyatt", "https://www.linkedin.com/company/hyatt"],
+            "brand": [{
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/park-hyatt",
+                    "name": "Park Hyatt",
+                    "sameAs": ["https://www.facebook.com/ParkHyatt/", "https://www.instagram.com/parkhyatt/", "https://twitter.com/parkhyatt"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/grand-hyatt",
+                    "name": "Grand Hyatt",
+                    "sameAs": ["https://www.facebook.com/grandhyatt/", "https://www.instagram.com/grandhyatt/", "https://twitter.com/grandhyatt"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/hyatt-regency",
+                    "name": "Hyatt Regency",
+                    "sameAs": ["https://www.facebook.com/HyattRegency/", "https://www.instagram.com/hyattregency/", "https://twitter.com/hyattregency"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/hyatt",
+                    "name": "Hyatt Hotels",
+                    "sameAs": "https://www.facebook.com/HyattHotels/"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://world.hyatt.com/content/gp/en/landing/hyatt-vacation-club.html",
+                    "name": "Hyatt Vacation Club",
+                    "sameAs": ["https://www.facebook.com/HyattVacayClub/", "https://www.instagram.com/hyattvacayclub/", "https://twitter.com/HyattVacayClub"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/hyatt-place",
+                    "name": "Hyatt Place",
+                    "sameAs": "https://www.facebook.com/HyattPlace/"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/hyatt-house",
+                    "name": "Hyatt House",
+                    "sameAs": ["https://www.facebook.com/Hyatthouse/", "https://www.instagram.com/hyatthouse/", "https://twitter.com/hyatthouse"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/hyatt-studios/en-US",
+                    "name": "Hyatt Studios",
+                    "sameAs": "https://www.facebook.com/hyattstudioshotels"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/urcove",
+                    "name": "UrCove"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/miraval",
+                    "name": "Miraval",
+                    "sameAs": ["https://www.facebook.com/MiravalResorts/", "https://www.instagram.com/miravalresorts/", "https://twitter.com/miravalresorts"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/alila-hotels-and-resorts",
+                    "name": "Alila",
+                    "sameAs": ["https://www.facebook.com/AlilaHotels/", "https://www.instagram.com/alilahotels/", "https://twitter.com/alilahotels"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/andaz",
+                    "name": "Andaz",
+                    "sameAs": ["https://www.facebook.com/Andaz/", "https://www.instagram.com/andaz/", "https://twitter.com/andaz"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/thompson-hotels",
+                    "name": "Thompson Hotels",
+                    "sameAs": ["https://www.facebook.com/thompsonhotels/", "https://www.instagram.com/thompsonhotels/", "https://twitter.com/thompsonhotels"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/dream-hotels",
+                    "name": "Dream Hotels",
+                    "sameAs": "https://www.instagram.com/dreamhotels/"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/hyatt-centric",
+                    "name": "Hyatt Centric",
+                    "sameAs": ["https://www.facebook.com/hyattcentric/", "https://www.instagram.com/hyattcentric/", "https://twitter.com/HyattCentric"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/caption-by-hyatt",
+                    "name": "Caption by Hyatt",
+                    "sameAs": ["https://www.facebook.com/CaptionbyHyatt/", "https://www.instagram.com/captionbyhyatt/"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/unbound-collection",
+                    "name": "The Unbound Collection by Hyatt",
+                    "sameAs": ["https://www.facebook.com/unboundxhyatt", "https://www.instagram.com/unboundxhyatt/", "https://twitter.com/unboundxhyatt"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/brands/destination-by-hyatt",
+                    "name": "Destination by Hyatt",
+                    "sameAs": ["https://www.facebook.com/DestinationHotels", "https://www.instagram.com/destinationhotels/", "https://twitter.com/destination"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.jdvhotels.com/",
+                    "name": "JdV by Hyatt",
+                    "sameAs": ["https://www.facebook.com/jdvhotels/", "https://www.instagram.com/jdvhotels/", "https://twitter.com/JDVHotels"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/impression-by-secrets",
+                    "name": "Impression by Secrets",
+                    "sameAs": ["https://www.instagram.com/impressionbysecrets/", "https://www.facebook.com/ImpressionbySecrets/", "https://twitter.com/ImpressionScrts"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/ziva",
+                    "name": "Hyatt Ziva",
+                    "sameAs": "https://twitter.com/HyattZiva"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/zilara",
+                    "name": "Hyatt Zilara",
+                    "sameAs": "https://twitter.com/HyattZilara"
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/zoetry",
+                    "name": "Zoetry Wellness & Spa Resorts",
+                    "sameAs": ["https://www.facebook.com/ZoetryResorts/", "https://www.instagram.com/zoetryresorts/", "https://twitter.com/ZoetryResorts"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/secrets",
+                    "name": "Secrets Resorts & Spas",
+                    "sameAs": ["https://www.facebook.com/SecretsResorts", "https://www.instagram.com/secretsresorts/", "https://twitter.com/SecretsResorts"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/breathless",
+                    "name": "Breathless Resorts & Spas",
+                    "sameAs": ["https://www.facebook.com/BreathlessResorts/", "https://www.instagram.com/breathlessresorts/", "https://twitter.com/BreathlessRsrts"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/dreams",
+                    "name": "Dreams Resorts & Spas",
+                    "sameAs": ["https://www.facebook.com/DreamsResortsAndSpas/", "https://www.instagram.com/dreamsresorts/", "https://twitter.com/DreamsResorts"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/vivid",
+                    "name": "Hyatt Vivid Hotels & Resorts",
+                    "sameAs": ["https://www.facebook.com/HyattVividResorts", "https://www.instagram.com/hyattvivid/", "https://twitter.com/HyattVivid"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/alua",
+                    "name": "Alua Hotels & Resorts",
+                    "sameAs": ["https://www.facebook.com/aluahotels", "https://www.instagram.com/aluahotels/", "https://twitter.com/aluahotels"]
+                },
+                {
+                    "@type": "Brand",
+                    "url": "https://www.hyatt.com/destinations/sunscape",
+                    "name": "Sunscape Resorts & Spas",
+                    "sameAs": ["https://www.facebook.com/SunscapeResorts/", "https://www.instagram.com/sunscaperesorts/", "https://twitter.com/SunscapeResorts"]
+                }
+            ]
+        }
+    </script>
+
+    
+    <script src="js/jquery.fancybox.js"></script>
+    <script>
+        $('.wd_featureboxes_bottom_callout p:last-of-type').addClass('more').wrapInner('<a href="./contact-us?pagetemplate=popup" />');
+        $('.wd_featureboxes_bottom_callout .more a').addClass('wd_fancybox');
+
+        $('.wd_pageid_20292 .wd_category_items .item').each(function() {
+            $('a', this).addClass('wd_fancyboxTwo').attr('href', function() {
+                return this + '?pagetemplate=popup';
+            });
+        });
+
+        //Fancy Box
+        $('.wd_fancybox').fancybox({
+            type: 'iframe',
+            scrolling: 'no',
+            fitToView: 'true',
+            height: 'auto',
+            width: '1100px',
+            autoScale: 'true',
+            openEffect: 'none',
+            closeEffect: 'none',
+            helpers: {
+                media: {},
+            }
+        });
+
+        //Fancy Box
+        $('.wd_fancyboxTwo').fancybox({
+            type: 'iframe',
+            scrolling: 'no',
+            fitToView: true,
+            width: '800px',
+            autoScale: 'true',
+            openEffect: 'none',
+            closeEffect: 'none',
+            helpers: {
+                media: {},
+            }
+        });
+    </script>
+
+            <div id="wd_releases_search_year">
+            <div class="wd_form_field wd_form_field-year">
+                <div class="wd_form_field_label">
+                    <label for="year">Year</label>
+                </div>
+                <div class="wd_form_field_input">
+                    <select name="year" id="year"><option value="">Select Year</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option></select>                    <input type="hidden" name="" value="">
+                </div>
+            </div>
+        </div>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if ($('.wd_newsfeed_releases, .wd_pageid_34144:not(.wd_item_page)').length) {
+                wd_item_search_form_toggle(document.getElementsByClassName('wd_search_advanced_link'), true);
+                var yearHTML = $('#wd_releases_search_year').html();
+                $(yearHTML).insertBefore($('.wd_item_search_form_container .wd_search_form.wd_search_form_advanced #wd_category_groups'));
+                $('.wd_search_form.wd_search_form_advanced input[name*=asset_types]').attr('checked', false);
+                $('.wd_search_form.wd_search_form_advanced input[placeholder=Date]').parents('.wd_form_field').addClass('wd_datepicker_field');
+
+                $('body > #wd_releases_search_year').remove();
+            }
+
+            $('.wd_pageid_34144 .wd_search_form_advanced select#year').empty();
+            $('.wd_pageid_34144 .wd_search_form_basic select[name="year"] option').each(function() {
+                $('.wd_pageid_34144 .wd_search_form_advanced select#year').append('<option value="' + $(this).attr("value") + '">' + $(this).attr("value") + '</option>');
+            });
+            $('.wd_pageid_34144 .wd_search_form_advanced select#year option:first-child').text('Select Year');
+        });
+    </script>
+
+    <link rel="stylesheet" href="css/custom_video.css" type="text/css">
+    <script src="js/custom_video.js"></script>
+    <script type="text/javascript" src="js/wd_scripts.js"></script>
+
+    <script src="https://www.hyatt.com/hds/bookends/1.latest/partner/en-US/bookends.min.js" data-bookends="script"></script>
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/plain" class="C0002">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "News Releases", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 7220]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=7220&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f89d01beccd081f',t:'MTc3ODI1NzQ0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
