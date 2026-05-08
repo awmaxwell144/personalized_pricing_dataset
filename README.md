@@ -11,7 +11,7 @@ The dataset supports the paper's analysis of how companies characterize pricing 
 ├── dataset/                 # Collected source material, organized by industry and company
 ├── utilities/               # Term counting script, term list, and data templates
 ├── scrape.py                # Helper script for saving webpages and PDFs into dataset/
-└── data_processing.md       # Step-by-step instructions for processing a company
+└── data_processing.md       # Step-by-step prompt for the agent processing a company
 ```
 
 The dataset is organized as:
