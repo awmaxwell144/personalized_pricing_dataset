@@ -1,0 +1,90 @@
+Case Studies: AI in Revenue Management at Leading Hotel Chains
+top of page
+ABOUT US
+EVENTS
+SERVICES
+REVENUE MANAGEMENT
+SALES & MARKETING
+TECHNOLOGY
+REVENUE MANAGEMENT
+SALES & MARKETING
+TECHNOLOGY
+RESOURCES
+BLOG
+EPIC M&A OUTLOOK 2025
+EPIC GROWTH FRAMEWORK
+BLOG
+EPIC M&A OUTLOOK 2025
+EPIC GROWTH FRAMEWORK
+CONTACT US
+All Posts
+EPIC Trends
+Hotel Market Reports
+Case Studies: AI in Revenue Management at Leading Hotel Chains
+Mar 4, 2025
+3 min read
+Updated:
+Jul 16, 2025
+Major hotel companies have started to reap the benefits of AI-enhanced revenue management, often in partnership with RMS providers or through in-house innovation. Below are a few examples of how leading chains are integrating AI into their revenue strategies and the impact on performance:
+Marriott International:
+Marriott has long invested in revenue science (e.g. its proprietary One Yield system), and recent AI initiatives have further sharpened its pricing. By deploying machine learning to analyze its enormous booking data across brands, Marriott can adjust pricing in real time for both transient and group business. One notable success is Marriott’s AI-driven Group Pricing Optimizer, which uses price-elasticity modeling to recommend optimal group rates across its portfolio – a tool credited with significantly improving how Marriott evaluates group contracts.
+Hilton Hotels & Resorts:
+Hilton Worldwide has embraced AI to refine its customer segmentation and dynamic pricing, working with tech partners like Infor (EzRMS) and others to modernize its revenue systems. By analyzing millions of Hilton Honors profiles and booking behaviors, Hilton’s AI models have enabled more granular segmentation – identifying, for instance, which guests value breakfast inclusion vs. lowest price, or which corporate accounts have more weekend travel potential. Hilton then uses these insights to do personalized pricing and promotions in its direct channels. The results have been impressive: Hilton reported that its AI-boosted segmentation and pricing strategy led to a 5–8% revenue increase alongside a rise in guest satisfaction, as customers received offers more closely aligned to their preferences.
+Accor Hotels:
+Accor, with a diverse portfolio of 40+ brands (from luxury Fairmonts to economy ibis hotels), turned to AI-driven revenue management to unify and elevate its pricing approach. In 2023 Accor announced a global partnership with IDeaS, rolling out the IDeaS G3 RMS across 5,000+ hotels to leverage its advanced analytics and automation.
+InterContinental Hotels Group (IHG):
+IHG has integrated AI into revenue management through a combination of new technology and strategic rethinking of how rooms are sold. A key move was the development of IHG’s Concerto platform with Amadeus, which introduced attribute-based booking and pricing. This system, underpinned by AI algorithms, allows guests to customize their stay (choosing room features like view, high floor, breakfast, etc.) and then dynamically prices the bundle in real time.
+These case studies highlight several best practices. First, investing in advanced RMS technology (whether third-party or in-house) is enabling big brands to move faster on dynamic pricing and personalization – Marriott and Hilton saw RevPAR lifts on the order of 5–10% by doing so. Second, integrating AI requires change management: IHG had to retrain revenue teams to think differently with attribute pricing, and Marriott’s sellers had to trust the group rate recommendations from the Optimizer rather than manual methods.
+The payoff, however, is significant in efficiency and revenue uplift. Lastly, these examples show that AI in revenue management isn’t just about room rates alone – it’s about total revenue strategy. Hilton and Marriott are optimizing upgrades and ancillary sales with AI, Accor is focusing on profit per guest, and IHG is dynamically pricing the entire guest experience. All achieved improved performance by aligning AI tools with their specific business strategy (be it driving market share, increasing upsells, or enhancing loyalty).
+Want to Elevate Your Hotel’s Revenue Strategy with AI?
+At EPIC, we specialize in revenue management solutions that help hotels maximize profitability, optimize distribution, and stay ahead of market trends. Whether you're looking to integrate AI into your pricing strategy or refine your revenue management approach, our team is here to help.
+Visit
+www.epic-rev.com
+to learn more!
+Recent Posts
+See All
+Oil, Iran, and the Global Forces Shaping Travel Demand
+The Money Behind the Money: Hotel's Payment Systems Evolution
+What a Cup of Juice in Marrakech Reveals About Pricing
+Receive Our Newsletters & Special Event Notifications
+Email
+*
+By signing up, you will also receive email updates from EPIC. Unsubscribe anytime.
+*
+SUBSCRIBE
+COMPANY
+ABOUT US
+EVENTS
+SERVICES
+REVENUE MANAGEMENT
+SALES & MARKETING
+TECHNOLOGY
+RESOURCES
+BLOG
+EPIC M&A OUTLOOK 2025
+EPIC GROWTH FRAMEWORK
+LEGAL
+Terms & Conditions
+Privacy Policy
+SOCIAL
+LinkedIn
+Instagram
+CONTACT
+info@epic-rev.com
+Tel: (973) 960-4142
+201 Lackawanna Ave.
+Suite 210
+Scranton, PA 18503
+© 2024 by EPIC
+ABOUT US
+EVENTS
+SERVICES
+REVENUE MANAGEMENT
+SALES & MARKETING
+TECHNOLOGY
+RESOURCES
+BLOG
+EPIC M&A OUTLOOK 2025
+EPIC GROWTH FRAMEWORK
+CONTACT US
+bottom of page
