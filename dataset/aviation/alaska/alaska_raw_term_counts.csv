@@ -1,0 +1,9 @@
+source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\boptimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bautomated\b,\bgoug(?:e|es|ed|ing)\b
+alaska-access-subscription-service,company,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+alaska-airlines-architect-use-case-atpco,third party with company statement,0,3,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0
+alaska-airlines-new-flight-pass-guarantees-cheaper-flights-to-subscribers,third party with company statement,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+alaska-airlines-signs-multi-year-architect-deal-with-atpco,third party with company statement,0,2,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+flight-pass-terms-conditions,company,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+introducing-alaska-access-a-new-subscription-service-by-alaska-airlines-to-save-,company,0,0,0,0,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+is-it-legal-for-different-customers-to-receive-different-customized-sales-offers,third party,0,0,0,0,1,0,3,14,3,0,0,0,0,0,0,0,0,0,0
+major-disappointment-heres-why-i-canceled-my-alaska-airlines-subscription-servic,third party with company statement,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0
