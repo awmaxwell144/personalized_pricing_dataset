@@ -1,0 +1,27 @@
+{
+  "url": "https://www.marriott.com/about/privacy.mi",
+  "title": "Marriott Group Global Privacy Statement",
+  "industry": "accommodation",
+  "company": "marriott",
+  "page_name": "marriott-group-global-privacy-statement",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-08T16:08:44Z",
+  "scraped_by": "",
+  "notes": "Generated from local saved HTML file: Marriott Group Global Privacy Statement.html. Page states last updated 2026-01-01.",
+  "tags": [
+    "privacy policy",
+    "Marriott Group",
+    "personal data",
+    "preferences",
+    "personalization",
+    "targeted advertising",
+    "cookies"
+  ],
+  "language": "en-US",
+  "access_date": "2026-05-08",
+  "status": "complete"
+}
