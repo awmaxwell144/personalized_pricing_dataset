@@ -17,6 +17,7 @@ htmlcov/
 venv/
 env/
 ENV/
+.venv_pdf_extract/
 
 # Local environment/config files
 .env
@@ -48,3 +49,5 @@ test-results/
 paper_draft.md
 source_criteria.md
 *.bib
+.claude/
+improved_data_processing.md
