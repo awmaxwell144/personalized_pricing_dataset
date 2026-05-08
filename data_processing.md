@@ -8,7 +8,7 @@ You will be given a company name as it appears in the `dataset/` directory (e.g.
 
 - Find the company's directory at `dataset/<industry>/<company>/`.
 - List all subdirectories — each one is a source folder to process.
-- Files in the company directory (e.g., `source_tracker.csv`, CSV outputs) are not source folders; skip them.
+- Files in the company directory (e.g., `<company>_source_tracker.csv`, CSV outputs) are not source folders; skip them.
 
 ---
 
@@ -22,9 +22,9 @@ Audit every source folder before processing:
 
 ---
 
-## Step 3: Build or Update `source_tracker.csv`
+## Step 3: Build or Update `<company>_source_tracker.csv`
 
-Create or update `dataset/<industry>/<company>/source_tracker.csv` with one row per source folder.
+Create or update `dataset/<industry>/<company>/<company>_source_tracker.csv` with one row per source folder.
 
 **Primary inputs**: `metadata.json` and `raw.txt`.  
 **Fall back to** `raw.html` or `raw.pdf` only when `raw.txt` is missing or contains too little usable text.
@@ -34,8 +34,6 @@ Create or update `dataset/<industry>/<company>/source_tracker.csv` with one row 
 | Field | Description |
 |---|---|
 | `source_id` | Short unique ID matching or closely resembling the source folder name. |
-| `industry` | Industry category from `metadata.json`, e.g. `aviation`, `grocery`, `accommodation`. |
-| `company` | Company name from `metadata.json`. |
 | `source_title` | Title of the source, enclosed in double quotation marks in the cell, e.g. `"Delta Air Lines Q2 2025 Earnings Call Corrected Transcript"`. |
 | `source_publisher` | Outlet, organization, agency, court, company, or platform that published the source. |
 | `source_type` | Kind of source: `news article`, `company statement`, `privacy policy`, `lawsuit`, `letter`, `earnings call`, `social media post`, etc. |
@@ -45,7 +43,6 @@ Create or update `dataset/<industry>/<company>/source_tracker.csv` with one row 
 | `access_date` | Date the source was accessed or saved, from `metadata.json`. |
 | `pricing_terms_used` | Exact pricing-related terms used in the source, e.g. `dynamic pricing`, `personalized pricing`, `AI pricing`, `surveillance pricing`, `personalized discounts`. List all that appear; separate with `, `. |
 | `information_tracked` | Types of data the source says the company uses to set or display prices, in quotes, e.g. `"purchase history, browsing behavior, geolocation, device type"`. Use `"none stated"` if the source does not identify any data inputs. |
-| `company_position` | The company's stance toward the pricing practice described, if discernible: `admits`, `denies`, `clarifies/qualifies`, `no response`, `third-party allegation only`, or `unclear`. |
 | `summary` | Concise but informative summary covering: the source's main point, the pricing practice or allegation at issue, relevant data or AI claims, and any company response or legal/policy context. A few sentences. |
 | `key_excerpts` | One or more excerpts that capture the source's main claim, framing, or evidence. Separate multiple excerpts with ` \| `. |
 

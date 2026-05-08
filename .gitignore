@@ -46,8 +46,7 @@ test-results/
 .idea/
 
 
-paper_draft.md
+paper_draft.tex
 source_criteria.md
 *.bib
 .claude/
-improved_data_processing.md
