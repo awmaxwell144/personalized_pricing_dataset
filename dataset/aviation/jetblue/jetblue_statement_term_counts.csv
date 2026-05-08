@@ -1,13 +1,13 @@
-source_id,\bsurveillance\b,\bdynamic\b,\balgorithmic\b,\b(?:AI|artificial intelligence)\b,\bpersonali[sz](?:e|ed|ing|ation)\b,\bindividuali[sz]ed\b,\bdemand[-\s]?driven\b,\bdemand\b,\bdifferential\b,\bcontinuous\b,\bdata[-\s]?driven\b,\breal[-\s]?time\b,\bpredatory\b,\boptimi[sz](?:e|ed|ing|ation)\b,\bcustomi[sz](?:e|ed|ing|ation)\b,\btarget(?:ed|ing)?\b
-class-action-lawsuit-alleges-jetblue-secretly-tracks-traveler-data-for-dynamic-t,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-did-jetblue-just-admit-to-surveillance-pricing-airline-now-says-viral-post-about,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0
-jetblue-complaint-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-jetblue-responds-to-accusations-of-using-surveillance-pricing-after-viral-tweet,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
-jetblue-sued-over-claims-it-tracked-browsing-to-adjust-flight-prices-fox-news,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
-jetblue-sued-over-claims-it-uses-customers-personal-data-to-set-ticket-prices-ai,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
-jetblue-surveillance-pricing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-jetblue-told-a-customer-to-clear-his-cookies-after-a-230-price-hikethen-deleted-,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
-jetblue-used-customers-personal-data-to-set-ticket-prices-lawsuit-alleges-cbs-ne,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-lawmakers-question-if-jetblue-is-using-personal-data-to-set-ticket-prices-reuter,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-news-casar-gallego-demand-answers-from-jetblue-about-surveillance-pricing-repres,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-surveillance-pricing-the-next-frontier-of-privacy-litigation-publications-insigh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+source_id,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\bprice optimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bgoug(?:e|es|ed|ing)\b
+class-action-lawsuit-alleges-jetblue-secretly-tracks-traveler-data-for-dynamic-t,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+did-jetblue-just-admit-to-surveillance-pricing-airline-now-says-viral-post-about,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0
+jetblue-complaint-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jetblue-responds-to-accusations-of-using-surveillance-pricing-after-viral-tweet,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+jetblue-sued-over-claims-it-tracked-browsing-to-adjust-flight-prices-fox-news,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
+jetblue-sued-over-claims-it-uses-customers-personal-data-to-set-ticket-prices-ai,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+jetblue-surveillance-pricing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jetblue-told-a-customer-to-clear-his-cookies-after-a-230-price-hikethen-deleted-,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+jetblue-used-customers-personal-data-to-set-ticket-prices-lawsuit-alleges-cbs-ne,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+lawmakers-question-if-jetblue-is-using-personal-data-to-set-ticket-prices-reuter,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+news-casar-gallego-demand-answers-from-jetblue-about-surveillance-pricing-repres,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+surveillance-pricing-the-next-frontier-of-privacy-litigation-publications-insigh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,15 +1,15 @@
-source_id,source_type,\bsurveillance\b,\bdynamic\b,\balgorithmic\b,\b(?:AI|artificial intelligence)\b,\bpersonali[sz](?:e|ed|ing|ation)\b,\bindividuali[sz]ed\b,\bdemand[-\s]?driven\b,\bdemand\b,\bdifferential\b,\bcontinuous\b,\bdata[-\s]?driven\b,\breal[-\s]?time\b,\bpredatory\b,\boptimi[sz](?:e|ed|ing|ation)\b,\bcustomi[sz](?:e|ed|ing|ation)\b,\btarget(?:ed|ing)?\b
-class-action-lawsuit-alleges-jetblue-secretly-tracks-traveler-data-for-dynamic-t,third party with company statement,6,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-did-jetblue-just-admit-to-surveillance-pricing-airline-now-says-viral-post-about,third party with company statement,11,0,0,1,1,1,0,1,0,0,0,2,1,0,0,0
-jetblue-complaint-1,third party with company statement,20,11,0,2,0,0,0,2,0,0,0,2,0,1,0,1
-jetblue-responds-to-accusations-of-using-surveillance-pricing-after-viral-tweet,third party with company statement,15,3,2,7,0,0,0,1,0,0,0,1,0,0,2,1
-jetblue-sued-over-claims-it-tracked-browsing-to-adjust-flight-prices-fox-news,third party with company statement,5,1,0,16,1,0,0,8,0,0,0,4,0,0,0,1
-jetblue-sued-over-claims-it-uses-customers-personal-data-to-set-ticket-prices-ai,third party with company statement,4,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0
-jetblue-surveillance-pricing,third party with company statement,1,0,0,3,2,1,0,0,1,0,0,0,0,0,0,0
-jetblue-told-a-customer-to-clear-his-cookies-after-a-230-price-hikethen-deleted-,third party with company statement,2,0,0,2,0,1,0,2,0,0,0,1,1,0,1,0
-jetblue-used-customers-personal-data-to-set-ticket-prices-lawsuit-alleges-cbs-ne,third party with company statement,3,0,0,3,0,0,0,1,0,0,0,1,0,0,0,0
-lawmakers-question-if-jetblue-is-using-personal-data-to-set-ticket-prices-reuter,third party with company statement,4,0,1,4,0,2,0,1,0,0,0,1,0,0,1,0
-news-casar-gallego-demand-answers-from-jetblue-about-surveillance-pricing-repres,third party with company statement,4,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0
-privacy-policy,company,0,0,0,0,4,0,0,0,0,0,0,0,0,1,0,11
-squire-v-jetblue-airways-corporation-1-2026cv02629,third party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-surveillance-pricing-the-next-frontier-of-privacy-litigation-publications-insigh,third party with company statement,57,8,9,12,4,6,0,5,0,0,2,2,4,0,0,6
+source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\bprice optimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bgoug(?:e|es|ed|ing)\b
+class-action-lawsuit-alleges-jetblue-secretly-tracks-traveler-data-for-dynamic-t,third party with company statement,6,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+did-jetblue-just-admit-to-surveillance-pricing-airline-now-says-viral-post-about,third party with company statement,11,0,2,1,1,1,0,0,0,0,1,0,2,0,0,0,1,1
+jetblue-complaint-1,third party with company statement,20,13,6,2,0,0,0,1,0,0,2,0,2,0,0,0,0,0
+jetblue-responds-to-accusations-of-using-surveillance-pricing-after-viral-tweet,third party with company statement,15,3,3,7,0,0,2,1,0,0,1,1,1,0,0,0,0,1
+jetblue-sued-over-claims-it-tracked-browsing-to-adjust-flight-prices-fox-news,third party with company statement,5,1,0,16,1,0,0,1,0,0,8,0,4,0,0,0,0,0
+jetblue-sued-over-claims-it-uses-customers-personal-data-to-set-ticket-prices-ai,third party with company statement,4,1,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+jetblue-surveillance-pricing,third party with company statement,1,0,1,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0
+jetblue-told-a-customer-to-clear-his-cookies-after-a-230-price-hikethen-deleted-,third party with company statement,2,0,0,2,0,1,1,0,0,0,2,0,1,0,0,0,1,0
+jetblue-used-customers-personal-data-to-set-ticket-prices-lawsuit-alleges-cbs-ne,third party with company statement,3,0,0,3,0,0,0,0,2,0,1,0,1,0,0,0,0,0
+lawmakers-question-if-jetblue-is-using-personal-data-to-set-ticket-prices-reuter,third party with company statement,4,0,1,4,0,2,1,2,0,0,1,0,1,0,0,0,0,0
+news-casar-gallego-demand-answers-from-jetblue-about-surveillance-pricing-repres,third party with company statement,4,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0
+privacy-policy,company,0,0,0,0,4,0,0,11,2,0,0,0,0,0,0,0,0,0
+squire-v-jetblue-airways-corporation-1-2026cv02629,third party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+surveillance-pricing-the-next-frontier-of-privacy-litigation-publications-insigh,third party with company statement,57,8,19,12,4,6,0,6,2,1,5,0,2,0,2,0,4,4

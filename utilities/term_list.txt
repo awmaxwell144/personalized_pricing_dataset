@@ -1,16 +1,18 @@
 \bsurveillance\b
-\bdynamic\b
-\balgorithmic\b
-\b(?:AI|artificial intelligence)\b
-\bpersonali[sz](?:e|ed|ing|ation)\b
-\bindividuali[sz]ed\b
-\bdemand[-\s]?driven\b
+\bdynamic(?:ally)?\b
+\balgorithm(?:ic|ically)?s?\b
+\b(?:AI|artificial intelligence|machine learning)\b
+\bpersonali[sz](?:e|es|ed|ing|ation)?\b
+\bindividuali[sz](?:e|es|ed|ing|ation)?\b
+\bcustomi[sz](?:e|es|ed|ing|ation)?\b
+\btarget(?:s|ed|ing)?\b
+\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b
+\bdifferentiat(?:e|es|ed|ing|ion)?\b
 \bdemand\b
-\bdifferential\b
-\bcontinuous\b
-\bdata[-\s]?driven\b
+\bsurge\b
 \breal[-\s]?time\b
+\bcontinuous(?:ly)?\b
+\bdata[-\s]?driven\b
+\bprice optimi[sz](?:e|es|ed|ing|ation)?\b
 \bpredatory\b
-\boptimi[sz](?:e|ed|ing|ation)\b
-\bcustomi[sz](?:e|ed|ing|ation)\b
-\btarget(?:ed|ing)?\b
+\bgoug(?:e|es|ed|ing)\b
