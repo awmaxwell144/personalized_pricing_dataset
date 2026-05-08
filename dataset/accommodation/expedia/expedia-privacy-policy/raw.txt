@@ -1,0 +1,28 @@
+Privacy Statement
+
+Expedia
+Last Updated: 05-06-2026
+
+Expedia, Inc., part of Expedia Group, values privacy and explains in this Privacy Statement how it collects, uses, and discloses personal data when people use its platform and associated services.
+
+Expedia collects personal data when users provide it, when Expedia collects it automatically, and when Expedia receives it from others. Users provide personal data when they create an account, sign up for offers or information, or make a booking. Expedia automatically collects personal data through cookies and similar technology when users visit sites or use apps. Expedia also receives personal data from affiliated companies within Expedia Group, business partners, and other third parties to improve the platform and associated tools and services, update and maintain accurate records, detect and investigate fraud, and more effectively market services.
+
+Expedia collects and uses personal data for platform usage and booking purposes, communications and customer service, marketing and advertising, loyalty, market research, analytics, training, security, and compliance.
+
+Platform usage and booking purposes include facilitating booking, verifying identity, booking requested travel, providing services related to a booking or account, building trip itineraries, creating and updating accounts, building and enriching profiles, simplifying login across Expedia Group brands, authenticating users, maintaining search, travel, purchasing, and booking history, accommodation and travel preferences, processing payments, collecting booking-related reviews, and helping users use services faster and more easily.
+
+Marketing and advertising purposes include contacting users for marketing, analyzing information such as browsing and purchase history and using the results to optimize advertising and marketing based on interests and preferences, providing discounts or member prices based on information such as loyalty membership, search and browsing histories, geo-location, interests, and preferences, measuring marketing effectiveness, administering promotions, and delivering targeted advertising and advertising based on profile and identifiers.
+
+Geolocation data includes inferred location from IP address, country selected to use the website, and exact real-time location with consent. Site interaction data includes searches, transactions, saved travel preferences, and other interactions via text or voice on the platform, including interactions with AI Agents and AI filters. Device data includes device type, unique device identification numbers, operating system, mobile carrier, and how the device interacted with online services, including pages accessed, links clicked, trips viewed, and features used, with associated dates and times.
+
+Our Use of Artificial Intelligence
+
+Expedia uses artificial intelligence (AI) and machine learning (ML) for various purposes to deliver the platform and associated services. Expedia may use personal data for pricing, fraud, feature generation, auto moderation, chatbot, and insurance purposes.
+
+Pricing: Expedia uses AI and ML to help set competitive prices for travel options. Examples include pricing, price insights and alerts, including direct price setting and/or margin adjustments.
+
+Fraud: Expedia uses AI and ML to help detect fraud on websites and applications, including preventing and detecting fraud at transaction level, listing level, or user level, and detecting breaches of terms and conditions or other fraudulent activities.
+
+Chatbot: Expedia uses AI and ML to allow users to chat with a virtual assistant through text conversations to get help and answers, interact with users, answer questions, help users and friends plan trips, and display language and dialects within virtual agents' experience.
+
+Expedia may use loyalty membership, search and browsing histories, geo-location, interests, and preferences to provide discounts or member prices.

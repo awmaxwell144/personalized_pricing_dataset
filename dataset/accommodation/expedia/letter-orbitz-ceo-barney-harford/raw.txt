@@ -1,0 +1,12 @@
+Letter to our customers from Orbitz CEO Barney Harford
+
+Orbitz
+June 2012
+
+Orbitz CEO Barney Harford responded to reports that Orbitz was showing Mac users different and sometimes more expensive hotel recommendations than PC users.
+
+Harford said it was "nonsense" that Orbitz would charge Mac users more for the same hotel and said that was an incorrect impression many readers were drawing. He said Orbitz had found that Mac users were 40% more likely to book four- or five-star hotels than PC users, and that this was one of many factors used to determine which hotels to recommend to a customer as part of efforts to show the most relevant hotels possible.
+
+Harford explained that Orbitz uses information about whether a user is searching on a Mac, iPad, or PC to influence hotel recommendations, not to change the price of the same room for different users. On the website, after a customer views a property, Orbitz shows alternative hotel recommendations, primarily nearby properties booked by customers who had also viewed the same property. Orbitz then personalizes that list by taking account of factors such as whether the user is using a Mac or a PC.
+
+Harford said users can sort hotel results by price and can still see cheaper options. The statement framed the practice as personalization and recommendation ranking rather than charging different users different prices for the same hotel room.

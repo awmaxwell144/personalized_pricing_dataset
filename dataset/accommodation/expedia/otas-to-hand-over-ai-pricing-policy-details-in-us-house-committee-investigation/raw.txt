@@ -1,0 +1,14 @@
+OTAs to hand over AI pricing policy details in US House committee investigation
+
+PhocusWire
+March 6, 2026
+
+Online travel companies have been asked to hand over details about their artificial intelligence pricing policies to the U.S. House Oversight Committee. The committee sent letters to the CEOs of several companies, including Expedia Group, Booking Holdings, Uber, Lyft, Instacart, and DoorDash, seeking information about whether the companies use surveillance pricing.
+
+The committee's inquiry follows broader concern about the use of artificial intelligence, algorithms, and personal data to set individualized prices. Surveillance pricing refers to using customer data, such as browsing history, location, shopping behavior, or other personal information, to determine individualized algorithmic prices rather than standard market prices.
+
+Committee chair James Comer said surveillance pricing algorithms and highly personalized consumer data could give companies the ability to weaponize personal data and increase profit margins without transparency to consumers. The letters sought policies, records, and communications related to the use of AI, algorithms, and consumer data in pricing.
+
+Expedia Group said it does not increase prices based on user data or activity and does not personalize pricing based on protected personal characteristics. Expedia said it looks forward to working with the committee to provide more details about its pricing practices.
+
+The article situates the inquiry alongside other policy and legal attention to algorithmic pricing, including investigations by state officials and scrutiny of pricing practices in travel and other consumer markets.

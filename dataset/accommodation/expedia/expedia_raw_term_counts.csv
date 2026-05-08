@@ -1,0 +1,10 @@
+source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\bprice optimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bgoug(?:e|es|ed|ing)\b
+ariane-gorin-lays-out-goals-as-expedia-group-ceo,third party with company statement,0,0,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+expedia-privacy-policy,company,0,0,0,9,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+is-orbitz-steering-mac-users-toward-pricier-hotels-cnn-business,third party with company statement,0,0,2,1,0,0,1,2,0,0,0,0,1,0,0,0,0,0
+letter-orbitz-ceo-barney-harford,company,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+orbitz-shows-mac-users-pricier-hotel-options-big-deal-or-no-brainer-kasu,third party with company statement,0,0,0,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0
+orbitz-shows-mac-users-pricier-hotel-options-big-deal-or-no-brainer-wncw,third party with company statement,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0
+otas-to-hand-over-ai-pricing-policy-details-in-us-house-committee-investigation,third party with company statement,3,0,5,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+transparency-in-travel-pricing-a-win-for-consumers-and-a-standard-at-expedia,company,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+us-house-committee-wants-travel-companies-to-disclose-ai-use-for-pricing,third party with company statement,6,0,4,6,4,5,0,2,0,0,1,0,0,0,0,0,0,0
