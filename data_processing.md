@@ -17,7 +17,8 @@ You will be given a company name as it appears in the `dataset/` directory (e.g.
 Audit every source folder before processing:
 
 - **Duplicates**: Compare folder names and file contents across all source folders. If two folders cover the same source, report both names to the user and wait for guidance before continuing.
-- **Scrape quality**: Open `raw.txt` in each source folder and confirm it contains the actual article or document text. If a page failed to scrape — returned a CAPTCHA, "verify you're human" wall, login prompt, or near-empty boilerplate — report the folder name and the specific problem to the user.
+- **Scrape quality**: Open `raw.txt` in each source folder and confirm it contains the actual article or document text. If a page failed to scrape — returned a CAPTCHA, "verify you're human" wall, login prompt, or near-empty boilerplate — stop processing, and give the user a list of which sources need to be fixed
+
 
 ---
 
