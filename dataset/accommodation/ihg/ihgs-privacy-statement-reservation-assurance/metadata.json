@@ -1,0 +1,28 @@
+{
+  "url": "https://www.ihg.com/content/us/en/customer-care/privacy_statement",
+  "title": "IHG's Privacy Statement & Reservation Assurance",
+  "industry": "accommodation",
+  "company": "ihg",
+  "page_name": "ihgs-privacy-statement-reservation-assurance",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-08T16:45:18Z",
+  "scraped_by": "",
+  "notes": "Generated from local saved HTML file: IHG's Privacy Statement & Reservation Assurance.html. Page states effective date March 2026.",
+  "tags": [
+    "privacy policy",
+    "IHG",
+    "reservation assurance",
+    "personal information",
+    "preferences",
+    "personalization",
+    "targeted advertising",
+    "cookies"
+  ],
+  "language": "en",
+  "access_date": "2026-05-08",
+  "status": "complete"
+}

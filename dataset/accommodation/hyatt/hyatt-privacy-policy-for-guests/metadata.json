@@ -1,0 +1,27 @@
+{
+  "url": "https://world.hyatt.com/content/gp/en/privacy/guest-policy.html",
+  "title": "Hyatt Privacy Policy for Guests",
+  "industry": "accommodation",
+  "company": "hyatt",
+  "page_name": "hyatt-privacy-policy-for-guests",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-08T16:45:18Z",
+  "scraped_by": "",
+  "notes": "Generated from local saved HTML file: Hyatt Privacy Policy for Guests.html. Page states last updated July 2025.",
+  "tags": [
+    "privacy policy",
+    "Hyatt",
+    "personal information",
+    "preferences",
+    "personalization",
+    "targeted advertising",
+    "cookies"
+  ],
+  "language": "en",
+  "access_date": "2026-05-08",
+  "status": "complete"
+}

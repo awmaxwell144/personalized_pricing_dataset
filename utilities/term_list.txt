@@ -13,6 +13,7 @@
 \breal[-\s]?time\b
 \bcontinuous(?:ly)?\b
 \bdata[-\s]?driven\b
-\bprice optimi[sz](?:e|es|ed|ing|ation)?\b
+\boptimi[sz](?:e|es|ed|ing|ation)?\b
 \bpredatory\b
+\bautomated\b
 \bgoug(?:e|es|ed|ing)\b
