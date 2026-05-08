@@ -1,121 +1,121 @@
 # Personalized Pricing Dataset
 
-## Dataset Generation
-After you have done the setup:
+This repository contains the source dataset and collection utilities for a COS 351 research project on personalized algorithmic pricing, dynamic pricing, AI pricing, and related company communications.
 
-Run 
+The accompanying paper draft is in `paper_draft.tex`. The dataset supports the paper's analysis of how companies characterize pricing practices and how those communications change around legal, media, and public-pressure events.
+
+## Repository Structure
+
+```text
+.
+├── dataset/                 # Collected source material, organized by industry and company
+├── utilities/               # Term counting script, term list, and data templates
+├── scrape.py                # Helper script for saving webpages and PDFs into dataset/
+├── data_processing.md       # Step-by-step instructions for processing a company
+├── source_criteria.md       # Criteria for finding and evaluating sources
+├── paper_draft.tex          # Current paper draft
+└── COS351bib.bib            # Bibliography for the paper
 ```
+
+The dataset is organized as:
+
+```text
+dataset/<industry>/<company>/<source-id>/
+```
+
+Each source folder may contain:
+
+- `raw.html` - saved HTML when available
+- `raw.pdf` - saved PDF or PDF rendering when available
+- `raw.txt` - extracted readable text
+- `metadata.json` - URL, scrape date, source type, title, and saved-file metadata
+- `extracted_company_statement.txt` - company statements extracted from third-party sources, when relevant
+
+Each company directory may also contain:
+
+- `<company>_source_tracker.csv` - source-level metadata and summaries
+- `<company>_raw_term_counts.csv` - term counts across `raw.txt`
+- `<company>_statement_term_counts.csv` - term counts across extracted company statements
+
+## Dataset Scope
+
+The current dataset covers companies in four broad industries:
+
+- `accommodation`
+- `aviation`
+- `grocery`
+- `rideshare`
+
+Sources include company communications, privacy policies, investor materials, news coverage, legal or regulatory materials, watchdog reports, and public-pressure sources where they are directly relevant to a company's pricing practices.
+
+For detailed inclusion criteria, see `source_criteria.md`.
+
+## Setup
+
+Install Python dependencies from the repository root:
+
+```bash
+pip3 install -r utilities/requirements.txt
+python3 -m playwright install chromium
+```
+
+If your system uses `python` instead of `python3`, use the corresponding `pip` and `python` commands.
+
+## Adding a Source
+
+Use `scrape.py` to save a webpage, PDF, or plain-text URL into the dataset:
+
+```bash
 python3 scrape.py "<URL>" "<industry>" "<company>"
 ```
-If you get an error saying something like "python3 not found," try it with `python` instead of `python3`
 
-Scrape.py does:
-- Downloads a webpage, PDF, or text URL and saves it into:
-  ```
-  dataset/<industry>/<company>/<page-name>/
-  ```
-- Automatically chooses a page folder name from the webpage title or URL path, or you can provide one:
-  ```
-  python3 scrape.py "<URL>" "<industry>" "<company>" "<page-name>"
-  ```
-- Saves the source as `raw.html`, `raw.pdf`, and/or `raw.txt`, depending on the URL type.
-- Extracts readable text into `raw.txt` when possible.
-- Writes `metadata.json` with basic information about the source.
-- Avoids overwriting existing folders by creating a numbered folder if needed.
-- Commits and pushes the new dataset item to GitHub automatically.
+You can optionally provide the source folder name:
 
-Optional flags:
+```bash
+python3 scrape.py "<URL>" "<industry>" "<company>" "<source-id>"
 ```
+
+Useful flags:
+
+```bash
 python3 scrape.py "<URL>" "<industry>" "<company>" --no-git
 python3 scrape.py "<URL>" "<industry>" "<company>" --no-pdf
 ```
 
-- `--no-git` saves the files but skips the automatic Git commit and push.
-- `--no-pdf` skips converting an HTML webpage into a PDF.
+- `--no-git` saves files without committing or pushing.
+- `--no-pdf` skips PDF rendering for HTML webpages.
 
-## Setup
+By default, the script saves the source under `dataset/<industry>/<company>/<source-id>/`, writes `metadata.json`, extracts text into `raw.txt` when possible, and attempts to commit and push the new source.
 
-Follow these steps to get the dataset set up locally. If something doesn't work, try putting the error in an LLM. If not, text me
+## Processing a Company
 
-### 1. Accept the GitHub Invite
-- Go to the email you used to sign up for GitHub
-- Find the email inviting you to the repository
-- Click the link and **accept the invite**
+After sources have been collected for a company, follow `data_processing.md`.
 
----
+The basic workflow is:
 
-### 2. Open VSCode
-- Open **VSCode**
-- Open whatever folder you want this dataset to live in  
-  (for example, a `COS351` folder)
+1. Review each source folder for duplicates and scrape-quality problems.
+2. Create or update `<company>_source_tracker.csv`.
+3. Extract company statements from third-party sources when applicable.
+4. Count pricing-related term matches.
 
----
-
-### 3. Open a Terminal in VSCode
-- In the top menu, click **Terminal**
-- Click **New Terminal**
-
----
-
-### 4. Install Git (if not already installed)
-
-Run:
+Run term counts from the repository root:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install git
+python3 utilities/count_terms.py <company>
 ```
 
----
-
-### 5. Configure Git
-
-Replace with your username and email:
-```
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
-```
-
----
-
-### 6. Clone the Repository
-
-```
-git clone https://github.com/awmaxwell144/personalized_pricing_dataset.git
-```
-At this point, you should see a new folder called: `personalized_pricing_dataset` in your VSCode
-
----
-
-### 7. Open the Project Folder
-- In VSCode, go to File → Open Folder
-- Navigate to the `personalized_pricing_dataset` folder
-- Open it
-
----
-
-### 8. Install Python (if you don't have it)
-
-1. Go to: https://www.python.org/downloads/macos/
-2. Download the latest **Python 3 installer (.pkg)** (the one at the top)
-3. Open the downloaded file and follow the installation steps
-
----
-
-#### Verify Installation
-
-After installing, restart your terminal and run:
+Example:
 
 ```bash
-python3 --version
+python3 utilities/count_terms.py delta
 ```
-You should see something like: `Python 3.x.x`
 
----
+The script reads regex patterns from `utilities/term_list.txt` and writes updated count CSVs to the relevant company directory.
 
-### 9. Install Dependencies
-Run the following:
-```
-pip3 install -r utilities/requirements.txt
-python -m playwright install chromium
-```
+## Notes for Contributors
+
+- Keep source folder names short, lowercase, and descriptive.
+- Do not overwrite existing source folders. The scraper will create a numbered folder if a name already exists.
+- Check `raw.txt` after scraping. Some websites return login pages, CAPTCHA pages, or incomplete text.
+- Use `metadata.json` and `raw.txt` as the primary inputs for source trackers.
+- Keep source summaries factual and distinguish company claims, third-party allegations, and legal or regulatory findings.
