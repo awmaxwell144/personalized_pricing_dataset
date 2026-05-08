@@ -1,0 +1,14 @@
+{
+  "url": "https://www.reddit.com/r/nyc/comments/1pdkomo/online_shoppers_in_new_york_are_seeing_a_new/",
+  "title": "reddit.com - Online shoppers in New York are seeing a new warning: \"This price was set by an algorithm\". New York now requires retailers to admit when prices come from your personal data. : r/nyc",
+  "industry": "grocery",
+  "company": "doordash",
+  "page_name": "online-shoppers-in-new-york-are-seeing-a-new-warning-this-price-was-set-by-an-algorithm",
+  "source_type": "html",
+  "saved_files": [
+    "raw.html",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-08T17:16:00+00:00",
+  "notes": "Replaced failed verification-wall scrape with local HTML file: Online shoppers in New York are seeing a new warning: \"This price was set by an algorithm\". New York.html."
+}

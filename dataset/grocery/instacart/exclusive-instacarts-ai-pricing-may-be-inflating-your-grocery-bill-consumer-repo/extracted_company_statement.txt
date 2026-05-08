@@ -1,0 +1,19 @@
+"Just as retailers have long tested prices in their physical stores to better understand consumer preferences, a subset of only 10 retail partners--ones that already apply markups--do the same online via Instacart. These limited, short-term, and randomized tests help retail partners learn what matters most to consumers and how to keep essential items affordable," the company wrote in a statement.
+
+Instacart says only 10 of its retail partners use its Eversight pricing tools, but it would not name those companies or say what percentage of its customers are being offered different prices than other consumers.
+
+Instacart subsequently acknowledged that it scrapes Target's publicly displayed prices and charges an additional amount to offset its "operating and technology costs." But Instacart did not explain why it was also conducting price experiments at Target.
+
+Instacart repeatedly told CR that its retailer partners "set and control their own prices on Instacart."
+
+Instacart told CR it has now stopped its price experiments at two retailers where we found evidence of such experimentation, Costco and Target.
+
+"Some consumers may see slightly higher prices for certain items and lower prices for others; however, most customers see the standard price," Instacart's statement reads.
+
+Instacart denies that its price experiments use any personal or demographic data, and says customers are randomly assigned to price testing cohorts by product category and location.
+
+Instacart denies that it uses any personal data to set grocery prices. But the company did acknowledge that food brands may use behavioral data for discounts or promotional offers through its Eversight software, using a tool it calls Offer Innovation, which enables price experiments similar to those that our investigation observed.
+
+When we asked Instacart about the demographic and other personal data listed in its patents, the company maintained that patent applications routinely use overly broad and "all-encompassing" language in order to "protect innovation and preserve optionality."
+
+When we asked Instacart whether its Carrot Tags were being used this way in physical stores, Instacart said the ability to experiment with prices was "not currently integrated with Carrot Tags."

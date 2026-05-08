@@ -1,0 +1,3 @@
+Uber users in the state may have noticed a similar disclosure on the screen before checkout on the app, although it didn't cite the new law. A company spokesperson confirmed that Uber Eats added the disclosure in response to New York's new law.
+
+"This price was set by an algorithm using your personal data," the disclosure reads. "Your location is used to help us calculate fees and savings."

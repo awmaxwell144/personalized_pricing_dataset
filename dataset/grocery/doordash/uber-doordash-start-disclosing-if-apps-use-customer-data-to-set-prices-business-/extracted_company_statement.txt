@@ -1,0 +1,3 @@
+In the DoorDash app, New York users got a notice that the new law "requires that we make the following disclosure because we use information such as your delivery address to calculate distance and fees, and your past orders and favorite stores to provide personalized promotions and/or discounts."
+
+"This price was set by an algorithm using your personal data," the disclosure reads.

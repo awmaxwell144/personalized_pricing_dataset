@@ -1,0 +1,5 @@
+"[Instacart] is ending all item price tests on our platform. Retailers will no longer be able to use Eversight technology to run item price tests on Instacart."
+
+Instacart barely described the "item price tests" that it was planning to end, though it claimed those particular "tests were not dynamic pricing or surveillance pricing."
+
+The fine print text on the Instacart app that linked to the disclosure page was: for Stop & Shop, "View pricing policy"; for ShopRite, "View pricing disclosure"; and for Costco, "View pricing disclosure."

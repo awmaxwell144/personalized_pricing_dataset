@@ -1,0 +1,7 @@
+source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\boptimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bautomated\b,\bgoug(?:e|es|ed|ing)\b
+attorney-general-james-demands-answers-from-instacart-about-algorithmic-pricing,third party with company statement,1,0,14,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,1
+exclusive-instacarts-ai-pricing-may-be-inflating-your-grocery-bill-consumer-repo,third party with company statement,4,3,19,9,2,3,0,11,3,0,1,0,0,0,1,2,1,0,0
+frequently-asked-questions-instacart-docs,company,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+instacart-help-center,company,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+letter-to-instacart-on-pricing-practices-letters-2026,third party with company statement,1,5,16,2,10,0,0,1,0,0,0,0,0,1,0,2,0,1,0
+new-york-ag-requests-information-on-algorithmic-pricing-from-instacart,third party with company statement,9,0,5,2,0,0,0,2,0,0,0,0,0,0,0,0,0,4,0
