@@ -11,10 +11,7 @@ The dataset supports the paper's analysis of how companies characterize pricing 
 ├── dataset/                 # Collected source material, organized by industry and company
 ├── utilities/               # Term counting script, term list, and data templates
 ├── scrape.py                # Helper script for saving webpages and PDFs into dataset/
-├── data_processing.md       # Step-by-step instructions for processing a company
-├── source_criteria.md       # Criteria for finding and evaluating sources
-├── paper_draft.tex          # Current paper draft
-└── COS351bib.bib            # Bibliography for the paper
+└── data_processing.md       # Step-by-step instructions for processing a company
 ```
 
 The dataset is organized as:
@@ -47,8 +44,6 @@ The current dataset covers companies in four broad industries:
 - `rideshare`
 
 Sources include company communications, privacy policies, investor materials, news coverage, legal or regulatory materials, watchdog reports, and public-pressure sources where they are directly relevant to a company's pricing practices.
-
-For detailed inclusion criteria, see `source_criteria.md`.
 
 ## Setup
 
