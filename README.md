@@ -2,7 +2,7 @@
 
 This repository contains the source dataset and collection utilities for a COS 351 research project on personalized algorithmic pricing, dynamic pricing, AI pricing, and related company communications.
 
-The accompanying paper draft is in `paper_draft.tex`. The dataset supports the paper's analysis of how companies characterize pricing practices and how those communications change around legal, media, and public-pressure events.
+The dataset supports the paper's analysis of how companies characterize pricing practices and how those communications change around legal, media, and public-pressure events.
 
 ## Repository Structure
 
