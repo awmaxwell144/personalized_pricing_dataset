@@ -1,0 +1,235 @@
+Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft | NBER
+Skip to main content
+NBER: National Bureau of Economic Research
+Subscribe
+Media
+Open Calls
+Search
+Research
+EXPLORE Research
+Findings
+Working Papers
+Books & Chapters
+Videos
+Periodicals
+The Digest
+The Reporter
+The Bulletin on the Economics of Alzheimer's Disease and Related Dementias
+The Bulletin on Health
+The Bulletin on Entrepreneurship
+The Bulletin on Retirement and Disability Archives
+The Bulletin on Aging & Health Archives
+Data & Business Cycles
+Boston Research Data Center
+Business Cycle Dating
+Public Use Data Archive
+All Topics
+Taxation
+Unemployment and Immigration
+Energy
+Entrepreneurship
+Trade
+Programs & Projects
+EXPLORE Programs & Projects
+Programs
+Economics of Aging
+Asset Pricing
+Children and Families
+Corporate Finance
+Development Economics
+Development of the American Economy
+Economic Fluctuations and Growth
+Economics of Education
+Economics of Health
+Environment and Energy Economics
+Industrial Organization
+International Finance and Macroeconomics
+International Trade and Investment
+Labor Studies
+Law and Economics
+Monetary Economics
+Political Economy
+Productivity, Innovation, and Entrepreneurship
+Public Economics
+Working Groups
+Behavioral Finance
+Chinese Economy
+Economics of Crime
+Entrepreneurship
+Gender in the Economy
+Household Finance
+Innovation Policy
+Insurance
+Market Design
+Organizational Economics
+Personnel Economics
+Race and Stratification in the Economy
+Urban Economics
+All Projects & Centers
+Center for Aging and Health Research
+Center on Economics of Alzheimer's Disease
+Conference on Research in Income and Wealth
+Economics of Digitization
+Economic Measurement Research Institute
+Financial Frictions and Systemic Risk
+Healthcare Decision-Making and Outcomes for People Living with Alzheimer's Disease
+Macroeconomics Annual
+Measuring the Clinical and Economic Outcomes Associated with Delivery Systems
+New Developments in Long-Term Asset Management
+Pop-Up Journal: Estimating the Economic Return to R&D Investment
+The Roybal Center for Behavior Change in Health
+Science of Science Funding
+Training Program in Aging and Health Economics
+Transportation Economics in the 21st Century
+Conferences
+EXPLORE Conferences
+Summer Institute
+Reimbursements
+Affiliated Scholars
+NBER News
+EXPLORE NBER News
+Research in the News
+Nobel Laureates
+Featured Working Papers Archive
+Career Resources
+EXPLORE Career Resources
+RA Positions – at NBER
+RA Positions – not at the NBER
+Staff Positions at NBER
+Calls for Fellowship Applications
+Current Fellowship Recipients
+About
+EXPLORE About
+Leadership & Governance
+Support & Funding
+History
+Standards of Conduct
+Staff
+Subscribe
+Media
+Open Calls
+Search
+Home
+Research
+Working Papers
+Leaving Money on the Dashboard: Price…
+Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft
+Jeffrey Fossett
+,
+Michael Luca
+&
+Yejia Xu
+Share
+X
+LinkedIn
+Facebook
+Bluesky
+Threads
+Email
+Link
+Working Paper
+34441
+DOI
+10.3386/w34441
+Issue Date
+November 2025
+We document price differences for identical trips on Uber and Lyft, based on an audit of the two platforms. While price dispersion exists in the market, device-level data show that only 16.1 percent of consumers opening one app also open the other. Our estimates suggest that the modest frictions involved in comparison shopping increase platforms’ gross booking volume by over $300 million annually in New York City alone. While price-comparison engines could in principle reduce frictions, Uber’s API terms of use limit such services, reducing riders’ ability to price compare.
+Acknowledgements and Disclosures
+Funding for this project came from our academic research budgets. We thank Shane Greenstein, Chiara Farronato, Fiona Scott Morton, and Andrei Shleifer for helpful comments and discussions on this project. We additionally thank Jacopo Gambato and participants at the 22nd ZEW Conference on the Economics of Information and Communication Technologies for helpful comments. The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research.
+Jeffrey Fossett
+* I am currently paid collaborator on a research project with Plurality Institute (a 501c3 nonprofit) which is primarily funded by through a grant from Google.org.
+* I currently hold more than $10,000 in stock in, and was previously an employee of Airbnb Inc.
+Citation and Citation Data
+Copy Citation
+Jeffrey Fossett, Michael Luca, and Yejia Xu, "Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft," NBER Working Paper 34441 (2025), https://doi.org/10.3386/w34441.
+Copy to Clipboard
+Download Citation
+MARC
+RIS
+BibTeΧ
+Download Citation Data
+Non-Technical Summaries
+Do Rideshare Users Comparison Shop?
+Author(s):
+Jeffrey Fossett
+Michael Luca
+Yejia Xu
+The widespread adoption of mobile web and smartphone apps was expected to dramatically reduce consumer search costs and intensify...
+Related
+Topics
+Microeconomics
+Market Structure and Distribution
+Economics of Information
+Programs
+Industrial Organization
+Labor Studies
+Public Economics
+Productivity, Innovation, and Entrepreneurship
+Working Groups
+Behavioral Finance
+Entrepreneurship
+Household Finance
+Innovation Policy
+Market Design
+Urban Economics
+Mentioned in the News
+How To Save Money When Taking Uber | HuffPost Life
+December 10, 2025
+Source:
+Huffpost
+Read the research here
+.
+Or a non-technical summary here
+.
+More from the NBER
+In addition to
+working papers
+, the NBER disseminates affiliates’ latest findings through a range of free periodicals — the
+NBER Reporter
+, the
+NBER Digest
+, the
+Bulletin on Health
+, and the
+Bulletin on Entrepreneurship
+— as well as online
+conference reports
+,
+video lectures
+, and
+interviews
+.
+2025, 17th Annual Feldstein Lecture, N. Gregory Mankiw," The Fiscal Future"
+Feldstein Lecture
+Presenter:
+N. Gregory Mankiw
+N. Gregory Mankiw, Robert M. Beren Professor of Economics at Harvard University, presented the 2025 Martin Feldstein...
+2025, Methods Lecture, Raj Chetty and Kosuke Imai, "Uncovering Causal Mechanisms: Mediation Analysis and Surrogate Indices"
+Methods Lectures
+Presenters:
+Raj Chetty
+&
+Kosuke Imai
+SlidesBackground materials on mediationImai, Kosuke, Dustin Tingley, and Teppei Yamamoto. (2013). “Experimental Designs...
+2025, International Trade and Macroeconomics, "Panel on The Future of the Global Economy"
+Panel Discussion
+Presenters:
+Oleg Itskhoki
+,
+Paul R. Krugman
+&
+Linda Tesar
+Supported by the Alfred P. Sloan Foundation grant #G-2023-19633, the Lynde and Harry Bradley Foundation grant #20251294...
+National Bureau of Economic Research
+Contact Us
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+617-868-3900
+info@nber.org
+webaccessibility@nber.org
+Homepage
+Accessibility Policy
+Diversity Policy
+Privacy Policy
+Follow
+© 2026 National Bureau of Economic Research. All Rights Reserved.

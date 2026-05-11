@@ -1,0 +1,7 @@
+Uber told Fortune: "Prices on Uber are not personalized. We never set prices based on credit/debit card brand, whether you're paying by card, gift card, or Uber Cash, your account balance, or your battery level."
+
+Fortune reports that Uber said it does not use battery information or other technical characteristics to set prices or promotions. The company said it collects certain data to personalize promotions and outreach, such as offering a discount to a customer who has not used the app in a while.
+
+Uber spokesperson Zahid Arab told SFGate: "Uber does not personalize fares for drivers or riders." Arab added that "Uber's pricing tech does not set different prices for riders according to the payment type they use," and said fare changes are driven by real-time conditions including demand, estimated time and distance, traffic, and driver availability.
+
+Fortune reports that Uber said fares update in real time every few seconds through its dynamic pricing model, and that location, demand, traffic conditions, driver availability, and estimated time and distance can affect a fare.

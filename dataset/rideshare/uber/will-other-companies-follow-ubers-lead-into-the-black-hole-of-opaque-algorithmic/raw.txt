@@ -1,0 +1,223 @@
+Will Other Companies Follow Uber’s Lead Into The Black Hole of Opaque Algorithmic Pricing? | by Len Sherman | Medium
+Sitemap
+Open in app
+Sign up
+Sign in
+Medium Logo
+Get app
+Write
+Search
+Sign up
+Sign in
+Will Other Companies Follow Uber’s Lead Into The Black Hole of Opaque Algorithmic Pricing?
+Len Sherman
+17 min read
+·
+Sep 16, 2025
+--
+1
+Listen
+Share
+Press enter or click to view image in full size
+During Delta Airlines’ earnings call earlier this summer, company President Glen Hauenstein made a passing comment about promising test results from Delta’s growing use of AI-driven pricing algorithms on US domestic flights. Investors cheered, sending Delta’s stock 12% higher by the end of the day, but alarm bells went off in other camps. Newspaper headlines soon captured visceral
+consumer fears of price gouging
+, prompting three US senators to
+demand Congressional hearings
+about Delta’s new business policies.
+Press enter or click to view image in full size
+Wendy’s faced
+similar backlash
+a few months earlier when its CEO, Kirk Tanner, announced plans to post dynamic prices on electronic menu boards, sparking
+outrage from consumers
+who feared having to pay more for their peak lunch hour hamburger fix.
+Wendy’s quickly walked back Tanner’s comment,
+issuing a statement
+that “dynamic pricing is different from ‘surge pricing’,” further clarifying that “we didn’t use that phrase, nor do we plan to implement that practice.” Tanner resigned his position a few months later.
+Press enter or click to view image in full size
+While Wendy’s and Delta were taking considerable heat in the business press and halls of Congress, Uber largely avoided opprobrium, despite unabashedly incorporating surge pricing into its business model from the company’s inception, and more recently implementing the
+largest known application
+of AI-driven algorithmic price discrimination on both sides of its marketplace.
+Why has Uber largely avoided condemnation despite perfecting
+algorithmic pricing policies
+at an unprecedented scale over the past three years that have increased rider prices, decreased driver pay, and sharply increased Uber’s profits, putting the company on track this year to generate nearly $10 billion in free cash flow?
+Primer on Price Discrimination
+To understand the dynamics behind the growing use of price discrimination, when it is most likely to work to a company’s advantage, and where greater regulatory scrutiny may be warranted, it’s important to clarify some economic terms. The underlying concepts aren’t complicated, and help explain what’s behind the prices we see in everyday purchases.
+Economic theory distinguishes three types of price discrimination: first, second, and third-degree. The most common form is second-degree price discrimination, which applies in situations where companies charge different prices for
+products with different features or purchase quantities.
+Second-degree price discrimination is the reason consumers have to pay more for computers with faster microprocessors, expanded memory, and larger batteries than for base models, or to pay higher unit prices for a single beer than for a six-pack. In these cases, supplier costs are higher for the higher-priced versions.
+Second-degree price discrimination also applies in situations where high demand predictably exceeds available supply, leading companies to boost prices for capacity-constrained products and services. Examples include theater tickets that cost more for Friday night screenings than Tuesday afternoons, and tickets for flights on the day before Thanksgiving carrying hefty price premiums.
+Another variation, called dynamic pricing, occurs when prices change significantly and
+unpredictably
+, reflecting intrinsic marketplace volatility. The best example is Wendy’s reference to “surge pricing,” which Uber introduced from the very beginning of its on-demand ridesharing business.
+The key characteristic of second-degree price discrimination is that customers reveal their willingness to pay by the choices they make from the seller’s product portfolio and laddered pricing schemes, rather than sellers segmenting buyers into different groups that are charged different prices
+for the same product
+. In other words, in second-degree price discrimination, consumers get to decide on their terms what they’re willing (or not) to pay on a level playing field, where every consumer is treated equally.
+In contrast, third-degree price discrimination involves situations where a company charges different prices
+for the same product
+to different groups of consumers, based on a company’s belief that certain consumer characteristics like age (e.g., senior discounts), location (e.g., country), or status (e.g., students) serve as good proxies for a group’s ability and willingness to pay. For example, college students with a “.edu” email address get free access to Microsoft’s Office 365 software bundle, while others pay $70 to $100 per year, and Netflix charges basic plan subscribers in India a monthly fee of only $2.40, compared to $8.00 in the US.
+Third-degree price discrimination is widespread and generally accepted by consumers who take solace in knowing what the price-differentiating criteria are, and that every qualifying student, senior, or selected city resident is charged the same price for comparable products.
+That leaves first-degree price discrimination, where companies use sophisticated algorithms that go well beyond crude proxies, to set prices as close as possible to each consumer’s
+willingness to pay, and where possible, pay the minimum any supplier is willing
+to
+accept for each transaction. In theory, with first-degree price discrimination, every consumer and supplier could see different prices on every transaction.
+For decades, the concept of first-degree price discrimination has been taught in Econ 101 college classes as theoretically, the ultimate profit-maximizing pricing strategy, even though in practice, it has historically been impossible for enterprises to make highly granular pricing and pay adjustments in real time, at scale.
+However, with the advent of large-scale customer databases and powerful AI technologies, firms have become increasingly capable of determining individual price sensitivities on billions of transactions in real-time on both sides of the marketplace, with Uber leading the charge as the most advanced and successful practitioner.
+As any frequent rider or driver has likely noticed, Uber’s prices and pay rates tend to vary significantly from trip to trip, even in the absence of unusual supply/demand conditions.
+Recent research
+confirms that the variance in Uber’s rider prices and driver pay per mile has significantly increased since the company introduced algorithmic “upfront fare” policies in 2022, even though the company’s surge price adjustments have declined sharply over the same period. In other words, Uber is increasingly finding opportunities to raise prices and/or lower driver pay for individual riders and drivers, driving a remarkable financial turnaround in the company’s free cash flow.
+Press enter or click to view image in full size
+Why Has Uber Been So Successful?
+Uber’s striking success in pushing the boundaries of algorithmic price discrimination is prompting companies in other industries to consider similar tactics. It is thus important to understand why Uber has been so successful, while largely avoiding the visceral blowback Wendy’s and Delta Airlines recently experienced. The answer lies in key differences in the characteristics and histories of these companies.
+Uber enjoys an extraordinarily attractive rider and driver value proposition, allowing it to tap significant “consumer and supplier surpluses,” i.e, the ability to selectively raise prices and cut driver pay from one-size-fits-all levels for riders and drivers with varying price sensitivities. As a proof point, Uber has been able to achieve increased rideshare demand and driver supply over the past three years,
+despite
+rising rider prices and declining driver pay.
+Uber also enjoys considerable pricing power, leveraging its roughly 75% rideshare market share in most US cities. In contrast, Wendy’s and Delta’s US market shares are less than 3% and 20% in their respective industries, making them more vulnerable to customer price resistance and strong competitor response. Moreover, Uber’s price and pay levels are considerably less transparent and more difficult to track than in the airline and fast-food industries.
+The rideshare sector is inherently less price-sensitive than most other businesses. On the demand side, rideshare trips often involve inflexible, spur-of-the-moment, urgent mobility needs, for relatively low-priced transactions with few practical alternatives (e.g., getting home at 2 AM bar closing time). On the supply side, despite cutting pay rates, Uber has been able to recruit adequate driver supply from a large and growing pool of precariat gig workers, who often lack viable alternatives to meet their primary or supplemental income needs.
+In contrast, airline trips are expensive, and usually planned well in advance with widespread access to price comparison tools (e.g. Booking.com, Google Flights, Kayak) that limit any airline’s ability to unilaterally raise prices.
+In the fast food sector, Wendy’s tends to cater to lower-income consumers, in a sector already experiencing heightened inflation, triggering immediate concerns with perceived price-gouging. As a result, both these companies face higher consumer price sensitivity than Uber.
+Uber’s reliance on gig workers makes it uniquely able to exploit price discrimination on
+both
+sides
+of its marketplace. In fact, Uber has achieved
+greater margin improvement
+from cutting driver pay than raising rider prices over the past three years.
+Uber has largely succeeded in muting market resistance to its price and pay tactics by establishing dynamic pricing from the company’s inception. Uber’s rider prices and driver pay were initially based on fixed per-mile and per-minute rates, boosted at times by specified surge premiums. On every trip, all riders and drivers received standard price and pay rates, and were alerted if surge conditions were in effect, with clearly stated, equal boosts to driver ad rider base rates. As such, all riders and drivers in a given market were treated equally, with transparent price and pay terms.
+Over time, however, Uber steadily weakened the transparency and equitableness of its price and pay policies. In 2016, Uber decoupled US rider prices from established per-minute and per-mile rate cards, meaning they could charge riders a premium price on any trip without necessarily sharing the increased fare with drivers. Six years later, Uber also eliminated established driver pay rates in most US cities, meaning that rideshare prices
+and
+pay were now largely decoupled from trip distance and time. Under its 2022 “upfront pricing” policy, on every trip, Uber became free to charge whatever price it believed a customer would be willing to accept while paying the lowest fare that any nearby driver would take, unlocking a substantial and sustained increase in Uber’s profitability at rider and driver expense.
+The structural characteristics of the rideshare business thus give Uber an ideal platform to exploit price discrimination on both sides of its marketplace, and its slowly evolving business policies inured the market to steadily eroding price and pay transparency.
+In contrast, when Wendy’s suddenly announced plans to move from its age-old practice of displaying static prices on printed signs for all to see, to mysterious algorithmic prices on digital menu boards in an era of high food inflation, they unleashed a tsunami of protest.
+In the airline industry, although dynamic pricing policies were first introduced four decades ago, Delta’s announcement to introduce AI-driven algorithmic pricing adjustments proved to be a bridge too far for many consumers and politicians. While consumers have long been accustomed to paying more for travel in high-demand periods and seeing advertised discounts for trips with clearly stated restrictions (e.g., “Saturday-night stay required”), the prospect of algorithmic pricing unleashed fears of unfair, unexplained, and exploitative price variances for customers
+booking exactly the same flights.
+How Algorithmic Pricing Unlocks Uber’s Profits at Rider and Driver Expense
+To better understand how Uber exploits upfront pricing to enhance its profitability, it’s useful to compare how constrained and rigid Uber’s previous revenue model was with the flexibility the company now enjoys with upfront pricing. To do so, I analyzed the trip history of a “power driver” who has driven full-time for Uber since 2018, completing over 30,000 trips during this period. Further details on the data, sources and methods for this analysis can be found
+here
+.
+The figure below displays the results of a regression model on 2,128 UberX trips completed by the profiled driver in 2019, linking rider price and driver pay to basic rideshare trip characteristics — distance, travel time, and whether surge pricing was in effect.
+Press enter or click to view image in full size
+The results illustrate that Uber’s rider price and driver pay policies in 2019 were formulaic and highly predictable (R^2 = .98). One need only apply the prevailing price and pay rates in effect in 2019 to the distance and travel time for any trip, add in the prevailing surge bonus if any, and, with 98% accuracy, predict the actual trip price and pay.
+Now, let’s compare what these regression results look like for the profiled driver’s 5,548 UberX trips in 2024, displayed below. Since upfront pricing, Uber clearly has considerably more flexibility in setting rider prices and driver pay than can be explained by basic trip characteristics. While trip time, distance, and surge bonuses still play a role, these characteristics now explain only 77% of the observed upfront price and pay levels. Upfront pricing has thus given Uber considerable “wiggle room” to maximize profits by algorithmically adjusting prices and pay on every trip for reasons that are opaque to riders and drivers.
+Press enter or click to view image in full size
+Uber exploits this flexibility to increase its profits at rider and driver expense. As shown in Panel 1 of the figure below, in 2019, 86% of Uber’s trips were within +/- 10% of average price and pay levels, i.e., the formulaic price and pay for a given distance, time, and surge bonus level. These trips yielded an Uber take rate of 38% and accounted for 87% of the gross profit Uber earned from all UberX trips by the profiled driver in 2019. Standard, predictable price and pay levels were clearly the norm before Uber’s shift to upfront pricing.
+Press enter or click to view image in full size
+In contrast, in 2024, only
+22%
+of the profiled driver’s trips were within +/- 10% of predicted price and pay levels based on trip time, distance, and surge bonuses, accounting for only 21% of Uber’s total gross profit from this driver.
+Clearly, variable price and pay levels became the norm in 2024, post-upfront pricing.
+As shown in Panels 2–4, Uber exploits three particular above/below average cases — the 73% of trips where rider price is at least 10% above average (for the given distance, time and surge), driver pay is at least 10% below average, or both — to generate almost 80% of Uber’s total gross profit earned by the profiled driver,
+confirming that the price and pay flexibility has been a key driver of Uber’s profit improvement.
+Uber’s CEO, Dara Khosrowshahi, acknowledged the strategic value of price discrimination through its upfront fare policy in the company’s fourth quarter 2023 earnings call,
+stating
+:
+“What we can do better is actually targeting different trips to different drivers based on their preferences or based on behavioral patterns that they are showing us. That really is a focus going forward, offering the right trip, at the right price, to the right driver.”
+“And I would also say that the nature of upfront fares, you’ve gone from just flat time and distance to now kind of point estimates for every single trip based on the driver, it accrues to players who have the kind of data skills and the amount of data that we have. We have more of these point estimates. We make more of these point estimates than anyone else. We’re making these point estimates both in mobility and delivery. We’re doing it globally. So all things being equal, our AI algorithms are going to be able to learn more and are going to be able to be more accurate than anyone else’s, which is an advantage that over a period of time is absolutely going to accrue to us.”
+Consumers (And Drivers) Hate First-Degree Price Discrimination
+Consumer reactions to first-degree price discrimination have been
+widely studied
+and
+well-documented
+for years. Research studies have identified several reasons for viscerally negative reactions:
+Perceived unfairness:
+Customers widely believe it is unfair for companies to use personal data to adjust prices and pay.
+Transparency:
+A lack of transparency about who pays or is paid what, based on unknown factors, intensifies negative feelings and distrust.
+Privacy:
+Price discrimination policies require surveilling, storing, and constantly analyzing sensitive personal data.
+Regret and loss aversion:
+Consumers worry about overpaying compared to others, or missing out on lower prices.
+Recognizing these concerns, Uber and Delta have strenuously denied that their algorithms have or will adjust customer prices (and in Uber’s case, driver pay) based on individual characteristics.
+In an email sent to me in June, 2025, an Uber spokesperson wrote:
+“Upfront prices are not personalized — our pricing algorithms do not use information about an individual rider or driver’s personal characteristics. Suggestions that our systems manipulate pricing unfairly or discriminate are simply false and not supported by evidence.”
+And Delta’s
+official statement
+on its pricing policies stated:
+“There is no fare product Delta has ever used, is testing, or plans to use that targets customers with individualized prices based on personal data.”
+Distinctions Without a Difference
+But these denials are unconvincing for two reasons.
+Neither company is willing to divulge what characteristics they
+do
+or
+will
+use to algorithmically differentiate price and pay levels. While such secrecy is understandable, to protect proprietary intellectual property, it leaves the companies open to justified skepticism. Even accepting that Uber and Delta fully abide by laws prohibiting basing prices or pay on protected “personal characteristics” such as race, gender, or ethnic background doesn’t preclude the far more lucrative opportunities to base algorithmic price discrimination on behavioral insights revealed by extensive proprietary customer databases (as explained more fully below). In other words, effective price and pay algorithms are undoubtedly more concerned with whether a customer’s past purchase behavior exhibits high or low price sensitivity than whether their skin color might be purple or green. Thus, Uber’s and Delta’s carefully worded denials are limited to precluding forms of price discrimination that are not only illegal but highly ineffective.
+Their carefully worded references to “individualized prices” and “personal data” also don’t preclude Uber and Delta from exploiting effective and efficient forms of first-degree price discrimination that differentiate prices and pay between multiple, finely-tuned
+groups
+of consumers (or suppliers) that exhibit similar behavioral traits, derived from ongoing analyses of billions of individual transactions. In other words, whether prices and pay rates are set uniquely for
+each individual,
+or differentiated between
+opaquely defined groups
+of consumers and drivers exhibiting similar behaviors, is
+a distinction without a difference
+from both a regulatory policy and customer experience perspective.
+As an example, Uber has access to the trip histories of every rider and driver who has ever used its platform. Uber’s data scientists can thus easily determine:
+Riders who tend to accept virtually every price Uber has offered on hundreds (or even thousands) of trips over time, distinct from other customers whose acceptance rates are considerably lower. Uber’s algorithms thus have the means and opportunity to identify and set higher prices for groups of customers manifesting a predictably higher willingness to pay.
+Drivers who tend to accept a high proportion of short (or long) trips despite progressively lower pay rates offered over time. In this case, Uber’s algorithms can direct trips that appropriately fit each driver group’s behavioral profile, even if selected drivers aren’t necessarily closest to a passenger pickup point, enabling the company to fulfill ride requests at the lowest possible pay rates.
+Riders who request trips for the first time between a particular origin or destination, e.g., foreign travelers arriving de novo at an international US airport. Riders in such circumstances may not be familiar with local rideshare or taxi fares, giving Uber the means and opportunity to selectively raise rideshare prices.
+Drivers frequently post screenshots on social media of trips where Uber’s take rates are well over 50%, absent any indication of surge market conditions. This is not a rarity. For the driver profiled in the analysis cited above, one-third of his 5,548 UberX rides driven in 2024 carried Uber take rates >50%. Over 40% of higher-tier trips (Black, Comfort) had take rates of over 50%.
+Three reasons could explain such exceptionally high rider prices and low driver pay:
+Despite Uber’s denial of first-degree price discrimination, the company does in fact adjust prices and pay for passengers and drivers exhibiting low price sensitivity
+All
+Uber passengers and drivers would receive the same price and pay offer for a given trip. In other words, 50+% take rates should be considered an acceptable norm for many Uber trips, even if the underlying causes remain unknown.
+Uber’s prices and pay rates for Uber trips
+vary widely
+from trip to trip, for reasons that have and will remain completely opaque to riders and drivers.
+From the perspective of customers on both sides of Uber’s marketplace, none of these explanations is particularly satisfying, nor do they reflect the business practices of a trustworthy brand.
+In Delta’s case, AI-driven analyses of their extensive customer databases (likely supplemented by additional insights from third-party data brokers) will certainly be able to distinguish passenger price sensitivity far more accurately and granularly than crude proxies historically used to distinguish business from leisure travelers (e.g., promotional fares requiring a Saturday night stayover).
+These examples are just a few of hundreds of behavioral patterns that sophisticated AI algorithms can readily identify from massive troves of customer data, enabling companies to maximize price realization and minimize pay on billions of business transactions.
+Summary
+Uber has achieved stunning success by implementing what is likely the largest ever application of algorithmic first-degree price discrimination on both sides of its marketplace. Although companies in other industries may not be as ideally positioned to match Uber’s success, the upside rewards of algorithmic pricing will undoubtedly attract more companies to follow Wendy’s and Delta Airlines’ recent initiatives. There are currently few legal or regulatory barriers to AI-enabled price discrimination (other than restrictions barring prices or pay based on race, gender, or ethnic background). However, given widespread negative consumer reactions to perceived price discrimination, corporate practitioners can be expected to make carefully worded, and possibly misleading statements about their opaque pricing and pay policies.
+Uber CEO Dara Khosrowshahi’s recent interview on
+CBS’s Sunday Morning program
+is a case in point.
+CBS Question:
+“Uber rides have gotten
+a lot more expensive
+over the past few years, more than the rate of inflation. What’s happening here?”
+Khosrowshahi Answer:
+“I think it’s about inflation. The average Uber ride is now a little over $20. So really, the demand for drivers and pay has gone up. Our drivers need to make a living, so really, the demand for drivers’ pay has gone up, and that translates into the ultimate price of the Uber ride.”
+In essence, Mr. Khosrowshahi claimed that Uber has had to raise US rider prices over the past few years to offset inflation-fueled driver pay hikes. But as documented in
+my published research
+and several other independent studies, this statement is not true. Gridwise, a respected data services company that monitors business operations in the gig economy, has
+reported that
+Uber raised US rideshare prices,
+despite steep cuts in driver pay
+in 2023 and 2024. And in the twelve months ending July, 2025,
+Gridwise found
+that median Uber US driver pay per hour ticked up only 1%, about one-third the US inflation rate over this period. Bottom line, belying Mr. Khosrowshahi’s statement, Uber has sharply
+increased its profit margins
+at rider
+and
+driver expense over the three years since introducing algorithmic pricing and pay policies.
+These market dynamics raise broad public policy concerns on whether regulatory guardrails are warranted to control the growing use of algorithmic price and wage discrimination. LinkedIn Co-founder and CEO Reed Hoffman
+recently predicted
+that “within a decade, 50% of the US population will be freelancers,” across a broad array of business and consumer products and services. If Mr. Hoffman’s prediction is even directionally correct, it portends enormous growth for market makers like Uber across numerous industries.
+Uber’s success demonstrates that AI-driven pricing algorithms are intrinsically “recursive,” i.e., enabling technologies that markedly improve with increased scale and repeated trial use. This gives leading market makers an indomitable competitive advantage to arbitrage the price-pay spread in gig work markets by fully exploiting first-degree price discrimination on both sides of the marketplace.
+Google’s success illustrates another example of how recursive technologies can position market leaders to gain dominant control of large, profitable markets. Google’s superior recursive algorithms have helped the company achieve a 90% market share of the Internet search market in 2024, generating revenues of $200 billion, with a reported
+gross profit margin
+of 75%. Last year, a U.S. District Court ruled that Google illegally exercised monopoly control of the general search engine market, in violation of Section 2 of the Sherman Antitrust Act.
+Given the expected growth of algorithmic price and pay discrimination policies across many industries, it would be prudent to explore what regulatory changes may be needed to maintain competitive markets and to protect consumer and worker interests.
+A good starting point for constructive public policy debate is greater transparency on the current policies of leading practitioners of algorithmic price and pay discrimination. For now, Uber’s riders and drivers are in the dark and being taken for a ride.
+Uber
+Business Strategy
+Price Strategies
+Antitrust
+Price Discrimination
+--
+--
+1
+Written by
+Len Sherman
+84 followers
+·
+31 following
+Executive In Residence & Adjunct Professor, Columbia Business School,
+ls2673@columbia.edu
+Help
+Status
+About
+Careers
+Press
+Blog
+Privacy
+Rules
+Terms
+Text to speech

@@ -1,0 +1,3 @@
+According to Senator Brown's letter, Uber's website states that Uber's dynamic pricing algorithm "adjusts rates based on a number of variables, such as time and distance of your route, traffic and the current rider-to-driver demand."
+
+The letter also states that Uber has historically denied claims that it uses consumers' private data to set fares.
