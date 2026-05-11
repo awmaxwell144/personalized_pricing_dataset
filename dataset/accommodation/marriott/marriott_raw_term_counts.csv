@@ -1,9 +1,8 @@
 source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\boptimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bautomated\b,\bgoug(?:e|es|ed|ing)\b
 consent-to-the-collection-and-use-of-personal-data-for-personalized-services,company,0,0,0,0,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-mar-q4-earnings-transcript-2-12-25-final,company,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0
 marriott-accelerates-ai-and-cloud-transformation-as-q1-2026-revpar-rises-62-perc,third party with company statement,0,1,1,73,4,0,2,12,0,0,6,2,2,0,0,1,0,0,0
+marriott-annual-report,company,0,0,0,17,0,0,0,5,0,0,16,0,0,0,0,4,0,0,0
 marriott-ceo-at-skift-global-forum-2024-video-transcript,third party with company statement,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 marriott-group-global-privacy-statement,company,0,0,0,6,20,0,0,6,0,0,0,0,0,0,0,0,0,7,0
-marriott-international-reports-fourth-quarter-and-full-year-2025-results,company,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 marriotts-not-selling-just-rooms-anymore-inside-its-bet-on-ai,third party with company statement,0,0,0,10,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 united-states-consumer-privacy,company,0,0,0,0,3,0,0,7,0,0,0,0,0,0,0,0,0,0,0

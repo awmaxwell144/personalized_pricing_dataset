@@ -1,4 +1,4 @@
 source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\boptimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bautomated\b,\bgoug(?:e|es|ed|ing)\b
 case-studies-ai-in-revenue-management-at-leading-hotel-chains,third party with company statement,0,4,1,19,2,0,1,0,0,0,1,0,2,0,0,2,0,0,0
 hilton-global-privacy-statement,company,0,1,0,2,19,0,0,9,3,0,0,0,0,1,0,4,0,7,0
-hilton-worldwide-holdings-inc-nysehlt-q1-2024-earnings-call-transcript,company,0,0,0,1,1,0,0,1,0,0,4,0,0,0,0,0,0,0,0
+hotel-rates-go-dynamic-hilton-intercontinental-end-fixed-pricing,third party with company statement,0,13,0,5,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0

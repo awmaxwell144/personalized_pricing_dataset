@@ -1,7 +1,14 @@
 {
-  "url": "https://marriott.gcs-web.com/static-files/f2d26d1f-8bc5-4a1b-8dcf-58222b449687",
-  "title": "Marriott Annual Report",
+  "url": "https://marriott.gcs-web.com/static-files/90ac617a-ef5f-4438-97ec-2e7cf4f8a41e",
+  "title": "Marriott 2025 Annual Report",
   "industry": "accommodation",
   "company": "marriott",
-  "source": "Marriott Investor Relations"
+  "page_name": "marriott-annual-report",
+  "source_type": "pdf",
+  "saved_files": [
+    "raw.pdf",
+    "raw.txt"
+  ],
+  "date_scraped": "2026-05-11T17:18:59.237277+00:00",
+  "notes": "Generated from local file: Marriott-2025-Annual-Report.pdf"
 }
