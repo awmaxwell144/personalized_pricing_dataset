@@ -1,0 +1,9 @@
+The price variation “is consistent with two competitors operating separate marketplaces with different pricing approaches for an on-demand service where conditions change minute-to-minute,” said Lyft Executive Vice President Sid Patil.
+
+Both Uber and Lyft tell me the answer to all of those theories is no. They also say they don’t know if you have the rival app installed, so switching back and forth to compare prices shouldn’t impact the price of your trip.
+
+The companies say their base prices aren’t personalized, and they’d expect for there to be some variation. Those rates are calculated dynamically based on location, demand, estimated time and distance, traffic and driver availability — all of which can rapidly fluctuate.
+
+Lyft, whose market share is dwarfed by rival Uber, welcomed the idea that people should compare.
+
+“When riders check both apps, they can save money, which benefits the marketplace as a whole,” Patil said.

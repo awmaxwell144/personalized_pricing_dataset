@@ -1,0 +1,115 @@
+Ride pricing and charges - Lyft Help
+Skip to Content
+US Lyft Help
+Ride pricing and charges
+Ride pricing and charges
+Get help for a ride
+We hope that all rides are seamless, but sometimes things go wrong. You can dispute a ride charge instantly, and report anything we should know about a ride or a driver.
+Dispute ride fare or charges
+Submit feedback on driver
+Lose something during a ride?
+Contact support
+Here's everything you need to know about Lyft pricing and payments.
+Skip to :
+Lyft pricing
+Pending charge
+Payment frequency
+Resolving charge issues
+Lyft pricing
+When you request a ride, Lyft shows an upfront price based on:
+Ride type and time
+Traffic and driver availability
+This price may change if your route or destination changes.
+Your final price may differ if:
+You wait more than 10 seconds before requesting the ride
+You change destination or add stops
+Trip takes longer or shorter than estimated
+You add a tip
+Higher demand during rush hours, events, or bad weather may increase prices.
+What's included in your ride price:
+Lyft shows you
+fare estimates
+before you request a ride, so you know what to expect.
+Fare estimates don't reflect any discounts, traffic delays, or factors like adding a stop or changing your destination. Any changes to your ride will cause your final ride price to differ from your fare estimate.
+Your upfront price includes these fees:
+Lyft fare:
+Based on your route, ride type, driver availability, and demand.
+Tolls:
+Covers any tolls encountered during your ride.
+Service fee:
+Flat amount that varies by region.
+Third-party fees:
+Local charges such as rideshare taxes, surcharges, and airport fees.
+Get fare estimates before booking by entering pickup and drop-off locations in the app.
+Back to top
+Pending charges
+A Lyft transaction marked as ‘pending’
+isn't a charge.
+‘Pending’ transactions are temporary authorizations from the Lyft app to make sure your payment method works.
+Once your bank provider processes the transaction, the temporary authorization will either
+disappear completely or appear as a refund within 5-7 business days.
+You may see a pending transaction on your payment method when you:
+Create a Lyft account.
+Request a ride.
+Update your payment method.
+Change your destination.
+Add a stop on your route.
+Rent a Lyft Bike or Scooter.
+Learn more about temporary authorizations.
+Back to top
+Payment frequency
+Payment frequency lets you choose between paying once daily for all rides or paying after each individual ride.
+When you choose daily payments, all your rides from one day combine into a single charge. You'll still see individual ride costs on your receipt.
+Certain rides and payment methods may be excluded and charged separately.
+Example:
+$25 work ride + $15 home ride = one $40 charge on your statement. Your bank statement would read: *
+Lyft
+2 rides [DATE] lyft.com/charges
+See all final ride charges (individual or combined) in the ‘Ride history’ tab of the app.
+Change payment frequency
+You can change your payment frequency at any time.
+To change your payment frequency:
+Open the Lyft app’s main menu, then tap ‘Payment.’
+Tap ‘Payment frequency.’
+Choose your preferred payment frequency.
+Back to top
+Resolving charge issues
+To dispute a charge:
+Select your profile
+Under 'Account, select 'Ride history'
+Select the ride that you need help with
+Select 'Dispute ride charge' at the bottom of the screen
+Note:
+A backup payment method may be charged if your default payment method fails.
+Charged for a ride I canceled
+You may be charged a cancellation fee if you cancel:
+More than 30 seconds after a driver accepts your ride.
+More than 30 seconds after requesting a Wait and Save ride.
+After your driver arrives.
+3 or more rides in a 15-minute timeframe.
+These fees go towards compensating your driver for their time and gas, and may vary based on how busy it is.
+Note:
+You can cancel a ride within the first 5 minutes after pickup if someone else took your ride or if there’s another critical issue. If you request a ride for someone else, you’ll be charged any cancel or no-show fees for that ride.
+For
+Lyft Scheduled
+rides, we may charge a cancellation fee if:
+You cancel the ride within 1 hour of pick-up time, and a driver has been matched.
+The driver is on their way to pick you up.
+The driver is scheduled to arrive within the designated pickup window.
+Charged for a ride the driver canceled
+You may be charged a no-show fee when your driver:
+Arrived at your pickup location
+Waited the required time or longer
+Attempted to contact you (or you contacted them)
+These fees compensate your driver for their time and gas and may vary based on demand.
+Shared payment methods
+If your payment method is on a family account or was added to a friend’s Lyft account, following up with those friends or family is the only way to resolve the issue.
+Back to top
+See also:
+Pending charges
+How to estimate the cost of a Lyft ride
+How to add or update payment info
+Promotions, ride discounts, and Lyft credit
+Cancel and no-show policy for riders
+Still need help?
+Contact Us

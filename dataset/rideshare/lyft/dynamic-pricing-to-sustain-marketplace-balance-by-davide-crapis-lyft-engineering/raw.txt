@@ -1,0 +1,262 @@
+Dynamic Pricing to Sustain Marketplace Balance | by Davide Crapis | Lyft Engineering
+Sitemap
+Open in app
+Sign up
+Sign in
+Medium Logo
+Get app
+Write
+Search
+Sign up
+Sign in
+Lyft Engineering
+·
+Stories from Lyft Engineering.
+Dynamic Pricing to Sustain Marketplace Balance
+Davide Crapis
+9 min read
+·
+Nov 10, 2020
+--
+1
+Listen
+Share
+By
+Davide Crapis
+and
+Chris Sholley
+Dynamic pricing is the main technology that allows us to maintain market
+balance
+in real-time. If we were able to perfectly plan for the future we wouldn’t need this technology, but in reality rider demand is quite volatile and often unpredictable. Our dynamic pricing algorithm is called PrimeTime (PT). Over the past few years, we went through several iterations of PT, continuously improving its capabilities. This blog post will walk through common marketplace problems we have observed in practice and then show how successive iterations of PT have helped us solve these problems and substantially improve the experience of riders and drivers on our platform.
+When a demand spike happens that we did not predict, there may be more riders requesting rides than there are drivers on the platform to service them, and the market can spiral in an unhealthy state of
+extreme undersupply
+in which there are no more drivers available. When the demand spike is less severe, the market may be in a state in which there are just enough drivers on the road to service all ride requests. This is still problematic because the few drivers that remain available are geographically dispersed and subsequent riders will experience very high wait times. We call this scenario
+undersupply
+.
+Press enter or click to view image in full size
+A spectrum of marketplace scenarios.
+At the other end of the spectrum there are
+oversupply
+scenarios, in which small improvements to rider wait times are accompanied by low driver utilization. Normally, these happen because there are too many drivers on the platform relative to rider demand, but these can also happen if prices are too high and are artificially suppressing ride requests. This is a bad experience for both riders and drivers, hence the need to design our dynamic pricing algorithm to avoid both oversupply and undersupply.
+PTv0 Guarantees Service Availability
+The main problem that motivated the adoption of dynamic pricing in ridesharing is that in cases of extreme undersupply, there are no drivers available to service demand. If you use ridesharing today, most likely you take service availability for granted. Perhaps you worry about how long it’s going to take your driver to get there and how much time you have to prepare, but you expect there will always be a driver around to get you where you want to go. It was not always like that. In the early days of Lyft, service unavailability was a common problem, in part because of a smaller network and lower density of rides, but also because there was no dynamic pricing mechanism to regulate market imbalances.
+The initial implementation of the pricing model hinges on the application of the basic pricing principle that the price-response curve is decreasing in price. In situations of undersupply, increasing price will suppress demand and bring the market back towards balance. But by how much should we increase the price? Our first attempt was based on the idea that as drivers accept requests, fewer drivers are available to accept new requests. Roughly speaking, if the request rate exceeds the drop-off rate, eventually there won’t be any more drivers available. So, a shrinking number of available drivers is a good signal that the market price is actually higher than the current price. The question is how to map the number of available drivers to a market price.
+We turned to
+Queuing Theory
+, which is a 100-year old area of mathematics that studies waiting lines. Specifically, we can model our marketplace as a system with a fixed number of total drivers (
+c
+), riders opening the Lyft app according to a Poisson process, and rides being completed with exponentially-distributed drop-off times. If a rider opens the app and there are no available drivers, the rider experiences unavailability, and cannot participate in the marketplace. Such a system is known as an
+M/M/c
+queue
+and has a well-studied relationship between the expected percent of drivers which are busy (i.e. “utilization”) and the probability that a rider will face unavailability upon opening the app and have to wait, as shown below:
+Expected availability and utilization curves for different number of total drivers ( c ).
+This stylized model matched our observed data quite well. Using this relationship, we could target a level of availability and allow the market price to rise if we believed the driver availability would fall below the target. We could also measure the benefits of scale, meaning more drivers and more riders (observe that as we increase the number of drivers,
+c
+, in the chart above, the marketplace can operate at higher levels of utilization with the same driver availability).
+PTv1 Improves Service Availability
+Unavailability of service is a terrible rider experience that can have many bad consequences, with riders being stranded and not being able to go back home or being without access to essential services. If Lyft cannot offer a reliable transportation platform, riders will ultimately stop using it and choose other platforms or other modes of transport. Seeking to improve the consistency and reliability of service, we invested in several rounds of development after a successful initial launch of PT.
+In PTv0, we assumed that riders responded the same way to price changes at all times. In reality, riders have different transportation options depending on their time and place, and therefore we should assume they have different responses to price changes depending on their time and place. We found that without studying the rider response to price changes more carefully, we would fall below or exceed our availability target. The key component of PTv1 is estimating the price-response and using it to calculate the price increase that is necessary to maintain availability at virtually all times. For illustration purposes, we are going to use an exponential function to represent average conversion as a function of price
+C
+(
+p
+) =
+α
+⋅ exp(−
+β
+⋅
+p
+),
+where
+α
+and
+β
+are parameters to be estimated. We use this form because we want to capture decreasing conversion elasticity with respect to price. In the simplest implementation of PT, this function would be estimated off-line from historical data. In reality, one needs to control for other factors and we have developed several models and experimental techniques to get accurate and unbiased estimates of conversion functions.
+Expected conversion rate as a function of price.
+In PTv1, a conversion function similar to the above was used to compute a look-up table that would return the desired price multiplier given a target availability, a number of riders, and a number of drivers in a given location at a given time. This led to significant improvements in service availability.
+PTv2 Improves Service Levels
+The first versions of dynamic pricing allowed us to mitigate the extreme undersupply case and avoid unavailability. This is a fundamental problem and source of the worst user experiences. However, there can still be problems in less extreme undersupply cases. The service might be available but with long waiting times, which is a bad experience for both riders and drivers.
+Get
+Davide Crapis
+’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Subscribe
+Subscribe
+Remember me for faster sign in
+For example, a situation in which we might be able to match all riders with drivers but with very high ETAs (Estimated Time of Arrival for the driver) can be quite common in practice. It has been studied in economic literature as the Wild Goose Chase problem, and refers to drivers being matched to riders who are very far away and spending too much of their driving time “chasing” them. In order to solve this problem, we needed a better algorithm that allowed us to suppress demand beyond the point where supply equals demand instantaneously, in order to improve how many rides happen over time.
+The first component of PTv2 is to learn the relationship between mean ETAs and the number of available drivers. For illustration purposes, we are going to use a power function which can be derived by standard
+Spatial Poisson Process
+theory plus some simple assumptions on the ETA distance metric:
+ETA
+(
+a
+)
+=
+√
+(
+𝜋
+/ (
+𝛾
+⋅
+a
+)),
+where
+𝛾
+is a parameter to be estimated and
+a
+=
+s
+−
+r
+is the number of available drivers in the relevant area (the number of total drivers minus the ones serving ride requests). Again, we need to estimate this relationship, controlling for other factors that might affect ETAs.
+Expected ETA as a function of available drivers.
+Using our conversion function, we can express ride requests as a function of number of interested riders
+d
+and price
+p
+as
+r
+=
+d
+⋅
+C
+(
+p
+)
+,
+and the average ETA as a function of price. We can now use prices to do ETA targeting. In other words, suppose that we wanted to attain an average ETA of
+x
+(perhaps we have another model that tells us that
+x
+is the efficient ETA), then we can compute a price that enforces this average ETA and depends only on our target, market conditions, and estimated model parameters. In our simple example, this has an analytic form:
+p
+(
+x
+,
+s
+,
+d
+,
+α
+,
+β
+,
+𝛾
+) = [log(
+α
+⋅
+d
+) − log(
+s
+−
+𝜋
+/ (
+𝛾
+⋅
+x
+²))] / β.
+Market conditions can change quickly, and if the model does not faithfully represent the state of the market we will be making sub-optimal decisions. To solve this challenge, we added a second component to PTv2 which leverages on-line machine learning techniques to update the relevant market parameters very frequently. This led to significant improvements in average ETAs and gave us confidence that we can maintain market balance on behalf of riders and drivers.
+PTv3 and Beyond: Optimize Network Throughput
+A Lyft region is a dynamic and interconnected network of locations with many “local markets” continuously coming online and evolving over time. You may have never thought about it, but your decision to request a ride as a rider or accept a ride as a driver may affect the experience of other riders and drivers in nearby areas quite significantly, and even affect other riders and drivers in a completely different part of town half an hour later. Our algorithm needs to be able to compute prices that balance the entire network of markets in near real-time.
+An example of a network with four geographical regions and different local levels of supply and demand.
+For that, we needed to move past the heuristics we used in previous versions and instead use an optimization framework that allows us to flexibly specify objectives and efficiently compute prices. PTv3 solves a constrained optimization problem to maintain market balance across the network of markets. Using the notation from our illustrative examples we can sketch the problem as
+maximize
+f
+(
+p
+) subject to
+M
+(
+d
+∘
+C
+(
+p
+)) ⪯
+Ms
+−
+m
+(
+x
+),
+with
+p̲
+≤
+p
+≤
+p̅
+. The matrix
+M
+encodes the topology of the ridesharing network: distances between locations, reachability, etc. The constraint is a set of matrix inequalities, or marketplace balance conditions, that ensure that the desired service levels
+x
+are maintained in every relevant subnetwork (
+m
+(
+x
+) specifies available driver targets at the subnetwork level). The objective can be adapted to our goal. For example, we may want to maximize throughput of rides, in which case
+f
+(
+p
+) =
+d
+∘
+C
+(
+p
+), or we may want to maximize throughput of rides including the discounted future impact of a current price change, in which case we set
+f
+(
+p
+) =
+d
+∘
+(
+C
+₀(
+p
+) +
+δ C
+₁(
+p
+)).
+In reality, the problems we solve are based on models with many more features and parameters, and we have developed a suite of mathematical and computational techniques to solve these problems efficiently and at high frequency. We also need to ensure quality, and we are constantly monitoring and improving accuracy of the models and goodness of the solutions.
+Conclusion
+Hopefully this post provided helpful insights on some of the key challenges in balancing ridesharing marketplaces and some of the exciting technology we have developed to tackle them. There are still plenty of open problems, from estimation and optimization bias on the algorithms side, to efficient input data and model streaming on the infrastructure side. We are constantly experimenting with new products to unlock efficiencies in how we run the marketplace (check out our Marketplace Experimentation series:
+Part 1
+,
+Part 2
+, and
+Part 3
+).
+If this work excites you,
+join us
+!
+Data Science
+Ridesharing
+Pricing
+Algorithms
+Software Development
+--
+--
+1
+Published in
+Lyft Engineering
+16.7K followers
+·
+Last published
+Apr 23, 2026
+Stories from Lyft Engineering.
+Written by
+Davide Crapis
+46 followers
+·
+4 following
+Help
+Status
+About
+Careers
+Press
+Blog
+Privacy
+Rules
+Terms
+Text to speech

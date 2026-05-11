@@ -1,0 +1,14 @@
+source_id,source_type,\bsurveillance\b,\bdynamic(?:ally)?\b,\balgorithm(?:ic|ically)?s?\b,\b(?:AI|artificial intelligence|machine learning)\b,\bpersonali[sz](?:e|es|ed|ing|ation)?\b,\bindividuali[sz](?:e|es|ed|ing|ation)?\b,\bcustomi[sz](?:e|es|ed|ing|ation)?\b,\btarget(?:s|ed|ing)?\b,\bdiscriminat(?:e|es|ed|ing|ion|ory)?\b,\bdifferentiat(?:e|es|ed|ing|ion)?\b,\bdemand\b,\bsurge\b,\breal[-\s]?time\b,\bcontinuous(?:ly)?\b,\bdata[-\s]?driven\b,\boptimi[sz](?:e|es|ed|ing|ation)?\b,\bpredatory\b,\bautomated\b,\bgoug(?:e|es|ed|ing)\b
+comer-investigates-use-of-artificial-intelligence-to-set-prices-for-consumers-un,third party,4,0,2,5,2,2,0,0,0,0,1,0,0,0,0,0,0,0,0
+consumer-reports-applauds-the-house-committee-on-oversight-and-government-reform,third party,7,0,1,5,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+dynamic-pricing-to-sustain-marketplace-balance-by-davide-crapis-lyft-engineering,company,0,9,6,1,0,0,0,7,0,0,9,0,2,2,0,4,0,0,0
+leaving-money-on-the-dashboard-price-dispersion-and-search-frictions-on-uber-and,third party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+letter-to-lyft-3-5-2026,third party,19,3,8,4,5,3,0,0,0,0,1,0,0,0,0,0,0,0,5
+lyft-surge-pricing-letter,third party,0,6,8,0,0,0,0,0,1,0,1,4,0,1,0,0,0,0,0
+lyft-to-open-up-a-can-of-whoop-ass-on-surge-pricing-techcrunch,third party with company statement,0,1,0,4,0,0,0,1,0,0,2,7,0,0,0,0,0,0,0
+pricing-at-lyft-by-yanqiao-wang-by-yanqiao-wang-lyft-engineering,company,0,5,11,2,0,0,0,0,0,0,3,0,4,1,2,9,0,1,0
+ride-pricing-and-charges-lyft-help,company,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+state-data-driven-pricing-bans-spark-industry-pushback,third party with company statement,7,3,4,4,3,2,0,1,0,0,0,0,0,0,6,0,2,0,2
+uber-lyft-price-saving-washington-post,third party with company statement,1,1,1,0,2,0,0,1,0,0,2,0,0,0,0,0,0,0,0
+unpacking-uber-lyfts-take-rates-july-2025-update,third party,0,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,10,0,3
+upfront-pay-lyft-help,company,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0

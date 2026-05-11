@@ -1,0 +1,19 @@
+Ride-hail giant Lyft will pilot a new feature called Price Lock that will let a rider purchase a monthly subscription “that caps the price for a specific route at a specific time,” according to CEO David Risher.
+
+It’s part of Lyft’s broader plan to “open up a can of whoop ass on primetime,” Risher said Wednesday during Lyft’s second-quarter earnings call.
+
+“Reliable pricing is particularly important to them because they know what their ride should cost and hate it when prices change,” Risher continued.
+
+Lyft didn’t provide many insights into how the economics of Price Lock will affect Lyft’s bottom line, but Risher said Wednesday that the subscription would cost under $5 monthly. Lyft is testing the feature across the U.S. now, and will roll out final pricing next month, according to a spokesperson.
+
+A spokesperson for the company told TechCrunch that the Price Lock subscription is separate from the Lyft Pink membership.
+
+Risher noted that “primetime won’t ever completely go away” because “it’s an important way to match supply when demand spikes quickly.”
+
+“But with innovations like Price Lock, we can chip away at how often it occurs and hopefully take what I’m willing to bet is rideshare’s most hated feature, and turn it into a reason to choose Lyft.”
+
+Over the past year, Lyft has made a concerted effort to reduce the number of rides impacted by surge pricing. Risher noted that on a quarterly basis, that number declined by 25%, which he said contributes to better conversion rates.
+
+“In fact, the markets where we saw the sharpest declines in primetime in Q2, like Phoenix, Baltimore, Orlando, are the markets where conversion rates are improving the most,” said Risher.
+
+Lyft noted that it expects gross bookings to grow slightly faster than rides, in part because decreased surge pricing will have an impact on gross bookings per ride.

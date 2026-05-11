@@ -1,0 +1,73 @@
+1 
+ 
+ 
+July 3, 2024 
+David Risher 
+Chief Executive Officer  
+Lyft, Inc. 
+185 Berry Street Suite 400 
+San Francisco, CA 94107 
+ 
+Dear Mr. Risher:  
+Second only to housing, transportation costs are Americans’ biggest necessary expense.1 
+Transportation-related companies’ increasing use of dynamic pricing, or “surge pricing,” 
+threatens to drive prices even higher. Using algorithms to set prices, including dynamic pricing, 
+abuses consumer data and suppresses competition, making prices unpredictable and taking away 
+people’s ability to find the lowest price. Such pricing maximizes profits at the expense of 
+consumers, without improving or changing the service offered. While Lyft was an early adopter 
+of dynamic pricing and has long used this technique to set fares based on consumer demand,2 
+this practice is now spreading to more industries.3 
+According to your company’s website, Lyft’s dynamic pricing algorithm handles market 
+volatility by continuously changing prices to determine what to charge for a ride.4 Under these 
+shifting conditions, fare rates are highly volatile, making it difficult for consumers to predict how 
+much they will pay for a given ride. While proponents of dynamic pricing often claim that it 
+lowers costs by creating more efficient markets, your company’s rising prices cast doubt upon 
+that assertion. Between 2018 and 2022, Lyft’s prices increased by 50 percent.5  
+Frequent and opaque price changes and diminishing competition are making ride-hailing services 
+less affordable. I am concerned that pricing algorithms enable corporations to charge higher 
+prices in circumstances where consumers have the greatest need and fewest choices. To better 
+understand how corporations like Lyft use technology to increase prices, the public needs clarity 
+on how Lyft deploys pricing algorithms and uses consumer data, and on how these algorithms 
+ 
+1 https://data.bts.gov/stories/s/Transportation-Economic-Trends-Transportation-Spen/ida7-k95k/  
+2 https://time.com/3633469/uber-surge-pricing/  
+3 https://www.npr.org/2024/03/06/1197958433/dynamic-pricing-grocery-supermarkets  
+4 https://eng.lyft.com/pricing-at-lyft-8a4022065f8b  
+5 https://www.labor.ucla.edu/wp-content/uploads/2023/02/Taxi-Commission-policy-brief-2.9.23.pdf
+
+2 
+ 
+are affecting American consumers’ wallets. Please provide answers to the following questions by 
+August 1, 2024.   
+1. How does Lyft determine the price of a given ride? How much can the cost of a ride from 
+point A to point B vary? Please also describe Lyft’s algorithms for setting prices, and 
+how these algorithms are tested. 
+ 
+2. How does Lyft determine when the price for a ride should change? What factors does 
+Lyft use to change prices? 
+ 
+3. How does Lyft help consumers plan for purchasing costs? Does Lyft communicate 
+changes in prices to consumers, and, if so, how? 
+ 
+4. Please describe the data Lyft uses to determine prices. Please specifically describe where 
+the customer data comes from – including whether an individual’s past purchasing 
+behavior, browsing history, device, or device battery level is used to determine prices. 
+ 
+5. Does Lyft apply any strategies to determine the highest price any given consumer will 
+pay? If two different users ask for a ride from point A to point B and the driving 
+conditions are the same, will they be quoted the same price? Does Lyft consistently 
+charge higher prices to more willing consumers? For example, does Lyft consider a 
+customer’s previous willingness to pay surge prices when offering them a surged price in 
+the future?  
+ 
+6. What specific steps has Lyft taken to ensure that pricing algorithms do not discriminate 
+based on protected classes, such as gender, age, disability status, or race? 
+ 
+7. When Lyft turns on surge pricing in an area, does this result in more drivers going 
+online?  
+ 
+Thank you for your consideration and your timely response. 
+Sincerely, 
+ 
+Sherrod Brown 
+United States Senator

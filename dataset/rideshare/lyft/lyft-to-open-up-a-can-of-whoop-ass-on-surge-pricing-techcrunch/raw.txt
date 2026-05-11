@@ -1,0 +1,165 @@
+Lyft to ‘open up a can of whoop ass’ on surge pricing | TechCrunch
+TechCrunch Desktop Logo
+TechCrunch Mobile Logo
+Latest
+Startups
+Venture
+Apple
+Security
+AI
+Apps
+Events
+Podcasts
+Newsletters
+Search
+Submit
+Site Search Toggle
+Mega Menu Toggle
+Topics
+Latest
+AI
+Amazon
+Apps
+Biotech & Health
+Climate
+Cloud Computing
+Commerce
+Crypto
+Enterprise
+EVs
+Fintech
+Fundraising
+Gadgets
+Gaming
+Google
+Government & Policy
+Hardware
+Instagram
+Layoffs
+Media & Entertainment
+Meta
+Microsoft
+Privacy
+Robotics
+Security
+Social
+Space
+Startups
+TikTok
+Transportation
+Venture
+More from TechCrunch
+Staff
+Events
+Startup Battlefield
+StrictlyVC
+Newsletters
+Podcasts
+Videos
+Partner Content
+TechCrunch Brand Studio
+Crunchboard
+Contact Us
+Image Credits:
+Michaela Vatcheva/Bloomberg / Getty Images
+Transportation
+Lyft to ‘open up a can of whoop ass’ on surge pricing
+Rebecca Bellan
+6:09 AM PDT · August 7, 2024
+Ride-hail giant Lyft will pilot a new feature called Price Lock that will let a rider purchase a monthly subscription “that caps the price for a specific route at a specific time,” according to CEO David Risher.
+The feature is designed to address the inconsistencies of surge pricing, particularly for commuters who use the Lyft app every day. It’s part of Lyft’s broader plan to “open up a can of whoop ass on primetime,” Risher said Wednesday during Lyft’s
+second-quarter earnings call
+.
+“Primetime” is how Lyft refers to surge pricing, which is when ride-hail platforms dynamically increase the price of rides when demand is high or supply is low.
+“Reliable pricing is particularly important to them because they know what their ride should cost and hate it when prices change,” Risher continued.
+Lyft didn’t provide many insights into how the economics of Price Lock will affect Lyft’s bottom line, but Risher said Wednesday that the subscription would cost under $5 monthly. Lyft is testing the feature across the U.S. now, and will roll out final pricing next month, according to a spokesperson. My app is showing $2.99 per month today.
+A spokesperson for the company told TechCrunch that the Price Lock subscription is separate from the Lyft Pink membership.
+Coming for “primetime” pricing isn’t new to the company. A year ago, Risher
+outlined his plan to kill surge pricing
+in an attempt to offer riders cheaper fares to convert them from Lyft’s biggest competitor
+Uber
+.
+Techcrunch event
+This Week Only: Buy one pass, get the second at 50% off
+Your next round. Your next hire. Your next breakout opportunity. Find it at TechCrunch Disrupt 2026, where 10,000+ founders, investors, and tech leaders gather for three days of 250+ tactical sessions, powerful introductions, and market-defining innovation. Register before May 8 to bring a +1 at half the cost.
+This Week Only: Buy one pass, get the second at 50% off
+Your next round. Your next hire. Your next breakout opportunity. Find it at TechCrunch Disrupt 2026, where 10,000+ founders, investors, and tech leaders gather for three days of 250+ tactical sessions, powerful introductions, and market-defining innovation. Register before May 8 to bring a +1 at half the cost.
+San Francisco, CA
+|
+October 13-15, 2026
+REGISTER NOW
+Risher noted that “primetime won’t ever completely go away” because “it’s an important way to match supply when demand spikes quickly.”
+“But with innovations like Price Lock, we can chip away at how often it occurs and hopefully take what I’m willing to bet is rideshare’s most hated feature, and turn it into a reason to choose Lyft.”
+Over the past year, Lyft has made a concerted effort to reduce the number of rides impacted by surge pricing. Risher noted that on a quarterly basis, that number declined by 25%, which he said contributes to better conversion rates.
+“In fact, the markets where we saw the sharpest declines in primetime in Q2, like Phoenix, Baltimore, Orlando, are the markets where conversion rates are improving the most,” said Risher.
+This was the first quarter that Lyft reported GAAP profitability, but that success was tempered somewhat by a soft forecast for the third quarter. Lyft forecast gross bookings, which is the total value of transactions, coming in between $4 and $4.1 billion, which is slightly lower than analyst estimates of $4.13 billion. (For comparison, Uber’s gross bookings for the second quarter came in at $20.6 billion, but Uber has global market share, and Lyft is available only in the U.S. and Canada.) Adjusted core earnings guidance of $90 million to $95 million also came in below Wall Street targets of $104.3 million.
+Lyft noted that it expects gross bookings to grow slightly faster than rides, in part because decreased surge pricing will have an impact on gross bookings per ride.
+Update: This article was updated with comments from Lyft about the cost of the Price Lock subscription, and clarification about Lyft Pink.
+Topics
+Lyft
+,
+lyft earnings
+,
+price lock
+,
+ridehail
+,
+Transportation
+When you purchase through links in our articles,
+we may earn a small commission
+. This doesn’t affect our editorial independence.
+Rebecca Bellan
+Senior Reporter
+Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.
+You can contact or verify outreach from Rebecca by emailing
+rebecca.bellan@techcrunch.com
+or via encrypted message at rebeccabellan.491 on Signal.
+View Bio
+May 27
+Athens, Greece
+StrictlyVC Athens is up next. Hear unfiltered insights straight from Europe’s tech leaders and connect with the people shaping what’s ahead. Lock in your spot before it’s gone.
+REGISTER NOW
+Most Popular
+Laid-off Oracle workers tried to negotiate better severance. Oracle said no.
+Julie Bort
+San Francisco’s housing market has lost its mind
+Connie Loizos
+Hackers deface school login pages after claiming another Instructure hack
+Lorenzo Franceschi-Bicchierai
+Zack Whittaker
+Google unveils Whoop-like screenless Fitbit Air
+Aisha Malik
+Five architects of the AI economy explain where the wheels are coming off
+Connie Loizos
+reMarkable’s new Paper Pure tablet goes back to basics with a monochrome screen
+Ivan Mehta
+Hackers steal students’ data during breach at education tech giant Instructure
+Lorenzo Franceschi-Bicchierai
+Loading the next article
+Error loading the next article
+X
+LinkedIn
+Facebook
+Instagram
+youTube
+Mastodon
+Threads
+Bluesky
+TechCrunch
+Staff
+Contact Us
+Advertise
+Crunchboard Jobs
+Site Map
+Terms of Service
+Privacy Policy
+RSS Terms of Use
+Code of Conduct
+Anthropic
+SAP
+Samsung
+Marc Lore
+TechCrunch Disrupt
+Tech Layoffs
+ChatGPT
+© 2026 TechCrunch Media LLC.

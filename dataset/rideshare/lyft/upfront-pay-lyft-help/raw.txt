@@ -1,0 +1,74 @@
+Upfront pay - Lyft Help
+Skip to Content
+US Lyft Help
+Upfront pay
+Upfront pay
+With upfront pay, you’ll see a ride’s route and total earnings before you choose to accept the ride. By seeing all of the ride details and pay in advance, you can decide what works for you.
+With upfront pay, your earnings are based on a number of factors, which can include:
+Estimated time and distance to complete the ride.
+Travel to the pickup point.
+Volume of ride requests in the area.
+Drop-off is in a slow area, far away, or in a region where you’re not eligible to give rides.
+Since you see what you’ll earn up front, your earnings are not based on a rate card after the ride is complete. Because pay is informed by real-time factors, you may notice some variation in your earnings from day to day.
+Upfront pay is available for the following ride types:
+Standard
+Extra Comfort
+Black
+XL and Black SUV
+Skip to:
+How it works
+Waiting at the pickup point
+Trip changes
+How it works
+When you get a ride request, you’ll see all the details up front, including:
+The amount you’ll earn.
+The pickup and drop-off locations.
+The estimated time and distance to complete the ride.
+A map view of the full ride.
+You may also see the estimated earnings per hour rate for the ride at the bottom of the ride request. Estimated rates show how much you’d earn if a ride was one hour long.
+The estimated rate only includes time spent picking up and dropping off. These rates aren’t a guarantee of your actual hourly earnings.
+If you accept the ride, you’ll earn the amount shown on the ride request unless there’s a change to the ride, in which case your earnings could be adjusted.
+Learn more about earnings adjustments below.
+If a rider cancels before you get to the pickup point, the standard cancel policy applies.
+Once the ride is complete, you’ll receive the earnings for that ride along with any tips, tolls, and bonuses you earned.
+Note
+: If the ride was requested before 5 AM, the ride earnings will show on the previous day in your earnings.
+You can find a breakdown of each ride’s earnings in your Dashboard.
+To see your earnings for a specific ride:
+Open the Lyft Driver app.
+Tap the '$' amount at the top of the screen.
+Tap a ride to view your ride receipt.
+Learn more about how driver earnings are calculated when a rate card applies.
+Back to top
+Waiting at the pickup point
+If you have to wait for your passenger at the pickup point, you’ll be paid for that time as well. These earnings are in addition to the ride earnings you saw up front. Once the ride is completed, you can view a breakdown of your ride's earnings in your ride receipt under ‘Wait Time at Pickup.’
+For Standard, Extra Comfort, XL, Black, and Black SUV rides, you’re paid for time at the pickup point after you’ve waited for the rider for 1 minute.
+For Standard, Extra Comfort, and XL rides, you can choose to either cancel the trip or continue to wait after 5 minutes.
+For Black and Black SUV rides, you can choose to either cancel the trip or continue to wait after 10 minutes.
+Back to top
+Ride changes
+You'll always receive the earnings you were shown on the ride request, unless there's a change to the ride, in which case your earnings could be adjusted. A change to the ride can happen in two ways.
+1. Your earnings will be adjusted for most rides where the passenger changes the ride mid route, making it longer or shorter. Examples of this include:
+The passenger adding or removing  a stop.
+The passenger changing  the final destination.
+2. Your earnings will increase if the ride takes 5 or more minutes longer when compared to the original estimate on the ride request. Your ride could be extended for reasons such as:
+Traffic
+Accidents
+Closed roads
+An example of this would be if the ride request said it would take 30 minutes to pick up and drop off the passenger, but then traffic made it a 41 minute ride.
+NOTE
+: If you get to your destination
+faster
+than originally estimated, you’ll still get the earnings you were shown upfront.
+In all of these situations, your earnings are adjusted after the ride is complete.
+You can find this earnings adjustment on your ride receipt. Beneath the total amount you earned for a ride, there will also be an explanation of why the final amount changed.
+To view your ride details:
+Open the Lyft Driver app.
+Tap the '$' amount at the top of the screen.
+Tap a ride to view your ride receipt.
+Learn more about how driver earnings are calculated when a rate card applies.
+Back to top
+See also:
+How to see your earnings
+Still need help?
+Contact Us

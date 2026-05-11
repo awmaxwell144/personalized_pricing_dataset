@@ -1,0 +1,103 @@
+I tested 80 Uber and Lyft rides and found a powerful way to save
+
+How to save money on Uber and Lyft: Why you must check both apps
+
+By Geoffrey A. Fowler
+
+2025-12-01
+
+Here’s why prices differ for the same rides and what you should do every time you book an Uber or Lyft.
+
+
+
+SAN FRANCISCO — The other morning, Uber wanted $77 to get me across San Francisco during rush hour. Lyft wanted $49. Same route, same moment.
+
+It wasn’t a fluke — it’s how this pricing works. The apps often quote wildly different prices for the exact same ride, sometimes even for two people standing next to each other.
+
+If you’re not comparing Uber and Lyft before you book, you’re probably leaving hundreds of dollars a year on the table.
+
+It’s more than a theory. Across four days, my colleague Andrea and I tested prices on 80 different routes around San Francisco. Using both test and personal accounts, we entered the same start and end points into Uber and Lyft within moments of each other.
+
+Their base fares differed by 14 percent on our test accounts — a gap of $4.15 per trip.
+
+The thing is, neither app was consistently cheaper. They flip-flopped. So you really do have to check both.
+
+What if our test rides aren’t like yours? Economists studying this pricing have come to remarkably similar results. Earlier this year, researchers at Johns Hopkins and Harvard ran a much larger and more controlled pricing experiment in New York City. They simulated 2,238 trip requests on Uber and Lyft based on data collected by the city about the real trips New Yorkers take.
+
+And just like me, they found Uber and Lyft prices differed by about 14 percent. In three out of four rides, the difference was more than a dollar. The longer the trip, the greater the price difference grew.
+
+You might think the cheaper app makes you wait longer. Not according to their data: Higher prices didn’t come with shorter waits. (What’s your experience with Uber and Lyft pricing? Send me an email.)
+
+The price variation “is consistent with two competitors operating separate marketplaces with different pricing approaches for an on-demand service where conditions change minute-to-minute,” said Lyft Executive Vice President Sid Patil.
+
+Uber said the 14 percent difference isn’t intentional. “Uber and Lyft calculate fares independently,” said Uber’s head of product policy, Harry Hartfield. “These variations aren’t coordinated,” he said.
+
+The economists think more price comparison would actually help everyone.
+
+“What would force Uber and Lyft to really have competitive pricing?” said Michael Luca, a Johns Hopkins economist who co-led the study. “It’s the fear of price comparison that’s going to drive it.”
+
+Why prices differ for the same ride
+
+There’s another factor behind the wide variations: People aren’t getting the same prices for the same rides.
+
+During my testing, I used both a fresh phone with new Uber and Lyft accounts and my own phone with my long-standing personal accounts. For 40 trips, I entered identical start and end points into both phones at the exact same moment.
+
+The result was startling. The base fares varied — Uber’s by 11 percent on average, Lyft’s by 13 percent. One time, Uber wanted to charge my personal account $17 more than the test account for the same airport trip.
+
+There are lots of theories about what triggers some people to get charged more — low phone battery, gift cards or even certain credit cards.
+
+Both Uber and Lyft tell me the answer to all of those theories is no. They also say they don’t know if you have the rival app installed, so switching back and forth to compare prices shouldn’t impact the price of your trip.
+
+The companies say their base prices aren’t personalized, and they’d expect for there to be some variation. Those rates are calculated dynamically based on location, demand, estimated time and distance, traffic and driver availability — all of which can rapidly fluctuate.
+
+But there's another layer of pricing they acknowledge is tailored to you: promotional offers and discounts.
+
+In my tests, the bottom-line prices — after promotional discounts — diverged even more dramatically for Uber. Its discounted price varied by 25 percent between my test and personal accounts.
+
+When I asked what data Uber uses to personalize these offers, the company said it doesn’t use information about your “protected characteristics” (including race, religion, sex, gender, sexual orientation, age and disability), device information or payment method. But Uber wouldn’t provide a list of what data it does use, saying only that it may offer discounts to new riders, infrequent riders or people who travel at certain times.
+
+This type of tailored discounting is known as surveillance pricing — companies using what they know about your habits to decide what price you see. Luca, the economist, says it’s a crucial area for future study.
+
+“Algorithms can affect everything from competition to racial bias,” he said. “It’s important to understand how they are affecting people’s lives.”
+
+The $177 you’re leaving behind
+
+Given the price variation — and the possibility you’re being targeted — you’d think riders would obsessively compare prices. They’re not.
+
+The same economists studied how people actually use the Uber and Lyft apps. They found only 16 percent of riders who open one app also open the other to check prices.
+
+“It’s the paradox of the modern internet,” Luca said. “In principle, competition is a click away, but we aren’t taking that opportunity.”
+
+What’s going on? Our brains hate “friction” — small barriers like app design, the hassle of reentering information or simply the mental effort of opening a second app.
+
+It might not sound like much, but even small amounts of friction can sustain significant price differences. Across all New York ride-booking customers, the missed savings add up to about $303 million every year, say the economists. (And that’s just one city.)
+
+“These aren't just abstract numbers,” Luca said. “This is real money being transferred from consumers to platforms because of small frictions in how we shop.”
+
+A regular New York City rider who takes 100 trips a year could save about $177 annually by comparison shopping (though actual savings depend on trip lengths). That’s seven months of premium Netflix.
+
+If it takes one minute to compare apps, you’d need to value your time at $200 an hour for skipping comparison shopping to make sense, the economists say. Unless you’re royalty, the math says the extra minute is a good deal.
+
+Lyft, whose market share is dwarfed by rival Uber, welcomed the idea that people should compare.
+
+“When riders check both apps, they can save money, which benefits the marketplace as a whole,” Patil said.
+
+But the economists pointed out more consumers might actually do it if there was a reliable price comparison tool. Unfortunately, Uber now restricts those. The company’s terms of use prohibit developers from using its pricing data to “offer price comparisons with competitive third party services.”
+
+Price comparisons are still “easy to do,” said Uber’s Hartfield.
+
+Google Maps dropped its price comparison function last year. Apple Maps still has one, but I found it sometimes lists prices off by a few cents to a dollar for both Uber and Lyft.
+
+“Policymakers should think about whether there are ways to make sure it’s as easy as possible for people to make decisions in their own interest online,” Luca said.
+
+The bottom line
+
+There is one ritual that always saves money:
+
+Open Uber. Open Lyft. Compare.
+
+And if you really want to game the system? Ask a friend standing next to you to check, too. You might be amazed at what they are being charged for the exact same ride.
+
+You can’t stop Uber and Lyft from using data to decide what to charge. But you can stop letting them decide what you pay.
+
+Andrea Jiménez contributed to this report.

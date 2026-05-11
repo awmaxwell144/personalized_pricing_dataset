@@ -1,0 +1,144 @@
+March 5, 2026 
+ 
+Mr. David Risher 
+Chief Executive Officer 
+Lyft 
+185 Berry Street, Suite 5000 
+San Francisco, CA 94107 
+ 
+Dear Mr. Risher:   
+ 
+The Committee on Oversight and Government Reform is examining the increased use of 
+artificial intelligence and consumer data for setting prices. Specifically, we are examining the use 
+of artificial intelligence to conduct surveillance pricing of consumers that artificially increases 
+the prices of goods and services.
+1 Surveillance pricing refers to pricing practices in which a 
+company uses consumer data to create a “profile” based on individualized data such as 
+geolocation, demographics, browsing history, purchase history, device type, battery life, and even 
+mouse clicks
+2 to assign different prices to different individuals in ways the consumer cannot 
+understand, anticipate, or control. A recent report indicates Lyft deploys AI-based pricing 
+technology that prices identical products differently from one customer to the next by an average 
+of 13 percent.3 The Committee therefore requests documents and information to better 
+understand the policies guiding your company’s pricing practices. 
+ 
+Companies utilizing surveillance pricing deploy algorithms in conjunction with 
+“harvested” personal data to determine a consumer’s emotional state, purchase intent, maximum 
+ 
+1 Robert Silk, ATPCO aims to help airlines do more dynamic pricing, TRAV E L WEEKLY (Apr. 12, 2024), available at 
+https://www.travelweekly.com/Travel-News/Airline-News/ATPCO-dynamic-pricing-initiatives (“At present 258 
+carriers do at least some dynamic pricing, up from 220 in the fall of 2022 . . .”); Justin Kloczko, New Report Details 
+How Companies Use Surveillance to Charge Different Prices for the Same Item, CONSUMER WATCHDOG (Dec. 17, 
+2024), available at https://consumerwatchdog.org/privacy/new-report-details-how-companies-use-surveillance-to-
+charge-different-prices-for-the-same-item/ (“Orbitz learned that Mac users spend more money to stay at hotels and 
+charged them more than non-Mac users.”). 
+2 Press Release, Federal Trade Commission, FTC Surveillance Pricing Study Indicates Wide Range of Personal Data 
+Used to Set Individualized Consumer Prices (Jan. 17, 2025); Dana Mattioli, On Orbitz, Mac Users Steered to Pricier 
+Hotels, W
+ALL ST. J. (Aug. 23, 2012); Justin Kloczko, Surveillance Price Gouging, CONSUMER WATCHDOG (Dec. 16, 
+2024), available at https://consumerwatchdog.org/wp-content/uploads/2024/12/Surveillance-Price-Gouging.pdf, at 
+1; Kyle Potter, Exclusive: US Airlines Are Quietly Hitting Solo & Biz Travelers with Higher Fares, THRIFTY 
+TRA VELER (May 29, 2025), available at https://thriftytraveler.com/news/airlines/airlines-charging-solo-travelers-
+higher-fares/. 
+3 Geoffrey A. Fowler, I tested 80 Uber and Lyft rides and found a powerful way to save, WASH. POST, (Dec. 1, 
+2025).
+
+Mr. David Risher 
+March 5, 2026 
+Page 2 of 3 
+ 
+willingness to pay (or so-called “pain point”) and an individualized price is tailored accordingly.4 
+Often this takes place in a “black box” environment where consumers do not know that 
+personalized pricing is taking place or what information collected about them are driving prices.5 
+Surveillance pricing can be difficult to detect because consumers rarely have a view into what 
+information a company has about them, what the prices they see are based on, or what prices 
+other customers may be seeing for the same goods or services - making it difficult for consumers 
+to make informed purchasing decisions.6  
+ 
+To be clear, the Committee is supportive of the advancement and use of artificial 
+intelligence tools that allow companies to align prices with demand fluctuations, consumer 
+preferences, and operational costs to promote efficiency and greater market responsiveness.
+7 
+However, the rise of surveillance pricing algorithms coupled with highly personalized consumer 
+data may create arbitrage opportunities for companies to “weaponize personal data” and pad 
+their profit margins at the expense of providing transparency to the consumer.8  
+  
+To assist the Committee in its oversight of this matter, we request the following documents 
+and information covering the time period from the initial implementation or consideration of 
+such technologies through the present, as soon as possible, but no later than March 19, 2026: 
+ 
+1. All documents and communications detailing revenue management algorithms deployed 
+for the purpose of setting prices for fares, rates, or products/services to consumers, 
+including but not limited to: 
+a. When implementation of revenue management algorithms began; 
+b. The financial impact of such revenue management algorithms including 
+documents and communications that describe their impact on revenue, pricing, or 
+profitability; and 
+c. Any algorithms discussed or considered for future use for the same purposes; 
+ 
+ 
+4 David Dayen, The Emerging Danger of Surveillance Pricing, JACOBIN (July 9, 2024), available at 
+https://jacobin.com/2024/07/surveillance-personalized-pricing-data-collection; FED. TRADE COMM’N, FTC 
+SURVEILLANCE PRICING 6(B): RESEARCH SUMMARIES A STAFF PERSPECTIVE (Jan. 2025), available at 
+https://www.ftc.gov/system/files/ftc_gov/pdf/p246202_surveillancepricing6bstudy_researchsummaries_redacted.pdf
+; Charles Duhigg, How Companies Learn Your Secrets, N . Y. TIMES MAGAZINE (Feb. 16, 2012).  
+5 Emilio Calvano, et al., Artificial Intelligence, Algorithmic Pricing, and Collusion, 110 J. AM. ECON. REV. 10 (Oct. 
+2020), at 3294; See FTC Issue Spotlight: The Rise of Surveillance Pricing, FED. TRADE COMM’N (Jan. 17, 2025), 
+available at https://www.ftc.gov/system/files/ftc_gov/pdf/sp6b-issue-spotlight.pdf. 
+6 Id.  
+7 Aradhna Krishna, In defense of ‘surveillance pricing’: Why personalized prices could be an unexpected force for 
+equity, THE CONVERSATION (Oct. 14, 2025), available at https://theconversation.com/in-defense-of-surveillance-
+pricing-why-personalized-prices-could-be-an-unexpected-force-for-equity-266293. 
+8 Justin Kloczko, Surveillance Price Gouging, CONSUMER WATCHDOG (Dec. 16, 2024), available at 
+https://consumerwatchdog.org/wp-content/uploads/2024/12/Surveillance-Price-Gouging.pdf, at 1 (“It’s price 
+gouging based on predictive behavior. Without more transparency, we don’t know how far surveillance pricing 
+goes.”).
+
+Mr. David Risher 
+March 5, 2026 
+Page 3 of 3 
+ 
+2. All documents and communications detailing how consumer data is utilized in 
+conjunction with any deployed revenue management algorithms to provide prices for the 
+same fare, rate, or product/service to consumers, including but not limited to:  
+a. Identifying data sources your company utilizes; 
+b. How such data sources are obtained; 
+c. Purposes for collecting such data sources; and 
+d. Other data inputs that have been discussed for potential future use; 
+ 
+3. All documents and communications detailing any use of a third-party organization to 
+compile data sources including but not limited to the identity of the organization or 
+intermediary from which they are obtained; 
+ 
+4. All documents and communication showing whether the data sources your company 
+utilizes are bought or sold – directly or indirectly – to any competitors including but not 
+limited to any internal analyses or assessments concerning the sharing, sale, or 
+acquisition of such data with or from competitors;  
+ 
+5. All documents and communications describing the impact of consumer data on 
+determining prices for the same product/service, including but not limited to analyses, 
+presentations, or internal assessments that explain how consumer data influences pricing 
+differences and how such pricing differences are internally justified; and, 
+ 
+6. All documents and communications sufficient to show whether the information 
+underlying pricing differences is reasonably explainable and/or disclosed to consumers, 
+including but not limited to detailed descriptions, visual materials, screenshots, mock-
+ups, or any other consumer-facing disclosures related to pricing. 
+ 
+The Committee on Oversight and Government Reform is the principal oversight 
+committee of the U.S. House of Representatives and has broad authority to investigate “any 
+matter” at “any time” under House Rule X. To arrange for delivery of documents or to ask any 
+related follow up questions, please contact the Committee on Oversight and Government Reform 
+Majority staff at (202) 225-5074. Thank you for your attention to this important matter. 
+ 
+Sincerely, 
+ 
+ 
+     __________________________     
+James Comer       
+ Chairman      
+ Committee on Oversight and Government Reform  
+  
+ 
+cc:  The Honorable Robert Garcia, Ranking Member 
+  Committee on Oversight and Government Reform
